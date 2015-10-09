@@ -1,0 +1,134 @@
+
+(rules PCB AllinOneLarge_SMD
+  (snap_angle 
+    fortyfive_degree
+  )
+  (autoroute_settings
+    (fanout off)
+    (autoroute on)
+    (postroute on)
+    (vias on)
+    (via_costs 50)
+    (plane_via_costs 5)
+    (start_ripup_costs 100)
+    (start_pass_no 32444)
+    (layer_rule F.Cu
+      (active on)
+      (preferred_direction horizontal)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 2.0)
+    )
+    (layer_rule In1.Cu
+      (active on)
+      (preferred_direction vertical)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 2.0)
+    )
+  )
+  (rule
+    (width 300.0)
+    (clear 300.2)
+    (clear 150.0 (type smd_to_turn_gap))
+    (clear 75.0 (type smd_smd))
+  )
+  (padstack "Via[0-1]_889:635_um"
+    (shape
+      (circle F.Cu 889.0 0.0 0.0)
+    )
+    (shape
+      (circle In1.Cu 889.0 0.0 0.0)
+    )
+    (attach off)
+  )
+  (via 
+    "Via[0-1]_889:635_um" "Via[0-1]_889:635_um" default
+  )
+  (via 
+    "Via[0-1]_889:635_um-kicad_default" "Via[0-1]_889:635_um" "kicad_default"
+  )
+  (via 
+    "Via[0-1]_889:635_um-12V" "Via[0-1]_889:635_um" 12V
+  )
+  (via 
+    "Via[0-1]_889:635_um-Signal" "Via[0-1]_889:635_um" Signal
+  )
+  (via 
+    "Via[0-1]_889:635_um-Vcc" "Via[0-1]_889:635_um" Vcc
+  )
+  (via_rule
+    default "Via[0-1]_889:635_um"
+  )
+  (via_rule
+    "kicad_default" "Via[0-1]_889:635_um-kicad_default"
+  )
+  (via_rule
+    12V "Via[0-1]_889:635_um-12V"
+  )
+  (via_rule
+    Signal "Via[0-1]_889:635_um-Signal"
+  )
+  (via_rule
+    Vcc "Via[0-1]_889:635_um-Vcc"
+  )
+  (class default
+    (clearance_class default)
+    (via_rule default)
+    (rule
+      (width 300.0)
+    )
+    (circuit 
+      (use_layer F.Cu In1.Cu)
+    )
+  )
+  (class "kicad_default"
+    "Net-(0-0-Pad1)" "Net-(0-0-Pad2)" "Net-(0-1-Pad2)" "Net-(0-2-Pad2)" "Net-(0-3-Pad2)" "Net-(0-4-Pad2)" "Net-(0-5-Pad2)" "Net-(0-6-Pad2)"
+    "Net-(0-7-Pad2)" "Net-(1-0-Pad1)" "Net-(2-0-Pad1)" "Net-(3-0-Pad1)" "Net-(4-0-Pad1)" "Net-(5-0-Pad1)" "Net-(6-0-Pad1)" "Net-(7-0-Pad1)"
+    "Net-(0-10-Pad1)" "Net-(0-8-Pad2)" "Net-(0-9-Pad2)" "Net-(0-10-Pad2)" "Net-(0-11-Pad2)" "Net-(0-12-Pad2)" "Net-(0-13-Pad2)" "Net-(0-14-Pad2)"
+    "Net-(0-15-Pad2)" "Net-(1-10-Pad1)" "Net-(2-10-Pad1)" "Net-(3-10-Pad1)" "Net-(4-10-Pad1)" "Net-(5-10-Pad1)" "Net-(6-10-Pad1)" "Net-(7-10-Pad1)"
+    "Net-(8-0-Pad1)" "Net-(8-10-Pad1)" "Net-(9-0-Pad1)" "Net-(9-10-Pad1)" "Net-(10-0-Pad1)" "Net-(10-10-Pad1)" "Net-(11-0-Pad1)" "Net-(11-10-Pad1)"
+    "Net-(12-0-Pad1)" "Net-(12-10-Pad1)" "Net-(13-0-Pad1)" "Net-(13-10-Pad1)" "Net-(14-0-Pad1)" "Net-(14-10-Pad1)" "Net-(15-0-Pad1)" "Net-(15-10-Pad1)"
+    "Net-(BT1-Pad1)" "Net-(R1-Pad1)" "Net-(R2-Pad1)" "Net-(R5-Pad1)" "Net-(D2-Pad1)" 2 8 9
+    10 A0 A1 A2 A3 A6 A7
+    (clearance_class "kicad_default")
+    (via_rule kicad_default)
+    (rule
+      (width 300.0)
+    )
+    (circuit 
+      (use_layer F.Cu In1.Cu)
+    )
+  )
+  (class 12V
+    /Vin2 /Vin1
+    (clearance_class 12V)
+    (via_rule 12V)
+    (rule
+      (width 1000.0)
+    )
+    (circuit 
+      (use_layer F.Cu In1.Cu)
+    )
+  )
+  (class Signal
+    RST TX RX MISO SCK MOSI SCL SDA
+    (clearance_class Signal)
+    (via_rule Signal)
+    (rule
+      (width 300.0)
+    )
+    (circuit 
+      (use_layer F.Cu In1.Cu)
+    )
+  )
+  (class Vcc
+    GND Vcc
+    (clearance_class Vcc)
+    (via_rule Vcc)
+    (rule
+      (width 300.0)
+    )
+    (circuit 
+      (use_layer F.Cu In1.Cu)
+    )
+  )
+)

@@ -1,15 +1,15 @@
 (kicad_pcb (version 4) (host pcbnew "(2015-01-16 BZR 5376)-product")
 
   (general
-    (links 1319)
-    (no_connects 1)
+    (links 1318)
+    (no_connects 0)
     (area 16.741431 20.339595 415.038249 418.636413)
     (thickness 1.6)
     (drawings 7)
     (tracks 6891)
     (zones 0)
     (modules 582)
-    (nets 142)
+    (nets 143)
   )
 
   (page User 450.012 450.012)
@@ -233,6 +233,7 @@
   (net 139 "Net-(JP10-Pad1)")
   (net 140 "Net-(JP11-Pad1)")
   (net 141 "Net-(JP12-Pad1)")
+  (net 142 RAW)
 
   (net_class Default "This is the default net class."
     (clearance 0.25)
@@ -306,6 +307,7 @@
     (add_net "Net-(JP7-Pad1)")
     (add_net "Net-(JP8-Pad1)")
     (add_net "Net-(JP9-Pad1)")
+    (add_net RAW)
     (add_net ROW-0-0)
     (add_net ROW-0-1)
     (add_net ROW-0-10)
@@ -448,7 +450,7 @@
     (pad 1 smd rect (at -2.49936 0) (size 3.50012 1.80086) (layers F.Cu F.Paste F.Mask)
       (net 119 Vin))
     (pad 2 smd rect (at 2.49936 0) (size 3.50012 1.80086) (layers F.Cu F.Paste F.Mask)
-      (net 119 Vin))
+      (net 142 RAW))
     (model Diodes_SMD.3dshapes/Diode-SMA_Handsoldering.wrl
       (at (xyz 0 0 0))
       (scale (xyz 0.3937 0.3937 0.3937))
@@ -13767,7 +13769,7 @@
     (pad 1 smd oval (at 0 -2.54 90) (size 8 4) (layers F.Cu F.Paste F.Mask)
       (net 1 GND))
     (pad 2 smd oval (at 0 2.794 90) (size 8 4) (layers F.Cu F.Paste F.Mask)
-      (net 119 Vin))
+      (net 142 RAW))
     (model Pin_Headers.3dshapes/Pin_Header_Straight_1x02.wrl
       (at (xyz 0 -0.05 0))
       (scale (xyz 1 1 1))
@@ -20341,8 +20343,6 @@
   (segment (start 38.126489 374.187116) (end 37.594916 374.187116) (width 0.3) (layer B.Cu) (net 118) (tstamp 561FD89E))
   (segment (start 38.356918 374.0978) (end 38.380489 374.074229) (width 0.3) (layer B.Cu) (net 118) (tstamp 561FD6EB))
   (segment (start 38.380489 398.063116) (end 37.848916 398.063116) (width 0.3) (layer B.Cu) (net 118))
-  (segment (start 99.217255 354.415) (end 99.217255 363.292455) (width 1) (layer F.Cu) (net 119))
-  (segment (start 99.217255 363.292455) (end 99.2276 363.3028) (width 1) (layer F.Cu) (net 119) (tstamp 562E3C03))
   (segment (start 94.4016 251.0348) (end 94.4016 323.93534) (width 1) (layer F.Cu) (net 119))
   (segment (start 94.4016 323.93534) (end 95.28806 324.8218) (width 1) (layer F.Cu) (net 119) (tstamp 562E3BFB))
   (segment (start 124.8816 245.3198) (end 124.8816 248.2408) (width 1) (layer B.Cu) (net 119))
@@ -20354,9 +20354,6 @@
   (via (at 94.4016 251.0348) (size 0.889) (layers F.Cu B.Cu) (net 119))
   (segment (start 122.0876 251.0348) (end 94.4016 251.0348) (width 1) (layer B.Cu) (net 119) (tstamp 562E3BEF))
   (segment (start 124.8816 248.2408) (end 122.0876 251.0348) (width 1) (layer B.Cu) (net 119) (tstamp 562E3BEE))
-  (segment (start 99.2276 354.425345) (end 99.217255 354.415) (width 0.3) (layer F.Cu) (net 119) (tstamp 562E3BD6))
-  (segment (start 98.082195 361.453) (end 98.082195 361.273205) (width 0.3) (layer F.Cu) (net 119))
-  (segment (start 98.082195 361.273205) (end 99.217255 360.138145) (width 0.3) (layer F.Cu) (net 119) (tstamp 56233D62))
   (segment (start 94.218535 354.415) (end 94.218535 336.97764) (width 1) (layer F.Cu) (net 119))
   (segment (start 94.218535 336.97764) (end 91.987895 334.747) (width 1) (layer F.Cu) (net 119) (tstamp 56233D5E))
   (segment (start 91.987895 334.747) (end 91.987895 328.121965) (width 1) (layer F.Cu) (net 119))
@@ -20680,6 +20677,11 @@
   (segment (start 34.7956 278.5938) (end 36.7436 278.5938) (width 0.3) (layer F.Cu) (net 139))
   (segment (start 34.7956 280.3718) (end 36.7436 280.3718) (width 0.3) (layer F.Cu) (net 140))
   (segment (start 34.7956 282.1498) (end 36.7436 282.1498) (width 0.3) (layer F.Cu) (net 141))
+  (segment (start 99.217255 354.415) (end 99.217255 363.292455) (width 1) (layer F.Cu) (net 142))
+  (segment (start 99.217255 363.292455) (end 99.2276 363.3028) (width 1) (layer F.Cu) (net 142) (tstamp 562E3C03))
+  (segment (start 99.2276 354.425345) (end 99.217255 354.415) (width 0.3) (layer F.Cu) (net 142) (tstamp 562E3BD6))
+  (segment (start 98.082195 361.453) (end 98.082195 361.273205) (width 0.3) (layer F.Cu) (net 142))
+  (segment (start 98.082195 361.273205) (end 99.217255 360.138145) (width 0.3) (layer F.Cu) (net 142) (tstamp 56233D62))
 
   (zone (net 1) (net_name GND) (layer F.Cu) (tstamp 562E3C06) (hatch edge 0.508)
     (connect_pads (clearance 0.508))

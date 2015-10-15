@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2015-01-16 BZR 5376)-product   date = 07/13/15 20:34:35
+Cmp-Mod V01 Created by Cvpcb (2015-01-16 BZR 5376)-product   date = 10/13/15 10:43:39
 
 BeginCmp
 TimeStamp = /557560EC;
@@ -108,6 +108,118 @@ EndCmp
 BeginCmp
 TimeStamp = /557561AA;
 Reference = 0-15;
+ValeurCmp = LED;
+IdModule  = LikeClockwork:SMD_LED_PLCC_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /562BC8DA;
+Reference = 0-16;
+ValeurCmp = LED;
+IdModule  = LikeClockwork:SMD_LED_PLCC_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /562BC90A;
+Reference = 0-17;
+ValeurCmp = LED;
+IdModule  = LikeClockwork:SMD_LED_PLCC_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /562BC93A;
+Reference = 0-18;
+ValeurCmp = LED;
+IdModule  = LikeClockwork:SMD_LED_PLCC_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /562BC96A;
+Reference = 0-19;
+ValeurCmp = LED;
+IdModule  = LikeClockwork:SMD_LED_PLCC_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /562BC99A;
+Reference = 0-20;
+ValeurCmp = LED;
+IdModule  = LikeClockwork:SMD_LED_PLCC_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /562BC9CA;
+Reference = 0-21;
+ValeurCmp = LED;
+IdModule  = LikeClockwork:SMD_LED_PLCC_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /562BC9FA;
+Reference = 0-22;
+ValeurCmp = LED;
+IdModule  = LikeClockwork:SMD_LED_PLCC_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /562BCA2A;
+Reference = 0-23;
+ValeurCmp = LED;
+IdModule  = LikeClockwork:SMD_LED_PLCC_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /562E7A22;
+Reference = 0-24;
+ValeurCmp = LED;
+IdModule  = LikeClockwork:SMD_LED_PLCC_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /562E7A52;
+Reference = 0-25;
+ValeurCmp = LED;
+IdModule  = LikeClockwork:SMD_LED_PLCC_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /562E7A82;
+Reference = 0-26;
+ValeurCmp = LED;
+IdModule  = LikeClockwork:SMD_LED_PLCC_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /562E7AB2;
+Reference = 0-27;
+ValeurCmp = LED;
+IdModule  = LikeClockwork:SMD_LED_PLCC_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /562E7AE2;
+Reference = 0-28;
+ValeurCmp = LED;
+IdModule  = LikeClockwork:SMD_LED_PLCC_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /562E7B12;
+Reference = 0-29;
+ValeurCmp = LED;
+IdModule  = LikeClockwork:SMD_LED_PLCC_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /562E7B42;
+Reference = 0-30;
+ValeurCmp = LED;
+IdModule  = LikeClockwork:SMD_LED_PLCC_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /562E7B72;
+Reference = 0-31;
 ValeurCmp = LED;
 IdModule  = LikeClockwork:SMD_LED_PLCC_2;
 EndCmp
@@ -225,6 +337,118 @@ IdModule  = LikeClockwork:SMD_LED_PLCC_2;
 EndCmp
 
 BeginCmp
+TimeStamp = /562BC8E0;
+Reference = 1-16;
+ValeurCmp = LED;
+IdModule  = LikeClockwork:SMD_LED_PLCC_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /562BC910;
+Reference = 1-17;
+ValeurCmp = LED;
+IdModule  = LikeClockwork:SMD_LED_PLCC_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /562BC940;
+Reference = 1-18;
+ValeurCmp = LED;
+IdModule  = LikeClockwork:SMD_LED_PLCC_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /562BC970;
+Reference = 1-19;
+ValeurCmp = LED;
+IdModule  = LikeClockwork:SMD_LED_PLCC_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /562BC9A0;
+Reference = 1-20;
+ValeurCmp = LED;
+IdModule  = LikeClockwork:SMD_LED_PLCC_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /562BC9D0;
+Reference = 1-21;
+ValeurCmp = LED;
+IdModule  = LikeClockwork:SMD_LED_PLCC_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /562BCA00;
+Reference = 1-22;
+ValeurCmp = LED;
+IdModule  = LikeClockwork:SMD_LED_PLCC_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /562BCA30;
+Reference = 1-23;
+ValeurCmp = LED;
+IdModule  = LikeClockwork:SMD_LED_PLCC_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /562E7A28;
+Reference = 1-24;
+ValeurCmp = LED;
+IdModule  = LikeClockwork:SMD_LED_PLCC_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /562E7A58;
+Reference = 1-25;
+ValeurCmp = LED;
+IdModule  = LikeClockwork:SMD_LED_PLCC_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /562E7A88;
+Reference = 1-26;
+ValeurCmp = LED;
+IdModule  = LikeClockwork:SMD_LED_PLCC_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /562E7AB8;
+Reference = 1-27;
+ValeurCmp = LED;
+IdModule  = LikeClockwork:SMD_LED_PLCC_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /562E7AE8;
+Reference = 1-28;
+ValeurCmp = LED;
+IdModule  = LikeClockwork:SMD_LED_PLCC_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /562E7B18;
+Reference = 1-29;
+ValeurCmp = LED;
+IdModule  = LikeClockwork:SMD_LED_PLCC_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /562E7B48;
+Reference = 1-30;
+ValeurCmp = LED;
+IdModule  = LikeClockwork:SMD_LED_PLCC_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /562E7B78;
+Reference = 1-31;
+ValeurCmp = LED;
+IdModule  = LikeClockwork:SMD_LED_PLCC_2;
+EndCmp
+
+BeginCmp
 TimeStamp = /557560EE;
 Reference = 2-0;
 ValeurCmp = LED;
@@ -332,6 +556,118 @@ EndCmp
 BeginCmp
 TimeStamp = /557561AC;
 Reference = 2-15;
+ValeurCmp = LED;
+IdModule  = LikeClockwork:SMD_LED_PLCC_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /562BC8E6;
+Reference = 2-16;
+ValeurCmp = LED;
+IdModule  = LikeClockwork:SMD_LED_PLCC_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /562BC916;
+Reference = 2-17;
+ValeurCmp = LED;
+IdModule  = LikeClockwork:SMD_LED_PLCC_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /562BC946;
+Reference = 2-18;
+ValeurCmp = LED;
+IdModule  = LikeClockwork:SMD_LED_PLCC_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /562BC976;
+Reference = 2-19;
+ValeurCmp = LED;
+IdModule  = LikeClockwork:SMD_LED_PLCC_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /562BC9A6;
+Reference = 2-20;
+ValeurCmp = LED;
+IdModule  = LikeClockwork:SMD_LED_PLCC_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /562BC9D6;
+Reference = 2-21;
+ValeurCmp = LED;
+IdModule  = LikeClockwork:SMD_LED_PLCC_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /562BCA06;
+Reference = 2-22;
+ValeurCmp = LED;
+IdModule  = LikeClockwork:SMD_LED_PLCC_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /562BCA36;
+Reference = 2-23;
+ValeurCmp = LED;
+IdModule  = LikeClockwork:SMD_LED_PLCC_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /562E7A2E;
+Reference = 2-24;
+ValeurCmp = LED;
+IdModule  = LikeClockwork:SMD_LED_PLCC_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /562E7A5E;
+Reference = 2-25;
+ValeurCmp = LED;
+IdModule  = LikeClockwork:SMD_LED_PLCC_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /562E7A8E;
+Reference = 2-26;
+ValeurCmp = LED;
+IdModule  = LikeClockwork:SMD_LED_PLCC_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /562E7ABE;
+Reference = 2-27;
+ValeurCmp = LED;
+IdModule  = LikeClockwork:SMD_LED_PLCC_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /562E7AEE;
+Reference = 2-28;
+ValeurCmp = LED;
+IdModule  = LikeClockwork:SMD_LED_PLCC_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /562E7B1E;
+Reference = 2-29;
+ValeurCmp = LED;
+IdModule  = LikeClockwork:SMD_LED_PLCC_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /562E7B4E;
+Reference = 2-30;
+ValeurCmp = LED;
+IdModule  = LikeClockwork:SMD_LED_PLCC_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /562E7B7E;
+Reference = 2-31;
 ValeurCmp = LED;
 IdModule  = LikeClockwork:SMD_LED_PLCC_2;
 EndCmp
@@ -449,6 +785,118 @@ IdModule  = LikeClockwork:SMD_LED_PLCC_2;
 EndCmp
 
 BeginCmp
+TimeStamp = /562BC8EC;
+Reference = 3-16;
+ValeurCmp = LED;
+IdModule  = LikeClockwork:SMD_LED_PLCC_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /562BC91C;
+Reference = 3-17;
+ValeurCmp = LED;
+IdModule  = LikeClockwork:SMD_LED_PLCC_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /562BC94C;
+Reference = 3-18;
+ValeurCmp = LED;
+IdModule  = LikeClockwork:SMD_LED_PLCC_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /562BC97C;
+Reference = 3-19;
+ValeurCmp = LED;
+IdModule  = LikeClockwork:SMD_LED_PLCC_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /562BC9AC;
+Reference = 3-20;
+ValeurCmp = LED;
+IdModule  = LikeClockwork:SMD_LED_PLCC_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /562BC9DC;
+Reference = 3-21;
+ValeurCmp = LED;
+IdModule  = LikeClockwork:SMD_LED_PLCC_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /562BCA0C;
+Reference = 3-22;
+ValeurCmp = LED;
+IdModule  = LikeClockwork:SMD_LED_PLCC_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /562BCA3C;
+Reference = 3-23;
+ValeurCmp = LED;
+IdModule  = LikeClockwork:SMD_LED_PLCC_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /562E7A34;
+Reference = 3-24;
+ValeurCmp = LED;
+IdModule  = LikeClockwork:SMD_LED_PLCC_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /562E7A64;
+Reference = 3-25;
+ValeurCmp = LED;
+IdModule  = LikeClockwork:SMD_LED_PLCC_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /562E7A94;
+Reference = 3-26;
+ValeurCmp = LED;
+IdModule  = LikeClockwork:SMD_LED_PLCC_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /562E7AC4;
+Reference = 3-27;
+ValeurCmp = LED;
+IdModule  = LikeClockwork:SMD_LED_PLCC_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /562E7AF4;
+Reference = 3-28;
+ValeurCmp = LED;
+IdModule  = LikeClockwork:SMD_LED_PLCC_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /562E7B24;
+Reference = 3-29;
+ValeurCmp = LED;
+IdModule  = LikeClockwork:SMD_LED_PLCC_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /562E7B54;
+Reference = 3-30;
+ValeurCmp = LED;
+IdModule  = LikeClockwork:SMD_LED_PLCC_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /562E7B84;
+Reference = 3-31;
+ValeurCmp = LED;
+IdModule  = LikeClockwork:SMD_LED_PLCC_2;
+EndCmp
+
+BeginCmp
 TimeStamp = /557560F0;
 Reference = 4-0;
 ValeurCmp = LED;
@@ -556,6 +1004,118 @@ EndCmp
 BeginCmp
 TimeStamp = /557561AE;
 Reference = 4-15;
+ValeurCmp = LED;
+IdModule  = LikeClockwork:SMD_LED_PLCC_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /562BC8F2;
+Reference = 4-16;
+ValeurCmp = LED;
+IdModule  = LikeClockwork:SMD_LED_PLCC_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /562BC922;
+Reference = 4-17;
+ValeurCmp = LED;
+IdModule  = LikeClockwork:SMD_LED_PLCC_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /562BC952;
+Reference = 4-18;
+ValeurCmp = LED;
+IdModule  = LikeClockwork:SMD_LED_PLCC_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /562BC982;
+Reference = 4-19;
+ValeurCmp = LED;
+IdModule  = LikeClockwork:SMD_LED_PLCC_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /562BC9B2;
+Reference = 4-20;
+ValeurCmp = LED;
+IdModule  = LikeClockwork:SMD_LED_PLCC_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /562BC9E2;
+Reference = 4-21;
+ValeurCmp = LED;
+IdModule  = LikeClockwork:SMD_LED_PLCC_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /562BCA12;
+Reference = 4-22;
+ValeurCmp = LED;
+IdModule  = LikeClockwork:SMD_LED_PLCC_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /562BCA42;
+Reference = 4-23;
+ValeurCmp = LED;
+IdModule  = LikeClockwork:SMD_LED_PLCC_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /562E7A3A;
+Reference = 4-24;
+ValeurCmp = LED;
+IdModule  = LikeClockwork:SMD_LED_PLCC_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /562E7A6A;
+Reference = 4-25;
+ValeurCmp = LED;
+IdModule  = LikeClockwork:SMD_LED_PLCC_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /562E7A9A;
+Reference = 4-26;
+ValeurCmp = LED;
+IdModule  = LikeClockwork:SMD_LED_PLCC_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /562E7ACA;
+Reference = 4-27;
+ValeurCmp = LED;
+IdModule  = LikeClockwork:SMD_LED_PLCC_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /562E7AFA;
+Reference = 4-28;
+ValeurCmp = LED;
+IdModule  = LikeClockwork:SMD_LED_PLCC_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /562E7B2A;
+Reference = 4-29;
+ValeurCmp = LED;
+IdModule  = LikeClockwork:SMD_LED_PLCC_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /562E7B5A;
+Reference = 4-30;
+ValeurCmp = LED;
+IdModule  = LikeClockwork:SMD_LED_PLCC_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /562E7B8A;
+Reference = 4-31;
 ValeurCmp = LED;
 IdModule  = LikeClockwork:SMD_LED_PLCC_2;
 EndCmp
@@ -673,6 +1233,118 @@ IdModule  = LikeClockwork:SMD_LED_PLCC_2;
 EndCmp
 
 BeginCmp
+TimeStamp = /562BC8F8;
+Reference = 5-16;
+ValeurCmp = LED;
+IdModule  = LikeClockwork:SMD_LED_PLCC_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /562BC928;
+Reference = 5-17;
+ValeurCmp = LED;
+IdModule  = LikeClockwork:SMD_LED_PLCC_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /562BC958;
+Reference = 5-18;
+ValeurCmp = LED;
+IdModule  = LikeClockwork:SMD_LED_PLCC_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /562BC988;
+Reference = 5-19;
+ValeurCmp = LED;
+IdModule  = LikeClockwork:SMD_LED_PLCC_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /562BC9B8;
+Reference = 5-20;
+ValeurCmp = LED;
+IdModule  = LikeClockwork:SMD_LED_PLCC_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /562BC9E8;
+Reference = 5-21;
+ValeurCmp = LED;
+IdModule  = LikeClockwork:SMD_LED_PLCC_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /562BCA18;
+Reference = 5-22;
+ValeurCmp = LED;
+IdModule  = LikeClockwork:SMD_LED_PLCC_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /562BCA48;
+Reference = 5-23;
+ValeurCmp = LED;
+IdModule  = LikeClockwork:SMD_LED_PLCC_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /562E7A40;
+Reference = 5-24;
+ValeurCmp = LED;
+IdModule  = LikeClockwork:SMD_LED_PLCC_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /562E7A70;
+Reference = 5-25;
+ValeurCmp = LED;
+IdModule  = LikeClockwork:SMD_LED_PLCC_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /562E7AA0;
+Reference = 5-26;
+ValeurCmp = LED;
+IdModule  = LikeClockwork:SMD_LED_PLCC_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /562E7AD0;
+Reference = 5-27;
+ValeurCmp = LED;
+IdModule  = LikeClockwork:SMD_LED_PLCC_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /562E7B00;
+Reference = 5-28;
+ValeurCmp = LED;
+IdModule  = LikeClockwork:SMD_LED_PLCC_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /562E7B30;
+Reference = 5-29;
+ValeurCmp = LED;
+IdModule  = LikeClockwork:SMD_LED_PLCC_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /562E7B60;
+Reference = 5-30;
+ValeurCmp = LED;
+IdModule  = LikeClockwork:SMD_LED_PLCC_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /562E7B90;
+Reference = 5-31;
+ValeurCmp = LED;
+IdModule  = LikeClockwork:SMD_LED_PLCC_2;
+EndCmp
+
+BeginCmp
 TimeStamp = /557560F2;
 Reference = 6-0;
 ValeurCmp = LED;
@@ -780,6 +1452,118 @@ EndCmp
 BeginCmp
 TimeStamp = /557561B0;
 Reference = 6-15;
+ValeurCmp = LED;
+IdModule  = LikeClockwork:SMD_LED_PLCC_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /562BC8FE;
+Reference = 6-16;
+ValeurCmp = LED;
+IdModule  = LikeClockwork:SMD_LED_PLCC_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /562BC92E;
+Reference = 6-17;
+ValeurCmp = LED;
+IdModule  = LikeClockwork:SMD_LED_PLCC_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /562BC95E;
+Reference = 6-18;
+ValeurCmp = LED;
+IdModule  = LikeClockwork:SMD_LED_PLCC_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /562BC98E;
+Reference = 6-19;
+ValeurCmp = LED;
+IdModule  = LikeClockwork:SMD_LED_PLCC_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /562BC9BE;
+Reference = 6-20;
+ValeurCmp = LED;
+IdModule  = LikeClockwork:SMD_LED_PLCC_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /562BC9EE;
+Reference = 6-21;
+ValeurCmp = LED;
+IdModule  = LikeClockwork:SMD_LED_PLCC_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /562BCA1E;
+Reference = 6-22;
+ValeurCmp = LED;
+IdModule  = LikeClockwork:SMD_LED_PLCC_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /562BCA4E;
+Reference = 6-23;
+ValeurCmp = LED;
+IdModule  = LikeClockwork:SMD_LED_PLCC_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /562E7A46;
+Reference = 6-24;
+ValeurCmp = LED;
+IdModule  = LikeClockwork:SMD_LED_PLCC_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /562E7A76;
+Reference = 6-25;
+ValeurCmp = LED;
+IdModule  = LikeClockwork:SMD_LED_PLCC_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /562E7AA6;
+Reference = 6-26;
+ValeurCmp = LED;
+IdModule  = LikeClockwork:SMD_LED_PLCC_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /562E7AD6;
+Reference = 6-27;
+ValeurCmp = LED;
+IdModule  = LikeClockwork:SMD_LED_PLCC_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /562E7B06;
+Reference = 6-28;
+ValeurCmp = LED;
+IdModule  = LikeClockwork:SMD_LED_PLCC_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /562E7B36;
+Reference = 6-29;
+ValeurCmp = LED;
+IdModule  = LikeClockwork:SMD_LED_PLCC_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /562E7B66;
+Reference = 6-30;
+ValeurCmp = LED;
+IdModule  = LikeClockwork:SMD_LED_PLCC_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /562E7B96;
+Reference = 6-31;
 ValeurCmp = LED;
 IdModule  = LikeClockwork:SMD_LED_PLCC_2;
 EndCmp
@@ -897,6 +1681,118 @@ IdModule  = LikeClockwork:SMD_LED_PLCC_2;
 EndCmp
 
 BeginCmp
+TimeStamp = /562BC904;
+Reference = 7-16;
+ValeurCmp = LED;
+IdModule  = LikeClockwork:SMD_LED_PLCC_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /562BC934;
+Reference = 7-17;
+ValeurCmp = LED;
+IdModule  = LikeClockwork:SMD_LED_PLCC_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /562BC964;
+Reference = 7-18;
+ValeurCmp = LED;
+IdModule  = LikeClockwork:SMD_LED_PLCC_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /562BC994;
+Reference = 7-19;
+ValeurCmp = LED;
+IdModule  = LikeClockwork:SMD_LED_PLCC_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /562BC9C4;
+Reference = 7-20;
+ValeurCmp = LED;
+IdModule  = LikeClockwork:SMD_LED_PLCC_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /562BC9F4;
+Reference = 7-21;
+ValeurCmp = LED;
+IdModule  = LikeClockwork:SMD_LED_PLCC_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /562BCA24;
+Reference = 7-22;
+ValeurCmp = LED;
+IdModule  = LikeClockwork:SMD_LED_PLCC_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /562BCA54;
+Reference = 7-23;
+ValeurCmp = LED;
+IdModule  = LikeClockwork:SMD_LED_PLCC_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /562E7A4C;
+Reference = 7-24;
+ValeurCmp = LED;
+IdModule  = LikeClockwork:SMD_LED_PLCC_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /562E7A7C;
+Reference = 7-25;
+ValeurCmp = LED;
+IdModule  = LikeClockwork:SMD_LED_PLCC_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /562E7AAC;
+Reference = 7-26;
+ValeurCmp = LED;
+IdModule  = LikeClockwork:SMD_LED_PLCC_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /562E7ADC;
+Reference = 7-27;
+ValeurCmp = LED;
+IdModule  = LikeClockwork:SMD_LED_PLCC_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /562E7B0C;
+Reference = 7-28;
+ValeurCmp = LED;
+IdModule  = LikeClockwork:SMD_LED_PLCC_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /562E7B3C;
+Reference = 7-29;
+ValeurCmp = LED;
+IdModule  = LikeClockwork:SMD_LED_PLCC_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /562E7B6C;
+Reference = 7-30;
+ValeurCmp = LED;
+IdModule  = LikeClockwork:SMD_LED_PLCC_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /562E7B9C;
+Reference = 7-31;
+ValeurCmp = LED;
+IdModule  = LikeClockwork:SMD_LED_PLCC_2;
+EndCmp
+
+BeginCmp
 TimeStamp = /55756130;
 Reference = 8-0;
 ValeurCmp = LED;
@@ -1004,6 +1900,118 @@ EndCmp
 BeginCmp
 TimeStamp = /557561EE;
 Reference = 8-15;
+ValeurCmp = LED;
+IdModule  = LikeClockwork:SMD_LED_PLCC_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /562BCA5A;
+Reference = 8-16;
+ValeurCmp = LED;
+IdModule  = LikeClockwork:SMD_LED_PLCC_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /562BCA8A;
+Reference = 8-17;
+ValeurCmp = LED;
+IdModule  = LikeClockwork:SMD_LED_PLCC_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /562BCABA;
+Reference = 8-18;
+ValeurCmp = LED;
+IdModule  = LikeClockwork:SMD_LED_PLCC_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /562BCAEA;
+Reference = 8-19;
+ValeurCmp = LED;
+IdModule  = LikeClockwork:SMD_LED_PLCC_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /562BCB1A;
+Reference = 8-20;
+ValeurCmp = LED;
+IdModule  = LikeClockwork:SMD_LED_PLCC_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /562BCB4A;
+Reference = 8-21;
+ValeurCmp = LED;
+IdModule  = LikeClockwork:SMD_LED_PLCC_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /562BCB7A;
+Reference = 8-22;
+ValeurCmp = LED;
+IdModule  = LikeClockwork:SMD_LED_PLCC_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /562BCBAA;
+Reference = 8-23;
+ValeurCmp = LED;
+IdModule  = LikeClockwork:SMD_LED_PLCC_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /562E7BA2;
+Reference = 8-24;
+ValeurCmp = LED;
+IdModule  = LikeClockwork:SMD_LED_PLCC_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /562E7BD2;
+Reference = 8-25;
+ValeurCmp = LED;
+IdModule  = LikeClockwork:SMD_LED_PLCC_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /562E7C02;
+Reference = 8-26;
+ValeurCmp = LED;
+IdModule  = LikeClockwork:SMD_LED_PLCC_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /562E7C32;
+Reference = 8-27;
+ValeurCmp = LED;
+IdModule  = LikeClockwork:SMD_LED_PLCC_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /562E7C62;
+Reference = 8-28;
+ValeurCmp = LED;
+IdModule  = LikeClockwork:SMD_LED_PLCC_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /562E7C92;
+Reference = 8-29;
+ValeurCmp = LED;
+IdModule  = LikeClockwork:SMD_LED_PLCC_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /562E7CC2;
+Reference = 8-30;
+ValeurCmp = LED;
+IdModule  = LikeClockwork:SMD_LED_PLCC_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /562E7CF2;
+Reference = 8-31;
 ValeurCmp = LED;
 IdModule  = LikeClockwork:SMD_LED_PLCC_2;
 EndCmp
@@ -1121,6 +2129,118 @@ IdModule  = LikeClockwork:SMD_LED_PLCC_2;
 EndCmp
 
 BeginCmp
+TimeStamp = /562BCA60;
+Reference = 9-16;
+ValeurCmp = LED;
+IdModule  = LikeClockwork:SMD_LED_PLCC_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /562BCA90;
+Reference = 9-17;
+ValeurCmp = LED;
+IdModule  = LikeClockwork:SMD_LED_PLCC_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /562BCAC0;
+Reference = 9-18;
+ValeurCmp = LED;
+IdModule  = LikeClockwork:SMD_LED_PLCC_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /562BCAF0;
+Reference = 9-19;
+ValeurCmp = LED;
+IdModule  = LikeClockwork:SMD_LED_PLCC_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /562BCB20;
+Reference = 9-20;
+ValeurCmp = LED;
+IdModule  = LikeClockwork:SMD_LED_PLCC_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /562BCB50;
+Reference = 9-21;
+ValeurCmp = LED;
+IdModule  = LikeClockwork:SMD_LED_PLCC_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /562BCB80;
+Reference = 9-22;
+ValeurCmp = LED;
+IdModule  = LikeClockwork:SMD_LED_PLCC_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /562BCBB0;
+Reference = 9-23;
+ValeurCmp = LED;
+IdModule  = LikeClockwork:SMD_LED_PLCC_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /562E7BA8;
+Reference = 9-24;
+ValeurCmp = LED;
+IdModule  = LikeClockwork:SMD_LED_PLCC_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /562E7BD8;
+Reference = 9-25;
+ValeurCmp = LED;
+IdModule  = LikeClockwork:SMD_LED_PLCC_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /562E7C08;
+Reference = 9-26;
+ValeurCmp = LED;
+IdModule  = LikeClockwork:SMD_LED_PLCC_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /562E7C38;
+Reference = 9-27;
+ValeurCmp = LED;
+IdModule  = LikeClockwork:SMD_LED_PLCC_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /562E7C68;
+Reference = 9-28;
+ValeurCmp = LED;
+IdModule  = LikeClockwork:SMD_LED_PLCC_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /562E7C98;
+Reference = 9-29;
+ValeurCmp = LED;
+IdModule  = LikeClockwork:SMD_LED_PLCC_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /562E7CC8;
+Reference = 9-30;
+ValeurCmp = LED;
+IdModule  = LikeClockwork:SMD_LED_PLCC_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /562E7CF8;
+Reference = 9-31;
+ValeurCmp = LED;
+IdModule  = LikeClockwork:SMD_LED_PLCC_2;
+EndCmp
+
+BeginCmp
 TimeStamp = /55756132;
 Reference = 10-0;
 ValeurCmp = LED;
@@ -1228,6 +2348,118 @@ EndCmp
 BeginCmp
 TimeStamp = /557561F0;
 Reference = 10-15;
+ValeurCmp = LED;
+IdModule  = LikeClockwork:SMD_LED_PLCC_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /562BCA66;
+Reference = 10-16;
+ValeurCmp = LED;
+IdModule  = LikeClockwork:SMD_LED_PLCC_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /562BCA96;
+Reference = 10-17;
+ValeurCmp = LED;
+IdModule  = LikeClockwork:SMD_LED_PLCC_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /562BCAC6;
+Reference = 10-18;
+ValeurCmp = LED;
+IdModule  = LikeClockwork:SMD_LED_PLCC_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /562BCAF6;
+Reference = 10-19;
+ValeurCmp = LED;
+IdModule  = LikeClockwork:SMD_LED_PLCC_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /562BCB26;
+Reference = 10-20;
+ValeurCmp = LED;
+IdModule  = LikeClockwork:SMD_LED_PLCC_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /562BCB56;
+Reference = 10-21;
+ValeurCmp = LED;
+IdModule  = LikeClockwork:SMD_LED_PLCC_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /562BCB86;
+Reference = 10-22;
+ValeurCmp = LED;
+IdModule  = LikeClockwork:SMD_LED_PLCC_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /562BCBB6;
+Reference = 10-23;
+ValeurCmp = LED;
+IdModule  = LikeClockwork:SMD_LED_PLCC_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /562E7BAE;
+Reference = 10-24;
+ValeurCmp = LED;
+IdModule  = LikeClockwork:SMD_LED_PLCC_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /562E7BDE;
+Reference = 10-25;
+ValeurCmp = LED;
+IdModule  = LikeClockwork:SMD_LED_PLCC_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /562E7C0E;
+Reference = 10-26;
+ValeurCmp = LED;
+IdModule  = LikeClockwork:SMD_LED_PLCC_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /562E7C3E;
+Reference = 10-27;
+ValeurCmp = LED;
+IdModule  = LikeClockwork:SMD_LED_PLCC_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /562E7C6E;
+Reference = 10-28;
+ValeurCmp = LED;
+IdModule  = LikeClockwork:SMD_LED_PLCC_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /562E7C9E;
+Reference = 10-29;
+ValeurCmp = LED;
+IdModule  = LikeClockwork:SMD_LED_PLCC_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /562E7CCE;
+Reference = 10-30;
+ValeurCmp = LED;
+IdModule  = LikeClockwork:SMD_LED_PLCC_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /562E7CFE;
+Reference = 10-31;
 ValeurCmp = LED;
 IdModule  = LikeClockwork:SMD_LED_PLCC_2;
 EndCmp
@@ -1345,6 +2577,118 @@ IdModule  = LikeClockwork:SMD_LED_PLCC_2;
 EndCmp
 
 BeginCmp
+TimeStamp = /562BCA6C;
+Reference = 11-16;
+ValeurCmp = LED;
+IdModule  = LikeClockwork:SMD_LED_PLCC_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /562BCA9C;
+Reference = 11-17;
+ValeurCmp = LED;
+IdModule  = LikeClockwork:SMD_LED_PLCC_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /562BCACC;
+Reference = 11-18;
+ValeurCmp = LED;
+IdModule  = LikeClockwork:SMD_LED_PLCC_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /562BCAFC;
+Reference = 11-19;
+ValeurCmp = LED;
+IdModule  = LikeClockwork:SMD_LED_PLCC_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /562BCB2C;
+Reference = 11-20;
+ValeurCmp = LED;
+IdModule  = LikeClockwork:SMD_LED_PLCC_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /562BCB5C;
+Reference = 11-21;
+ValeurCmp = LED;
+IdModule  = LikeClockwork:SMD_LED_PLCC_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /562BCB8C;
+Reference = 11-22;
+ValeurCmp = LED;
+IdModule  = LikeClockwork:SMD_LED_PLCC_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /562BCBBC;
+Reference = 11-23;
+ValeurCmp = LED;
+IdModule  = LikeClockwork:SMD_LED_PLCC_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /562E7BB4;
+Reference = 11-24;
+ValeurCmp = LED;
+IdModule  = LikeClockwork:SMD_LED_PLCC_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /562E7BE4;
+Reference = 11-25;
+ValeurCmp = LED;
+IdModule  = LikeClockwork:SMD_LED_PLCC_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /562E7C14;
+Reference = 11-26;
+ValeurCmp = LED;
+IdModule  = LikeClockwork:SMD_LED_PLCC_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /562E7C44;
+Reference = 11-27;
+ValeurCmp = LED;
+IdModule  = LikeClockwork:SMD_LED_PLCC_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /562E7C74;
+Reference = 11-28;
+ValeurCmp = LED;
+IdModule  = LikeClockwork:SMD_LED_PLCC_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /562E7CA4;
+Reference = 11-29;
+ValeurCmp = LED;
+IdModule  = LikeClockwork:SMD_LED_PLCC_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /562E7CD4;
+Reference = 11-30;
+ValeurCmp = LED;
+IdModule  = LikeClockwork:SMD_LED_PLCC_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /562E7D04;
+Reference = 11-31;
+ValeurCmp = LED;
+IdModule  = LikeClockwork:SMD_LED_PLCC_2;
+EndCmp
+
+BeginCmp
 TimeStamp = /55756134;
 Reference = 12-0;
 ValeurCmp = LED;
@@ -1452,6 +2796,118 @@ EndCmp
 BeginCmp
 TimeStamp = /557561F2;
 Reference = 12-15;
+ValeurCmp = LED;
+IdModule  = LikeClockwork:SMD_LED_PLCC_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /562BCA72;
+Reference = 12-16;
+ValeurCmp = LED;
+IdModule  = LikeClockwork:SMD_LED_PLCC_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /562BCAA2;
+Reference = 12-17;
+ValeurCmp = LED;
+IdModule  = LikeClockwork:SMD_LED_PLCC_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /562BCAD2;
+Reference = 12-18;
+ValeurCmp = LED;
+IdModule  = LikeClockwork:SMD_LED_PLCC_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /562BCB02;
+Reference = 12-19;
+ValeurCmp = LED;
+IdModule  = LikeClockwork:SMD_LED_PLCC_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /562BCB32;
+Reference = 12-20;
+ValeurCmp = LED;
+IdModule  = LikeClockwork:SMD_LED_PLCC_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /562BCB62;
+Reference = 12-21;
+ValeurCmp = LED;
+IdModule  = LikeClockwork:SMD_LED_PLCC_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /562BCB92;
+Reference = 12-22;
+ValeurCmp = LED;
+IdModule  = LikeClockwork:SMD_LED_PLCC_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /562BCBC2;
+Reference = 12-23;
+ValeurCmp = LED;
+IdModule  = LikeClockwork:SMD_LED_PLCC_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /562E7BBA;
+Reference = 12-24;
+ValeurCmp = LED;
+IdModule  = LikeClockwork:SMD_LED_PLCC_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /562E7BEA;
+Reference = 12-25;
+ValeurCmp = LED;
+IdModule  = LikeClockwork:SMD_LED_PLCC_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /562E7C1A;
+Reference = 12-26;
+ValeurCmp = LED;
+IdModule  = LikeClockwork:SMD_LED_PLCC_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /562E7C4A;
+Reference = 12-27;
+ValeurCmp = LED;
+IdModule  = LikeClockwork:SMD_LED_PLCC_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /562E7C7A;
+Reference = 12-28;
+ValeurCmp = LED;
+IdModule  = LikeClockwork:SMD_LED_PLCC_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /562E7CAA;
+Reference = 12-29;
+ValeurCmp = LED;
+IdModule  = LikeClockwork:SMD_LED_PLCC_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /562E7CDA;
+Reference = 12-30;
+ValeurCmp = LED;
+IdModule  = LikeClockwork:SMD_LED_PLCC_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /562E7D0A;
+Reference = 12-31;
 ValeurCmp = LED;
 IdModule  = LikeClockwork:SMD_LED_PLCC_2;
 EndCmp
@@ -1569,6 +3025,118 @@ IdModule  = LikeClockwork:SMD_LED_PLCC_2;
 EndCmp
 
 BeginCmp
+TimeStamp = /562BCA78;
+Reference = 13-16;
+ValeurCmp = LED;
+IdModule  = LikeClockwork:SMD_LED_PLCC_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /562BCAA8;
+Reference = 13-17;
+ValeurCmp = LED;
+IdModule  = LikeClockwork:SMD_LED_PLCC_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /562BCAD8;
+Reference = 13-18;
+ValeurCmp = LED;
+IdModule  = LikeClockwork:SMD_LED_PLCC_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /562BCB08;
+Reference = 13-19;
+ValeurCmp = LED;
+IdModule  = LikeClockwork:SMD_LED_PLCC_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /562BCB38;
+Reference = 13-20;
+ValeurCmp = LED;
+IdModule  = LikeClockwork:SMD_LED_PLCC_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /562BCB68;
+Reference = 13-21;
+ValeurCmp = LED;
+IdModule  = LikeClockwork:SMD_LED_PLCC_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /562BCB98;
+Reference = 13-22;
+ValeurCmp = LED;
+IdModule  = LikeClockwork:SMD_LED_PLCC_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /562BCBC8;
+Reference = 13-23;
+ValeurCmp = LED;
+IdModule  = LikeClockwork:SMD_LED_PLCC_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /562E7BC0;
+Reference = 13-24;
+ValeurCmp = LED;
+IdModule  = LikeClockwork:SMD_LED_PLCC_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /562E7BF0;
+Reference = 13-25;
+ValeurCmp = LED;
+IdModule  = LikeClockwork:SMD_LED_PLCC_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /562E7C20;
+Reference = 13-26;
+ValeurCmp = LED;
+IdModule  = LikeClockwork:SMD_LED_PLCC_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /562E7C50;
+Reference = 13-27;
+ValeurCmp = LED;
+IdModule  = LikeClockwork:SMD_LED_PLCC_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /562E7C80;
+Reference = 13-28;
+ValeurCmp = LED;
+IdModule  = LikeClockwork:SMD_LED_PLCC_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /562E7CB0;
+Reference = 13-29;
+ValeurCmp = LED;
+IdModule  = LikeClockwork:SMD_LED_PLCC_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /562E7CE0;
+Reference = 13-30;
+ValeurCmp = LED;
+IdModule  = LikeClockwork:SMD_LED_PLCC_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /562E7D10;
+Reference = 13-31;
+ValeurCmp = LED;
+IdModule  = LikeClockwork:SMD_LED_PLCC_2;
+EndCmp
+
+BeginCmp
 TimeStamp = /55756136;
 Reference = 14-0;
 ValeurCmp = LED;
@@ -1676,6 +3244,118 @@ EndCmp
 BeginCmp
 TimeStamp = /557561F4;
 Reference = 14-15;
+ValeurCmp = LED;
+IdModule  = LikeClockwork:SMD_LED_PLCC_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /562BCA7E;
+Reference = 14-16;
+ValeurCmp = LED;
+IdModule  = LikeClockwork:SMD_LED_PLCC_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /562BCAAE;
+Reference = 14-17;
+ValeurCmp = LED;
+IdModule  = LikeClockwork:SMD_LED_PLCC_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /562BCADE;
+Reference = 14-18;
+ValeurCmp = LED;
+IdModule  = LikeClockwork:SMD_LED_PLCC_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /562BCB0E;
+Reference = 14-19;
+ValeurCmp = LED;
+IdModule  = LikeClockwork:SMD_LED_PLCC_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /562BCB3E;
+Reference = 14-20;
+ValeurCmp = LED;
+IdModule  = LikeClockwork:SMD_LED_PLCC_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /562BCB6E;
+Reference = 14-21;
+ValeurCmp = LED;
+IdModule  = LikeClockwork:SMD_LED_PLCC_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /562BCB9E;
+Reference = 14-22;
+ValeurCmp = LED;
+IdModule  = LikeClockwork:SMD_LED_PLCC_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /562BCBCE;
+Reference = 14-23;
+ValeurCmp = LED;
+IdModule  = LikeClockwork:SMD_LED_PLCC_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /562E7BC6;
+Reference = 14-24;
+ValeurCmp = LED;
+IdModule  = LikeClockwork:SMD_LED_PLCC_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /562E7BF6;
+Reference = 14-25;
+ValeurCmp = LED;
+IdModule  = LikeClockwork:SMD_LED_PLCC_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /562E7C26;
+Reference = 14-26;
+ValeurCmp = LED;
+IdModule  = LikeClockwork:SMD_LED_PLCC_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /562E7C56;
+Reference = 14-27;
+ValeurCmp = LED;
+IdModule  = LikeClockwork:SMD_LED_PLCC_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /562E7C86;
+Reference = 14-28;
+ValeurCmp = LED;
+IdModule  = LikeClockwork:SMD_LED_PLCC_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /562E7CB6;
+Reference = 14-29;
+ValeurCmp = LED;
+IdModule  = LikeClockwork:SMD_LED_PLCC_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /562E7CE6;
+Reference = 14-30;
+ValeurCmp = LED;
+IdModule  = LikeClockwork:SMD_LED_PLCC_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /562E7D16;
+Reference = 14-31;
 ValeurCmp = LED;
 IdModule  = LikeClockwork:SMD_LED_PLCC_2;
 EndCmp
@@ -1793,6 +3473,118 @@ IdModule  = LikeClockwork:SMD_LED_PLCC_2;
 EndCmp
 
 BeginCmp
+TimeStamp = /562BCA84;
+Reference = 15-16;
+ValeurCmp = LED;
+IdModule  = LikeClockwork:SMD_LED_PLCC_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /562BCAB4;
+Reference = 15-17;
+ValeurCmp = LED;
+IdModule  = LikeClockwork:SMD_LED_PLCC_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /562BCAE4;
+Reference = 15-18;
+ValeurCmp = LED;
+IdModule  = LikeClockwork:SMD_LED_PLCC_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /562BCB14;
+Reference = 15-19;
+ValeurCmp = LED;
+IdModule  = LikeClockwork:SMD_LED_PLCC_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /562BCB44;
+Reference = 15-20;
+ValeurCmp = LED;
+IdModule  = LikeClockwork:SMD_LED_PLCC_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /562BCB74;
+Reference = 15-21;
+ValeurCmp = LED;
+IdModule  = LikeClockwork:SMD_LED_PLCC_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /562BCBA4;
+Reference = 15-22;
+ValeurCmp = LED;
+IdModule  = LikeClockwork:SMD_LED_PLCC_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /562BCBD4;
+Reference = 15-23;
+ValeurCmp = LED;
+IdModule  = LikeClockwork:SMD_LED_PLCC_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /562E7BCC;
+Reference = 15-24;
+ValeurCmp = LED;
+IdModule  = LikeClockwork:SMD_LED_PLCC_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /562E7BFC;
+Reference = 15-25;
+ValeurCmp = LED;
+IdModule  = LikeClockwork:SMD_LED_PLCC_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /562E7C2C;
+Reference = 15-26;
+ValeurCmp = LED;
+IdModule  = LikeClockwork:SMD_LED_PLCC_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /562E7C5C;
+Reference = 15-27;
+ValeurCmp = LED;
+IdModule  = LikeClockwork:SMD_LED_PLCC_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /562E7C8C;
+Reference = 15-28;
+ValeurCmp = LED;
+IdModule  = LikeClockwork:SMD_LED_PLCC_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /562E7CBC;
+Reference = 15-29;
+ValeurCmp = LED;
+IdModule  = LikeClockwork:SMD_LED_PLCC_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /562E7CEC;
+Reference = 15-30;
+ValeurCmp = LED;
+IdModule  = LikeClockwork:SMD_LED_PLCC_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /562E7D1C;
+Reference = 15-31;
+ValeurCmp = LED;
+IdModule  = LikeClockwork:SMD_LED_PLCC_2;
+EndCmp
+
+BeginCmp
 TimeStamp = /55756225;
 Reference = BT1;
 ValeurCmp = BATTERY;
@@ -1800,7 +3592,7 @@ IdModule  = SparkFun-Electromechanical:BATTCOM_20MM_PTH;
 EndCmp
 
 BeginCmp
-TimeStamp = /5575622B;
+TimeStamp = /561BCCF8;
 Reference = C1;
 ValeurCmp = 0.1uF;
 IdModule  = Capacitors_SMD:C_0603_HandSoldering;
@@ -1842,6 +3634,20 @@ IdModule  = Capacitors_SMD:C_0603_HandSoldering;
 EndCmp
 
 BeginCmp
+TimeStamp = /562BCBF5;
+Reference = C7;
+ValeurCmp = 0.1uF;
+IdModule  = Capacitors_SMD:C_0603_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /562E7D3D;
+Reference = C8;
+ValeurCmp = 0.1uF;
+IdModule  = Capacitors_SMD:C_0603_HandSoldering;
+EndCmp
+
+BeginCmp
 TimeStamp = /55756219;
 Reference = D1;
 ValeurCmp = DIODE;
@@ -1856,6 +3662,111 @@ IdModule  = Diodes_SMD:SOD-323;
 EndCmp
 
 BeginCmp
+TimeStamp = /561BCCEC;
+Reference = D3;
+ValeurCmp = DIODE;
+IdModule  = Diodes_SMD:SOD-323;
+EndCmp
+
+BeginCmp
+TimeStamp = /562BCBE9;
+Reference = D4;
+ValeurCmp = DIODE;
+IdModule  = Diodes_SMD:SOD-323;
+EndCmp
+
+BeginCmp
+TimeStamp = /562E7D31;
+Reference = D5;
+ValeurCmp = DIODE;
+IdModule  = Diodes_SMD:SOD-323;
+EndCmp
+
+BeginCmp
+TimeStamp = /561BCD04;
+Reference = JP1;
+ValeurCmp = JUMPER;
+IdModule  = LikeClockwork:solder_jumper;
+EndCmp
+
+BeginCmp
+TimeStamp = /561BCD12;
+Reference = JP2;
+ValeurCmp = JUMPER;
+IdModule  = LikeClockwork:solder_jumper;
+EndCmp
+
+BeginCmp
+TimeStamp = /561BCD1F;
+Reference = JP3;
+ValeurCmp = JUMPER;
+IdModule  = LikeClockwork:solder_jumper;
+EndCmp
+
+BeginCmp
+TimeStamp = /561AC1CC;
+Reference = JP4;
+ValeurCmp = JUMPER;
+IdModule  = LikeClockwork:solder_jumper;
+EndCmp
+
+BeginCmp
+TimeStamp = /561AE6E2;
+Reference = JP5;
+ValeurCmp = JUMPER;
+IdModule  = LikeClockwork:solder_jumper;
+EndCmp
+
+BeginCmp
+TimeStamp = /561AF13D;
+Reference = JP6;
+ValeurCmp = JUMPER;
+IdModule  = LikeClockwork:solder_jumper;
+EndCmp
+
+BeginCmp
+TimeStamp = /562BCBFB;
+Reference = JP7;
+ValeurCmp = JUMPER;
+IdModule  = LikeClockwork:solder_jumper;
+EndCmp
+
+BeginCmp
+TimeStamp = /562BCC07;
+Reference = JP8;
+ValeurCmp = JUMPER;
+IdModule  = LikeClockwork:solder_jumper;
+EndCmp
+
+BeginCmp
+TimeStamp = /562BCC13;
+Reference = JP9;
+ValeurCmp = JUMPER;
+IdModule  = LikeClockwork:solder_jumper;
+EndCmp
+
+BeginCmp
+TimeStamp = /562E7D43;
+Reference = JP10;
+ValeurCmp = JUMPER;
+IdModule  = LikeClockwork:solder_jumper;
+EndCmp
+
+BeginCmp
+TimeStamp = /562E7D4F;
+Reference = JP11;
+ValeurCmp = JUMPER;
+IdModule  = LikeClockwork:solder_jumper;
+EndCmp
+
+BeginCmp
+TimeStamp = /562E7D5B;
+Reference = JP12;
+ValeurCmp = JUMPER;
+IdModule  = LikeClockwork:solder_jumper;
+EndCmp
+
+BeginCmp
 TimeStamp = /5575621C;
 Reference = P1;
 ValeurCmp = CONN_01X03;
@@ -1867,13 +3778,6 @@ TimeStamp = /5584DE37;
 Reference = P2;
 ValeurCmp = CONN_01X02;
 IdModule  = Pin_Headers:Pin_Header_Straight_1x02;
-EndCmp
-
-BeginCmp
-TimeStamp = /55A7857C;
-Reference = P3;
-ValeurCmp = CONN_01X16;
-IdModule  = Pin_Headers:Pin_Header_Straight_1x16;
 EndCmp
 
 BeginCmp
@@ -1898,6 +3802,13 @@ IdModule  = Resistors_SMD:R_0603_HandSoldering;
 EndCmp
 
 BeginCmp
+TimeStamp = /561BCCF2;
+Reference = R3;
+ValeurCmp = 47K;
+IdModule  = Resistors_SMD:R_0603_HandSoldering;
+EndCmp
+
+BeginCmp
 TimeStamp = /55756211;
 Reference = R4;
 ValeurCmp = 10K;
@@ -1912,6 +3823,13 @@ IdModule  = Resistors_SMD:R_0603_HandSoldering;
 EndCmp
 
 BeginCmp
+TimeStamp = /561BCD0C;
+Reference = R6;
+ValeurCmp = 47K;
+IdModule  = Resistors_SMD:R_0603_HandSoldering;
+EndCmp
+
+BeginCmp
 TimeStamp = /55756210;
 Reference = R7;
 ValeurCmp = 10K;
@@ -1919,15 +3837,71 @@ IdModule  = Resistors_SMD:R_0603_HandSoldering;
 EndCmp
 
 BeginCmp
-TimeStamp = /55756203;
+TimeStamp = /561BCD19;
 Reference = R8;
-ValeurCmp = 10K;
+ValeurCmp = 47K;
+IdModule  = Resistors_SMD:R_0603_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /561AE6DC;
+Reference = R9;
+ValeurCmp = 47K;
+IdModule  = Resistors_SMD:R_0603_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /561AF137;
+Reference = R10;
+ValeurCmp = 47K;
 IdModule  = Resistors_SMD:R_0603_HandSoldering;
 EndCmp
 
 BeginCmp
 TimeStamp = /55756216;
 Reference = R11;
+ValeurCmp = 47K;
+IdModule  = Resistors_SMD:R_0603_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /562BCBEF;
+Reference = R12;
+ValeurCmp = 47K;
+IdModule  = Resistors_SMD:R_0603_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /562BCC01;
+Reference = R13;
+ValeurCmp = 47K;
+IdModule  = Resistors_SMD:R_0603_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /562BCC0D;
+Reference = R14;
+ValeurCmp = 47K;
+IdModule  = Resistors_SMD:R_0603_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /562E7D37;
+Reference = R15;
+ValeurCmp = 47K;
+IdModule  = Resistors_SMD:R_0603_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /562E7D49;
+Reference = R16;
+ValeurCmp = 47K;
+IdModule  = Resistors_SMD:R_0603_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /562E7D55;
+Reference = R17;
 ValeurCmp = 47K;
 IdModule  = Resistors_SMD:R_0603_HandSoldering;
 EndCmp
@@ -1950,13 +3924,6 @@ BeginCmp
 TimeStamp = /557561FE;
 Reference = SW4;
 ValeurCmp = SOFT;
-IdModule  = SparkFun-Electromechanical:TACTILE-PTH-SIDEEZ;
-EndCmp
-
-BeginCmp
-TimeStamp = /55756201;
-Reference = SW6;
-ValeurCmp = RST;
 IdModule  = SparkFun-Electromechanical:TACTILE-PTH-SIDEEZ;
 EndCmp
 
@@ -1984,6 +3951,62 @@ EndCmp
 BeginCmp
 TimeStamp = /55756213;
 Reference = U4;
+ValeurCmp = HT16K33;
+IdModule  = adafruit:SO28W;
+EndCmp
+
+BeginCmp
+TimeStamp = /5624E461;
+Reference = U5;
+ValeurCmp = HT16K33_BOUT;
+IdModule  = LikeClockwork:HT16K33_Breakout;
+EndCmp
+
+BeginCmp
+TimeStamp = /561E2543;
+Reference = U6;
+ValeurCmp = HT16K33_BOUT;
+IdModule  = LikeClockwork:HT16K33_Breakout;
+EndCmp
+
+BeginCmp
+TimeStamp = /5612D1F3;
+Reference = U7;
+ValeurCmp = Arduino_Nano;
+IdModule  = LikeClockwork:Arduino_Nano;
+EndCmp
+
+BeginCmp
+TimeStamp = /5615C779;
+Reference = U8;
+ValeurCmp = UNO_FOOTPRINT;
+IdModule  = LikeClockwork:shield_footprint;
+EndCmp
+
+BeginCmp
+TimeStamp = /562BCC1F;
+Reference = U9;
+ValeurCmp = HT16K33_BOUT;
+IdModule  = LikeClockwork:HT16K33_Breakout;
+EndCmp
+
+BeginCmp
+TimeStamp = /562BCBDA;
+Reference = U10;
+ValeurCmp = HT16K33;
+IdModule  = adafruit:SO28W;
+EndCmp
+
+BeginCmp
+TimeStamp = /562E7D67;
+Reference = U11;
+ValeurCmp = HT16K33_BOUT;
+IdModule  = LikeClockwork:HT16K33_Breakout;
+EndCmp
+
+BeginCmp
+TimeStamp = /562E7D22;
+Reference = U12;
 ValeurCmp = HT16K33;
 IdModule  = adafruit:SO28W;
 EndCmp

@@ -1,0 +1,9 @@
+(module solder_pad (layer F.Cu) (tedit 562050EF)
+  (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+    (effects (font (size 0.25 0.25) (thickness 0.0625)))
+  )
+  (fp_text value solder_pad (at 0 -0.5) (layer F.Fab)
+    (effects (font (size 0.25 0.25) (thickness 0.0625)))
+  )
+  (pad 1 thru_hole circle (at 0 0) (size 2.032 2.032) (drill 1.016) (layers *.Cu *.Mask F.SilkS))
+)

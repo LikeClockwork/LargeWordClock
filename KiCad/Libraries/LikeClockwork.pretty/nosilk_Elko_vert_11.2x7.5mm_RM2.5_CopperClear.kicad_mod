@@ -1,0 +1,17 @@
+(module nosilk_Elko_vert_11.2x7.5mm_RM2.5_CopperClear (layer F.Cu) (tedit 563FC351)
+  (descr "Electrolytic Capacitor, vertical, diameter 7,5mm, RM 2,5mm, Copper without +,  radial,")
+  (tags "Electrolytic Capacitor, vertical, diameter 7,5mm, RM 2,5mm, Elko, Electrolytkondensator, Kondensator gepolt, Durchmesser 7,5mm, Copper without +, radial,")
+  (fp_text reference C3 (at 1.27 -5.08) (layer F.SilkS) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value 1uF (at 1.27 6.35) (layer F.Fab)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (pad 2 thru_hole circle (at 2.54 0) (size 1.50114 1.50114) (drill 0.8001) (layers *.Cu *.Mask F.SilkS))
+  (pad 1 thru_hole circle (at 0 0) (size 1.50114 1.50114) (drill 0.8001) (layers *.Cu *.Mask F.SilkS))
+  (model Capacitors_Elko_ThroughHole.3dshapes/Elko_vert_11.2x7.5mm_RM2.5_CopperClear.wrl
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
+)

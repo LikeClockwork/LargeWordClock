@@ -1,20 +1,10 @@
-(module shield_footprint (layer F.Cu) (tedit 561D0EC7)
-  (fp_text reference shield_footprint (at 27.94 -12.2936) (layer F.SilkS) hide
+(module shield_footprint (layer F.Cu) (tedit 563FBE10)
+  (fp_text reference U8 (at 27.94 -12.2936) (layer F.SilkS) hide
     (effects (font (size 1.5 1.5) (thickness 0.15)))
   )
-  (fp_text value VAL** (at 28.1 11.9) (layer F.SilkS) hide
+  (fp_text value UNO_FOOTPRINT (at 28.1 11.9) (layer F.SilkS) hide
     (effects (font (size 1.5 1.5) (thickness 0.15)))
   )
-  (fp_line (start -1.27 -17.78) (end 49.53 -17.78) (layer F.SilkS) (width 0.15))
-  (fp_line (start 49.53 -17.78) (end 49.53 -16.51) (layer F.SilkS) (width 0.15))
-  (fp_line (start -1.27 36.83) (end -1.27 -17.78) (layer F.SilkS) (width 0.15))
-  (fp_line (start -1.27 36.83) (end 0 36.83) (layer F.SilkS) (width 0.15))
-  (fp_line (start 0 36.83) (end 2.54 39.37) (layer F.SilkS) (width 0.15))
-  (fp_line (start 2.54 39.37) (end 33.02 39.37) (layer F.SilkS) (width 0.15))
-  (fp_line (start 33.02 39.37) (end 35.56 36.83) (layer F.SilkS) (width 0.15))
-  (fp_line (start 35.56 36.83) (end 48.26 36.83) (layer F.SilkS) (width 0.15))
-  (fp_line (start 48.26 36.83) (end 49.53 36.83) (layer F.SilkS) (width 0.15))
-  (fp_line (start 49.53 36.83) (end 49.53 -16.51) (layer F.SilkS) (width 0.15))
   (pad 1 thru_hole circle (at 0 0) (size 2 2) (drill 1.016) (layers *.Cu *.Mask F.SilkS))
   (pad 2 thru_hole circle (at 0 2.54) (size 2 2) (drill 1.016) (layers *.Cu *.Mask F.SilkS))
   (pad 3 thru_hole circle (at 0 5.08) (size 2 2) (drill 1.016) (layers *.Cu *.Mask F.SilkS))

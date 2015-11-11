@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:LargeKickstarter-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -10,7 +11,6 @@ LIBS:cmos4000
 LIBS:adc-dac
 LIBS:memory
 LIBS:xilinx
-LIBS:special
 LIBS:microcontrollers
 LIBS:dsp
 LIBS:microchip
@@ -29,16 +29,10 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:ATMEGA328P
-LIBS:HT16K33
-LIBS:DS3231
-LIBS:ATMEGA328-TQFP
 LIBS:LED_BackPack
 LIBS:ChronoDot
 LIBS:Arduino_Nano
 LIBS:LargeKickstarter
-LIBS:UNO_FOOTPRINT
-LIBS:HT16K33_BOUT
 LIBS:LargeKickstarter-cache
 EELAYER 25 0
 EELAYER END
@@ -55,7 +49,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L LED 0-0
+L LED-RESCUE-LargeKickstarter 0-0
 U 1 1 557560EC
 P -8200 -7200
 F 0 "0-0" H -8200 -7100 50  0000 C CNN
@@ -66,7 +60,7 @@ F 3 "" H -8200 -7200 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 1-0
+L LED-RESCUE-LargeKickstarter 1-0
 U 1 1 557560ED
 P -7850 -7200
 F 0 "1-0" H -7850 -7100 50  0000 C CNN
@@ -77,7 +71,7 @@ F 3 "" H -7850 -7200 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 2-0
+L LED-RESCUE-LargeKickstarter 2-0
 U 1 1 557560EE
 P -7500 -7200
 F 0 "2-0" H -7500 -7100 50  0000 C CNN
@@ -88,7 +82,7 @@ F 3 "" H -7500 -7200 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 3-0
+L LED-RESCUE-LargeKickstarter 3-0
 U 1 1 557560EF
 P -7200 -7200
 F 0 "3-0" H -7200 -7100 50  0000 C CNN
@@ -99,7 +93,7 @@ F 3 "" H -7200 -7200 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 4-0
+L LED-RESCUE-LargeKickstarter 4-0
 U 1 1 557560F0
 P -6850 -7200
 F 0 "4-0" H -6850 -7100 50  0000 C CNN
@@ -110,7 +104,7 @@ F 3 "" H -6850 -7200 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 5-0
+L LED-RESCUE-LargeKickstarter 5-0
 U 1 1 557560F1
 P -6500 -7200
 F 0 "5-0" H -6500 -7100 50  0000 C CNN
@@ -121,7 +115,7 @@ F 3 "" H -6500 -7200 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 6-0
+L LED-RESCUE-LargeKickstarter 6-0
 U 1 1 557560F2
 P -6150 -7200
 F 0 "6-0" H -6150 -7100 50  0000 C CNN
@@ -132,7 +126,7 @@ F 3 "" H -6150 -7200 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 7-0
+L LED-RESCUE-LargeKickstarter 7-0
 U 1 1 557560F3
 P -5800 -7200
 F 0 "7-0" H -5800 -7100 50  0000 C CNN
@@ -143,7 +137,7 @@ F 3 "" H -5800 -7200 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 0-1
+L LED-RESCUE-LargeKickstarter 0-1
 U 1 1 557560F4
 P -8200 -6550
 F 0 "0-1" H -8200 -6450 50  0000 C CNN
@@ -154,7 +148,7 @@ F 3 "" H -8200 -6550 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 1-1
+L LED-RESCUE-LargeKickstarter 1-1
 U 1 1 557560F5
 P -7850 -6550
 F 0 "1-1" H -7850 -6450 50  0000 C CNN
@@ -165,7 +159,7 @@ F 3 "" H -7850 -6550 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 2-1
+L LED-RESCUE-LargeKickstarter 2-1
 U 1 1 557560F6
 P -7500 -6550
 F 0 "2-1" H -7500 -6450 50  0000 C CNN
@@ -176,7 +170,7 @@ F 3 "" H -7500 -6550 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 3-1
+L LED-RESCUE-LargeKickstarter 3-1
 U 1 1 557560F7
 P -7200 -6550
 F 0 "3-1" H -7200 -6450 50  0000 C CNN
@@ -187,7 +181,7 @@ F 3 "" H -7200 -6550 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 4-1
+L LED-RESCUE-LargeKickstarter 4-1
 U 1 1 557560F8
 P -6850 -6550
 F 0 "4-1" H -6850 -6450 50  0000 C CNN
@@ -198,7 +192,7 @@ F 3 "" H -6850 -6550 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 5-1
+L LED-RESCUE-LargeKickstarter 5-1
 U 1 1 557560F9
 P -6500 -6550
 F 0 "5-1" H -6500 -6450 50  0000 C CNN
@@ -209,7 +203,7 @@ F 3 "" H -6500 -6550 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 6-1
+L LED-RESCUE-LargeKickstarter 6-1
 U 1 1 557560FA
 P -6150 -6550
 F 0 "6-1" H -6150 -6450 50  0000 C CNN
@@ -220,7 +214,7 @@ F 3 "" H -6150 -6550 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 7-1
+L LED-RESCUE-LargeKickstarter 7-1
 U 1 1 557560FB
 P -5800 -6550
 F 0 "7-1" H -5800 -6450 50  0000 C CNN
@@ -231,7 +225,7 @@ F 3 "" H -5800 -6550 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 0-2
+L LED-RESCUE-LargeKickstarter 0-2
 U 1 1 557560FC
 P -8200 -5800
 F 0 "0-2" H -8200 -5700 50  0000 C CNN
@@ -242,7 +236,7 @@ F 3 "" H -8200 -5800 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 1-2
+L LED-RESCUE-LargeKickstarter 1-2
 U 1 1 557560FD
 P -7850 -5800
 F 0 "1-2" H -7850 -5700 50  0000 C CNN
@@ -253,7 +247,7 @@ F 3 "" H -7850 -5800 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 2-2
+L LED-RESCUE-LargeKickstarter 2-2
 U 1 1 557560FE
 P -7500 -5800
 F 0 "2-2" H -7500 -5700 50  0000 C CNN
@@ -264,7 +258,7 @@ F 3 "" H -7500 -5800 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 3-2
+L LED-RESCUE-LargeKickstarter 3-2
 U 1 1 557560FF
 P -7200 -5800
 F 0 "3-2" H -7200 -5700 50  0000 C CNN
@@ -275,7 +269,7 @@ F 3 "" H -7200 -5800 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 4-2
+L LED-RESCUE-LargeKickstarter 4-2
 U 1 1 55756100
 P -6850 -5800
 F 0 "4-2" H -6850 -5700 50  0000 C CNN
@@ -286,7 +280,7 @@ F 3 "" H -6850 -5800 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 5-2
+L LED-RESCUE-LargeKickstarter 5-2
 U 1 1 55756101
 P -6500 -5800
 F 0 "5-2" H -6500 -5700 50  0000 C CNN
@@ -297,7 +291,7 @@ F 3 "" H -6500 -5800 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 6-2
+L LED-RESCUE-LargeKickstarter 6-2
 U 1 1 55756102
 P -6150 -5800
 F 0 "6-2" H -6150 -5700 50  0000 C CNN
@@ -308,7 +302,7 @@ F 3 "" H -6150 -5800 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 7-2
+L LED-RESCUE-LargeKickstarter 7-2
 U 1 1 55756103
 P -5800 -5800
 F 0 "7-2" H -5800 -5700 50  0000 C CNN
@@ -319,7 +313,7 @@ F 3 "" H -5800 -5800 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 0-3
+L LED-RESCUE-LargeKickstarter 0-3
 U 1 1 55756104
 P -8200 -5100
 F 0 "0-3" H -8200 -5000 50  0000 C CNN
@@ -330,7 +324,7 @@ F 3 "" H -8200 -5100 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 1-3
+L LED-RESCUE-LargeKickstarter 1-3
 U 1 1 55756105
 P -7850 -5100
 F 0 "1-3" H -7850 -5000 50  0000 C CNN
@@ -341,7 +335,7 @@ F 3 "" H -7850 -5100 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 2-3
+L LED-RESCUE-LargeKickstarter 2-3
 U 1 1 55756106
 P -7500 -5100
 F 0 "2-3" H -7500 -5000 50  0000 C CNN
@@ -352,7 +346,7 @@ F 3 "" H -7500 -5100 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 3-3
+L LED-RESCUE-LargeKickstarter 3-3
 U 1 1 55756107
 P -7200 -5100
 F 0 "3-3" H -7200 -5000 50  0000 C CNN
@@ -363,7 +357,7 @@ F 3 "" H -7200 -5100 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 4-3
+L LED-RESCUE-LargeKickstarter 4-3
 U 1 1 55756108
 P -6850 -5100
 F 0 "4-3" H -6850 -5000 50  0000 C CNN
@@ -374,7 +368,7 @@ F 3 "" H -6850 -5100 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 5-3
+L LED-RESCUE-LargeKickstarter 5-3
 U 1 1 55756109
 P -6500 -5100
 F 0 "5-3" H -6500 -5000 50  0000 C CNN
@@ -385,7 +379,7 @@ F 3 "" H -6500 -5100 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 6-3
+L LED-RESCUE-LargeKickstarter 6-3
 U 1 1 5575610A
 P -6150 -5100
 F 0 "6-3" H -6150 -5000 50  0000 C CNN
@@ -396,7 +390,7 @@ F 3 "" H -6150 -5100 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 7-3
+L LED-RESCUE-LargeKickstarter 7-3
 U 1 1 5575610B
 P -5800 -5100
 F 0 "7-3" H -5800 -5000 50  0000 C CNN
@@ -407,7 +401,7 @@ F 3 "" H -5800 -5100 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 0-4
+L LED-RESCUE-LargeKickstarter 0-4
 U 1 1 5575610C
 P -8200 -4450
 F 0 "0-4" H -8200 -4350 50  0000 C CNN
@@ -418,7 +412,7 @@ F 3 "" H -8200 -4450 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 1-4
+L LED-RESCUE-LargeKickstarter 1-4
 U 1 1 5575610D
 P -7850 -4450
 F 0 "1-4" H -7850 -4350 50  0000 C CNN
@@ -429,7 +423,7 @@ F 3 "" H -7850 -4450 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 2-4
+L LED-RESCUE-LargeKickstarter 2-4
 U 1 1 5575610E
 P -7500 -4450
 F 0 "2-4" H -7500 -4350 50  0000 C CNN
@@ -440,7 +434,7 @@ F 3 "" H -7500 -4450 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 3-4
+L LED-RESCUE-LargeKickstarter 3-4
 U 1 1 5575610F
 P -7200 -4450
 F 0 "3-4" H -7200 -4350 50  0000 C CNN
@@ -451,7 +445,7 @@ F 3 "" H -7200 -4450 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 4-4
+L LED-RESCUE-LargeKickstarter 4-4
 U 1 1 55756110
 P -6850 -4450
 F 0 "4-4" H -6850 -4350 50  0000 C CNN
@@ -462,7 +456,7 @@ F 3 "" H -6850 -4450 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 5-4
+L LED-RESCUE-LargeKickstarter 5-4
 U 1 1 55756111
 P -6500 -4450
 F 0 "5-4" H -6500 -4350 50  0000 C CNN
@@ -473,7 +467,7 @@ F 3 "" H -6500 -4450 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 6-4
+L LED-RESCUE-LargeKickstarter 6-4
 U 1 1 55756112
 P -6150 -4450
 F 0 "6-4" H -6150 -4350 50  0000 C CNN
@@ -484,7 +478,7 @@ F 3 "" H -6150 -4450 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 7-4
+L LED-RESCUE-LargeKickstarter 7-4
 U 1 1 55756113
 P -5800 -4450
 F 0 "7-4" H -5800 -4350 50  0000 C CNN
@@ -495,7 +489,7 @@ F 3 "" H -5800 -4450 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 0-5
+L LED-RESCUE-LargeKickstarter 0-5
 U 1 1 55756114
 P -8200 -3800
 F 0 "0-5" H -8200 -3700 50  0000 C CNN
@@ -506,7 +500,7 @@ F 3 "" H -8200 -3800 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 1-5
+L LED-RESCUE-LargeKickstarter 1-5
 U 1 1 55756115
 P -7850 -3800
 F 0 "1-5" H -7850 -3700 50  0000 C CNN
@@ -517,7 +511,7 @@ F 3 "" H -7850 -3800 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 2-5
+L LED-RESCUE-LargeKickstarter 2-5
 U 1 1 55756116
 P -7500 -3800
 F 0 "2-5" H -7500 -3700 50  0000 C CNN
@@ -528,7 +522,7 @@ F 3 "" H -7500 -3800 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 3-5
+L LED-RESCUE-LargeKickstarter 3-5
 U 1 1 55756117
 P -7200 -3800
 F 0 "3-5" H -7200 -3700 50  0000 C CNN
@@ -539,7 +533,7 @@ F 3 "" H -7200 -3800 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 4-5
+L LED-RESCUE-LargeKickstarter 4-5
 U 1 1 55756118
 P -6850 -3800
 F 0 "4-5" H -6850 -3700 50  0000 C CNN
@@ -550,7 +544,7 @@ F 3 "" H -6850 -3800 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 5-5
+L LED-RESCUE-LargeKickstarter 5-5
 U 1 1 55756119
 P -6500 -3800
 F 0 "5-5" H -6500 -3700 50  0000 C CNN
@@ -561,7 +555,7 @@ F 3 "" H -6500 -3800 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 6-5
+L LED-RESCUE-LargeKickstarter 6-5
 U 1 1 5575611A
 P -6150 -3800
 F 0 "6-5" H -6150 -3700 50  0000 C CNN
@@ -572,7 +566,7 @@ F 3 "" H -6150 -3800 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 7-5
+L LED-RESCUE-LargeKickstarter 7-5
 U 1 1 5575611B
 P -5800 -3800
 F 0 "7-5" H -5800 -3700 50  0000 C CNN
@@ -583,7 +577,7 @@ F 3 "" H -5800 -3800 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 0-6
+L LED-RESCUE-LargeKickstarter 0-6
 U 1 1 5575611C
 P -8200 -3050
 F 0 "0-6" H -8200 -2950 50  0000 C CNN
@@ -594,7 +588,7 @@ F 3 "" H -8200 -3050 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 1-6
+L LED-RESCUE-LargeKickstarter 1-6
 U 1 1 5575611D
 P -7850 -3050
 F 0 "1-6" H -7850 -2950 50  0000 C CNN
@@ -605,7 +599,7 @@ F 3 "" H -7850 -3050 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 2-6
+L LED-RESCUE-LargeKickstarter 2-6
 U 1 1 5575611E
 P -7500 -3050
 F 0 "2-6" H -7500 -2950 50  0000 C CNN
@@ -616,7 +610,7 @@ F 3 "" H -7500 -3050 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 3-6
+L LED-RESCUE-LargeKickstarter 3-6
 U 1 1 5575611F
 P -7200 -3050
 F 0 "3-6" H -7200 -2950 50  0000 C CNN
@@ -627,7 +621,7 @@ F 3 "" H -7200 -3050 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 4-6
+L LED-RESCUE-LargeKickstarter 4-6
 U 1 1 55756120
 P -6850 -3050
 F 0 "4-6" H -6850 -2950 50  0000 C CNN
@@ -638,7 +632,7 @@ F 3 "" H -6850 -3050 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 5-6
+L LED-RESCUE-LargeKickstarter 5-6
 U 1 1 55756121
 P -6500 -3050
 F 0 "5-6" H -6500 -2950 50  0000 C CNN
@@ -649,7 +643,7 @@ F 3 "" H -6500 -3050 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 6-6
+L LED-RESCUE-LargeKickstarter 6-6
 U 1 1 55756122
 P -6150 -3050
 F 0 "6-6" H -6150 -2950 50  0000 C CNN
@@ -660,7 +654,7 @@ F 3 "" H -6150 -3050 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 7-6
+L LED-RESCUE-LargeKickstarter 7-6
 U 1 1 55756123
 P -5800 -3050
 F 0 "7-6" H -5800 -2950 50  0000 C CNN
@@ -671,7 +665,7 @@ F 3 "" H -5800 -3050 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 0-7
+L LED-RESCUE-LargeKickstarter 0-7
 U 1 1 55756124
 P -8200 -2300
 F 0 "0-7" H -8200 -2200 50  0000 C CNN
@@ -682,7 +676,7 @@ F 3 "" H -8200 -2300 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 1-7
+L LED-RESCUE-LargeKickstarter 1-7
 U 1 1 55756125
 P -7850 -2300
 F 0 "1-7" H -7850 -2200 50  0000 C CNN
@@ -693,7 +687,7 @@ F 3 "" H -7850 -2300 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 2-7
+L LED-RESCUE-LargeKickstarter 2-7
 U 1 1 55756126
 P -7500 -2300
 F 0 "2-7" H -7500 -2200 50  0000 C CNN
@@ -704,7 +698,7 @@ F 3 "" H -7500 -2300 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 3-7
+L LED-RESCUE-LargeKickstarter 3-7
 U 1 1 55756127
 P -7200 -2300
 F 0 "3-7" H -7200 -2200 50  0000 C CNN
@@ -715,7 +709,7 @@ F 3 "" H -7200 -2300 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 4-7
+L LED-RESCUE-LargeKickstarter 4-7
 U 1 1 55756128
 P -6850 -2300
 F 0 "4-7" H -6850 -2200 50  0000 C CNN
@@ -726,7 +720,7 @@ F 3 "" H -6850 -2300 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 5-7
+L LED-RESCUE-LargeKickstarter 5-7
 U 1 1 55756129
 P -6500 -2300
 F 0 "5-7" H -6500 -2200 50  0000 C CNN
@@ -737,7 +731,7 @@ F 3 "" H -6500 -2300 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 6-7
+L LED-RESCUE-LargeKickstarter 6-7
 U 1 1 5575612A
 P -6150 -2300
 F 0 "6-7" H -6150 -2200 50  0000 C CNN
@@ -748,7 +742,7 @@ F 3 "" H -6150 -2300 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 7-7
+L LED-RESCUE-LargeKickstarter 7-7
 U 1 1 5575612B
 P -5800 -2300
 F 0 "7-7" H -5800 -2200 50  0000 C CNN
@@ -759,7 +753,7 @@ F 3 "" H -5800 -2300 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 8-0
+L LED-RESCUE-LargeKickstarter 8-0
 U 1 1 55756130
 P -11700 -7200
 F 0 "8-0" H -11700 -7100 50  0000 C CNN
@@ -770,7 +764,7 @@ F 3 "" H -11700 -7200 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 9-0
+L LED-RESCUE-LargeKickstarter 9-0
 U 1 1 55756131
 P -11350 -7200
 F 0 "9-0" H -11350 -7100 50  0000 C CNN
@@ -781,7 +775,7 @@ F 3 "" H -11350 -7200 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 10-0
+L LED-RESCUE-LargeKickstarter 10-0
 U 1 1 55756132
 P -11000 -7200
 F 0 "10-0" H -11000 -7100 50  0000 C CNN
@@ -792,7 +786,7 @@ F 3 "" H -11000 -7200 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 11-0
+L LED-RESCUE-LargeKickstarter 11-0
 U 1 1 55756133
 P -10700 -7200
 F 0 "11-0" H -10700 -7100 50  0000 C CNN
@@ -803,7 +797,7 @@ F 3 "" H -10700 -7200 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 12-0
+L LED-RESCUE-LargeKickstarter 12-0
 U 1 1 55756134
 P -10350 -7200
 F 0 "12-0" H -10350 -7100 50  0000 C CNN
@@ -814,7 +808,7 @@ F 3 "" H -10350 -7200 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 13-0
+L LED-RESCUE-LargeKickstarter 13-0
 U 1 1 55756135
 P -10000 -7200
 F 0 "13-0" H -10000 -7100 50  0000 C CNN
@@ -825,7 +819,7 @@ F 3 "" H -10000 -7200 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 14-0
+L LED-RESCUE-LargeKickstarter 14-0
 U 1 1 55756136
 P -9650 -7200
 F 0 "14-0" H -9650 -7100 50  0000 C CNN
@@ -836,7 +830,7 @@ F 3 "" H -9650 -7200 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 15-0
+L LED-RESCUE-LargeKickstarter 15-0
 U 1 1 55756137
 P -9300 -7200
 F 0 "15-0" H -9300 -7100 50  0000 C CNN
@@ -847,7 +841,7 @@ F 3 "" H -9300 -7200 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 8-1
+L LED-RESCUE-LargeKickstarter 8-1
 U 1 1 55756138
 P -11700 -6550
 F 0 "8-1" H -11700 -6450 50  0000 C CNN
@@ -858,7 +852,7 @@ F 3 "" H -11700 -6550 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 9-1
+L LED-RESCUE-LargeKickstarter 9-1
 U 1 1 55756139
 P -11350 -6550
 F 0 "9-1" H -11350 -6450 50  0000 C CNN
@@ -869,7 +863,7 @@ F 3 "" H -11350 -6550 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 10-1
+L LED-RESCUE-LargeKickstarter 10-1
 U 1 1 5575613A
 P -11000 -6550
 F 0 "10-1" H -11000 -6450 50  0000 C CNN
@@ -880,7 +874,7 @@ F 3 "" H -11000 -6550 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 11-1
+L LED-RESCUE-LargeKickstarter 11-1
 U 1 1 5575613B
 P -10700 -6550
 F 0 "11-1" H -10700 -6450 50  0000 C CNN
@@ -891,7 +885,7 @@ F 3 "" H -10700 -6550 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 12-1
+L LED-RESCUE-LargeKickstarter 12-1
 U 1 1 5575613C
 P -10350 -6550
 F 0 "12-1" H -10350 -6450 50  0000 C CNN
@@ -902,7 +896,7 @@ F 3 "" H -10350 -6550 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 13-1
+L LED-RESCUE-LargeKickstarter 13-1
 U 1 1 5575613D
 P -10000 -6550
 F 0 "13-1" H -10000 -6450 50  0000 C CNN
@@ -913,7 +907,7 @@ F 3 "" H -10000 -6550 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 14-1
+L LED-RESCUE-LargeKickstarter 14-1
 U 1 1 5575613E
 P -9650 -6550
 F 0 "14-1" H -9650 -6450 50  0000 C CNN
@@ -924,7 +918,7 @@ F 3 "" H -9650 -6550 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 15-1
+L LED-RESCUE-LargeKickstarter 15-1
 U 1 1 5575613F
 P -9300 -6550
 F 0 "15-1" H -9300 -6450 50  0000 C CNN
@@ -935,7 +929,7 @@ F 3 "" H -9300 -6550 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 8-2
+L LED-RESCUE-LargeKickstarter 8-2
 U 1 1 55756140
 P -11700 -5800
 F 0 "8-2" H -11700 -5700 50  0000 C CNN
@@ -946,7 +940,7 @@ F 3 "" H -11700 -5800 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 9-2
+L LED-RESCUE-LargeKickstarter 9-2
 U 1 1 55756141
 P -11350 -5800
 F 0 "9-2" H -11350 -5700 50  0000 C CNN
@@ -957,7 +951,7 @@ F 3 "" H -11350 -5800 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 10-2
+L LED-RESCUE-LargeKickstarter 10-2
 U 1 1 55756142
 P -11000 -5800
 F 0 "10-2" H -11000 -5700 50  0000 C CNN
@@ -968,7 +962,7 @@ F 3 "" H -11000 -5800 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 11-2
+L LED-RESCUE-LargeKickstarter 11-2
 U 1 1 55756143
 P -10700 -5800
 F 0 "11-2" H -10700 -5700 50  0000 C CNN
@@ -979,7 +973,7 @@ F 3 "" H -10700 -5800 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 12-2
+L LED-RESCUE-LargeKickstarter 12-2
 U 1 1 55756144
 P -10350 -5800
 F 0 "12-2" H -10350 -5700 50  0000 C CNN
@@ -990,7 +984,7 @@ F 3 "" H -10350 -5800 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 13-2
+L LED-RESCUE-LargeKickstarter 13-2
 U 1 1 55756145
 P -10000 -5800
 F 0 "13-2" H -10000 -5700 50  0000 C CNN
@@ -1001,7 +995,7 @@ F 3 "" H -10000 -5800 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 14-2
+L LED-RESCUE-LargeKickstarter 14-2
 U 1 1 55756146
 P -9650 -5800
 F 0 "14-2" H -9650 -5700 50  0000 C CNN
@@ -1012,7 +1006,7 @@ F 3 "" H -9650 -5800 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 15-2
+L LED-RESCUE-LargeKickstarter 15-2
 U 1 1 55756147
 P -9300 -5800
 F 0 "15-2" H -9300 -5700 50  0000 C CNN
@@ -1023,7 +1017,7 @@ F 3 "" H -9300 -5800 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 8-3
+L LED-RESCUE-LargeKickstarter 8-3
 U 1 1 55756148
 P -11700 -5100
 F 0 "8-3" H -11700 -5000 50  0000 C CNN
@@ -1034,7 +1028,7 @@ F 3 "" H -11700 -5100 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 9-3
+L LED-RESCUE-LargeKickstarter 9-3
 U 1 1 55756149
 P -11350 -5100
 F 0 "9-3" H -11350 -5000 50  0000 C CNN
@@ -1045,7 +1039,7 @@ F 3 "" H -11350 -5100 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 10-3
+L LED-RESCUE-LargeKickstarter 10-3
 U 1 1 5575614A
 P -11000 -5100
 F 0 "10-3" H -11000 -5000 50  0000 C CNN
@@ -1056,7 +1050,7 @@ F 3 "" H -11000 -5100 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 11-3
+L LED-RESCUE-LargeKickstarter 11-3
 U 1 1 5575614B
 P -10700 -5100
 F 0 "11-3" H -10700 -5000 50  0000 C CNN
@@ -1067,7 +1061,7 @@ F 3 "" H -10700 -5100 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 12-3
+L LED-RESCUE-LargeKickstarter 12-3
 U 1 1 5575614C
 P -10350 -5100
 F 0 "12-3" H -10350 -5000 50  0000 C CNN
@@ -1078,7 +1072,7 @@ F 3 "" H -10350 -5100 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 13-3
+L LED-RESCUE-LargeKickstarter 13-3
 U 1 1 5575614D
 P -10000 -5100
 F 0 "13-3" H -10000 -5000 50  0000 C CNN
@@ -1089,7 +1083,7 @@ F 3 "" H -10000 -5100 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 14-3
+L LED-RESCUE-LargeKickstarter 14-3
 U 1 1 5575614E
 P -9650 -5100
 F 0 "14-3" H -9650 -5000 50  0000 C CNN
@@ -1100,7 +1094,7 @@ F 3 "" H -9650 -5100 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 15-3
+L LED-RESCUE-LargeKickstarter 15-3
 U 1 1 5575614F
 P -9300 -5100
 F 0 "15-3" H -9300 -5000 50  0000 C CNN
@@ -1111,7 +1105,7 @@ F 3 "" H -9300 -5100 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 8-4
+L LED-RESCUE-LargeKickstarter 8-4
 U 1 1 55756150
 P -11700 -4450
 F 0 "8-4" H -11700 -4350 50  0000 C CNN
@@ -1122,7 +1116,7 @@ F 3 "" H -11700 -4450 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 9-4
+L LED-RESCUE-LargeKickstarter 9-4
 U 1 1 55756151
 P -11350 -4450
 F 0 "9-4" H -11350 -4350 50  0000 C CNN
@@ -1133,7 +1127,7 @@ F 3 "" H -11350 -4450 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 10-4
+L LED-RESCUE-LargeKickstarter 10-4
 U 1 1 55756152
 P -11000 -4450
 F 0 "10-4" H -11000 -4350 50  0000 C CNN
@@ -1144,7 +1138,7 @@ F 3 "" H -11000 -4450 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 11-4
+L LED-RESCUE-LargeKickstarter 11-4
 U 1 1 55756153
 P -10700 -4450
 F 0 "11-4" H -10700 -4350 50  0000 C CNN
@@ -1155,7 +1149,7 @@ F 3 "" H -10700 -4450 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 12-4
+L LED-RESCUE-LargeKickstarter 12-4
 U 1 1 55756154
 P -10350 -4450
 F 0 "12-4" H -10350 -4350 50  0000 C CNN
@@ -1166,7 +1160,7 @@ F 3 "" H -10350 -4450 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 13-4
+L LED-RESCUE-LargeKickstarter 13-4
 U 1 1 55756155
 P -10000 -4450
 F 0 "13-4" H -10000 -4350 50  0000 C CNN
@@ -1177,7 +1171,7 @@ F 3 "" H -10000 -4450 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 14-4
+L LED-RESCUE-LargeKickstarter 14-4
 U 1 1 55756156
 P -9650 -4450
 F 0 "14-4" H -9650 -4350 50  0000 C CNN
@@ -1188,7 +1182,7 @@ F 3 "" H -9650 -4450 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 15-4
+L LED-RESCUE-LargeKickstarter 15-4
 U 1 1 55756157
 P -9300 -4450
 F 0 "15-4" H -9300 -4350 50  0000 C CNN
@@ -1199,7 +1193,7 @@ F 3 "" H -9300 -4450 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 8-5
+L LED-RESCUE-LargeKickstarter 8-5
 U 1 1 55756158
 P -11700 -3800
 F 0 "8-5" H -11700 -3700 50  0000 C CNN
@@ -1210,7 +1204,7 @@ F 3 "" H -11700 -3800 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 9-5
+L LED-RESCUE-LargeKickstarter 9-5
 U 1 1 55756159
 P -11350 -3800
 F 0 "9-5" H -11350 -3700 50  0000 C CNN
@@ -1221,7 +1215,7 @@ F 3 "" H -11350 -3800 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 10-5
+L LED-RESCUE-LargeKickstarter 10-5
 U 1 1 5575615A
 P -11000 -3800
 F 0 "10-5" H -11000 -3700 50  0000 C CNN
@@ -1232,7 +1226,7 @@ F 3 "" H -11000 -3800 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 11-5
+L LED-RESCUE-LargeKickstarter 11-5
 U 1 1 5575615B
 P -10700 -3800
 F 0 "11-5" H -10700 -3700 50  0000 C CNN
@@ -1243,7 +1237,7 @@ F 3 "" H -10700 -3800 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 12-5
+L LED-RESCUE-LargeKickstarter 12-5
 U 1 1 5575615C
 P -10350 -3800
 F 0 "12-5" H -10350 -3700 50  0000 C CNN
@@ -1254,7 +1248,7 @@ F 3 "" H -10350 -3800 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 13-5
+L LED-RESCUE-LargeKickstarter 13-5
 U 1 1 5575615D
 P -10000 -3800
 F 0 "13-5" H -10000 -3700 50  0000 C CNN
@@ -1265,7 +1259,7 @@ F 3 "" H -10000 -3800 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 14-5
+L LED-RESCUE-LargeKickstarter 14-5
 U 1 1 5575615E
 P -9650 -3800
 F 0 "14-5" H -9650 -3700 50  0000 C CNN
@@ -1276,7 +1270,7 @@ F 3 "" H -9650 -3800 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 15-5
+L LED-RESCUE-LargeKickstarter 15-5
 U 1 1 5575615F
 P -9300 -3800
 F 0 "15-5" H -9300 -3700 50  0000 C CNN
@@ -1287,7 +1281,7 @@ F 3 "" H -9300 -3800 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 8-6
+L LED-RESCUE-LargeKickstarter 8-6
 U 1 1 55756160
 P -11700 -3050
 F 0 "8-6" H -11700 -2950 50  0000 C CNN
@@ -1298,7 +1292,7 @@ F 3 "" H -11700 -3050 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 9-6
+L LED-RESCUE-LargeKickstarter 9-6
 U 1 1 55756161
 P -11350 -3050
 F 0 "9-6" H -11350 -2950 50  0000 C CNN
@@ -1309,7 +1303,7 @@ F 3 "" H -11350 -3050 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 10-6
+L LED-RESCUE-LargeKickstarter 10-6
 U 1 1 55756162
 P -11000 -3050
 F 0 "10-6" H -11000 -2950 50  0000 C CNN
@@ -1320,7 +1314,7 @@ F 3 "" H -11000 -3050 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 11-6
+L LED-RESCUE-LargeKickstarter 11-6
 U 1 1 55756163
 P -10700 -3050
 F 0 "11-6" H -10700 -2950 50  0000 C CNN
@@ -1331,7 +1325,7 @@ F 3 "" H -10700 -3050 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 12-6
+L LED-RESCUE-LargeKickstarter 12-6
 U 1 1 55756164
 P -10350 -3050
 F 0 "12-6" H -10350 -2950 50  0000 C CNN
@@ -1342,7 +1336,7 @@ F 3 "" H -10350 -3050 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 13-6
+L LED-RESCUE-LargeKickstarter 13-6
 U 1 1 55756165
 P -10000 -3050
 F 0 "13-6" H -10000 -2950 50  0000 C CNN
@@ -1353,7 +1347,7 @@ F 3 "" H -10000 -3050 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 14-6
+L LED-RESCUE-LargeKickstarter 14-6
 U 1 1 55756166
 P -9650 -3050
 F 0 "14-6" H -9650 -2950 50  0000 C CNN
@@ -1364,7 +1358,7 @@ F 3 "" H -9650 -3050 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 15-6
+L LED-RESCUE-LargeKickstarter 15-6
 U 1 1 55756167
 P -9300 -3050
 F 0 "15-6" H -9300 -2950 50  0000 C CNN
@@ -1375,7 +1369,7 @@ F 3 "" H -9300 -3050 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 8-7
+L LED-RESCUE-LargeKickstarter 8-7
 U 1 1 55756168
 P -11700 -2300
 F 0 "8-7" H -11700 -2200 50  0000 C CNN
@@ -1386,7 +1380,7 @@ F 3 "" H -11700 -2300 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 9-7
+L LED-RESCUE-LargeKickstarter 9-7
 U 1 1 55756169
 P -11350 -2300
 F 0 "9-7" H -11350 -2200 50  0000 C CNN
@@ -1397,7 +1391,7 @@ F 3 "" H -11350 -2300 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 10-7
+L LED-RESCUE-LargeKickstarter 10-7
 U 1 1 5575616A
 P -11000 -2300
 F 0 "10-7" H -11000 -2200 50  0000 C CNN
@@ -1408,7 +1402,7 @@ F 3 "" H -11000 -2300 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 11-7
+L LED-RESCUE-LargeKickstarter 11-7
 U 1 1 5575616B
 P -10700 -2300
 F 0 "11-7" H -10700 -2200 50  0000 C CNN
@@ -1419,7 +1413,7 @@ F 3 "" H -10700 -2300 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 12-7
+L LED-RESCUE-LargeKickstarter 12-7
 U 1 1 5575616C
 P -10350 -2300
 F 0 "12-7" H -10350 -2200 50  0000 C CNN
@@ -1430,7 +1424,7 @@ F 3 "" H -10350 -2300 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 13-7
+L LED-RESCUE-LargeKickstarter 13-7
 U 1 1 5575616D
 P -10000 -2300
 F 0 "13-7" H -10000 -2200 50  0000 C CNN
@@ -1441,7 +1435,7 @@ F 3 "" H -10000 -2300 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 14-7
+L LED-RESCUE-LargeKickstarter 14-7
 U 1 1 5575616E
 P -9650 -2300
 F 0 "14-7" H -9650 -2200 50  0000 C CNN
@@ -1452,7 +1446,7 @@ F 3 "" H -9650 -2300 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 15-7
+L LED-RESCUE-LargeKickstarter 15-7
 U 1 1 5575616F
 P -9300 -2300
 F 0 "15-7" H -9300 -2200 50  0000 C CNN
@@ -1463,7 +1457,7 @@ F 3 "" H -9300 -2300 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 0-8
+L LED-RESCUE-LargeKickstarter 0-8
 U 1 1 55756172
 P -3350 3600
 F 0 "0-8" H -3350 3700 50  0000 C CNN
@@ -1474,7 +1468,7 @@ F 3 "" H -3350 3600 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 1-8
+L LED-RESCUE-LargeKickstarter 1-8
 U 1 1 55756173
 P -3000 3600
 F 0 "1-8" H -3000 3700 50  0000 C CNN
@@ -1485,7 +1479,7 @@ F 3 "" H -3000 3600 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 2-8
+L LED-RESCUE-LargeKickstarter 2-8
 U 1 1 55756174
 P -2650 3600
 F 0 "2-8" H -2650 3700 50  0000 C CNN
@@ -1496,7 +1490,7 @@ F 3 "" H -2650 3600 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 3-8
+L LED-RESCUE-LargeKickstarter 3-8
 U 1 1 55756175
 P -2350 3600
 F 0 "3-8" H -2350 3700 50  0000 C CNN
@@ -1507,7 +1501,7 @@ F 3 "" H -2350 3600 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 4-8
+L LED-RESCUE-LargeKickstarter 4-8
 U 1 1 55756176
 P -2000 3600
 F 0 "4-8" H -2000 3700 50  0000 C CNN
@@ -1518,7 +1512,7 @@ F 3 "" H -2000 3600 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 5-8
+L LED-RESCUE-LargeKickstarter 5-8
 U 1 1 55756177
 P -1650 3600
 F 0 "5-8" H -1650 3700 50  0000 C CNN
@@ -1529,7 +1523,7 @@ F 3 "" H -1650 3600 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 6-8
+L LED-RESCUE-LargeKickstarter 6-8
 U 1 1 55756178
 P -1300 3600
 F 0 "6-8" H -1300 3700 50  0000 C CNN
@@ -1540,7 +1534,7 @@ F 3 "" H -1300 3600 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 7-8
+L LED-RESCUE-LargeKickstarter 7-8
 U 1 1 55756179
 P -950 3600
 F 0 "7-8" H -950 3700 50  0000 C CNN
@@ -1551,7 +1545,7 @@ F 3 "" H -950 3600 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 0-9
+L LED-RESCUE-LargeKickstarter 0-9
 U 1 1 5575617A
 P -3350 4250
 F 0 "0-9" H -3350 4350 50  0000 C CNN
@@ -1562,7 +1556,7 @@ F 3 "" H -3350 4250 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 1-9
+L LED-RESCUE-LargeKickstarter 1-9
 U 1 1 5575617B
 P -3000 4250
 F 0 "1-9" H -3000 4350 50  0000 C CNN
@@ -1573,7 +1567,7 @@ F 3 "" H -3000 4250 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 2-9
+L LED-RESCUE-LargeKickstarter 2-9
 U 1 1 5575617C
 P -2650 4250
 F 0 "2-9" H -2650 4350 50  0000 C CNN
@@ -1584,7 +1578,7 @@ F 3 "" H -2650 4250 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 3-9
+L LED-RESCUE-LargeKickstarter 3-9
 U 1 1 5575617D
 P -2350 4250
 F 0 "3-9" H -2350 4350 50  0000 C CNN
@@ -1595,7 +1589,7 @@ F 3 "" H -2350 4250 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 4-9
+L LED-RESCUE-LargeKickstarter 4-9
 U 1 1 5575617E
 P -2000 4250
 F 0 "4-9" H -2000 4350 50  0000 C CNN
@@ -1606,7 +1600,7 @@ F 3 "" H -2000 4250 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 5-9
+L LED-RESCUE-LargeKickstarter 5-9
 U 1 1 5575617F
 P -1650 4250
 F 0 "5-9" H -1650 4350 50  0000 C CNN
@@ -1617,7 +1611,7 @@ F 3 "" H -1650 4250 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 6-9
+L LED-RESCUE-LargeKickstarter 6-9
 U 1 1 55756180
 P -1300 4250
 F 0 "6-9" H -1300 4350 50  0000 C CNN
@@ -1628,7 +1622,7 @@ F 3 "" H -1300 4250 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 7-9
+L LED-RESCUE-LargeKickstarter 7-9
 U 1 1 55756181
 P -950 4250
 F 0 "7-9" H -950 4350 50  0000 C CNN
@@ -1639,7 +1633,7 @@ F 3 "" H -950 4250 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 0-10
+L LED-RESCUE-LargeKickstarter 0-10
 U 1 1 55756182
 P -3350 5000
 F 0 "0-10" H -3350 5100 50  0000 C CNN
@@ -1650,7 +1644,7 @@ F 3 "" H -3350 5000 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 1-10
+L LED-RESCUE-LargeKickstarter 1-10
 U 1 1 55756183
 P -3000 5000
 F 0 "1-10" H -3000 5100 50  0000 C CNN
@@ -1661,7 +1655,7 @@ F 3 "" H -3000 5000 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 2-10
+L LED-RESCUE-LargeKickstarter 2-10
 U 1 1 55756184
 P -2650 5000
 F 0 "2-10" H -2650 5100 50  0000 C CNN
@@ -1672,7 +1666,7 @@ F 3 "" H -2650 5000 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 3-10
+L LED-RESCUE-LargeKickstarter 3-10
 U 1 1 55756185
 P -2350 5000
 F 0 "3-10" H -2350 5100 50  0000 C CNN
@@ -1683,7 +1677,7 @@ F 3 "" H -2350 5000 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 4-10
+L LED-RESCUE-LargeKickstarter 4-10
 U 1 1 55756186
 P -2000 5000
 F 0 "4-10" H -2000 5100 50  0000 C CNN
@@ -1694,7 +1688,7 @@ F 3 "" H -2000 5000 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 5-10
+L LED-RESCUE-LargeKickstarter 5-10
 U 1 1 55756187
 P -1650 5000
 F 0 "5-10" H -1650 5100 50  0000 C CNN
@@ -1705,7 +1699,7 @@ F 3 "" H -1650 5000 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 6-10
+L LED-RESCUE-LargeKickstarter 6-10
 U 1 1 55756188
 P -1300 5000
 F 0 "6-10" H -1300 5100 50  0000 C CNN
@@ -1716,7 +1710,7 @@ F 3 "" H -1300 5000 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 7-10
+L LED-RESCUE-LargeKickstarter 7-10
 U 1 1 55756189
 P -950 5000
 F 0 "7-10" H -950 5100 50  0000 C CNN
@@ -1727,7 +1721,7 @@ F 3 "" H -950 5000 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 0-11
+L LED-RESCUE-LargeKickstarter 0-11
 U 1 1 5575618A
 P -3350 5700
 F 0 "0-11" H -3350 5800 50  0000 C CNN
@@ -1738,7 +1732,7 @@ F 3 "" H -3350 5700 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 1-11
+L LED-RESCUE-LargeKickstarter 1-11
 U 1 1 5575618B
 P -3000 5700
 F 0 "1-11" H -3000 5800 50  0000 C CNN
@@ -1749,7 +1743,7 @@ F 3 "" H -3000 5700 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 2-11
+L LED-RESCUE-LargeKickstarter 2-11
 U 1 1 5575618C
 P -2650 5700
 F 0 "2-11" H -2650 5800 50  0000 C CNN
@@ -1760,7 +1754,7 @@ F 3 "" H -2650 5700 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 3-11
+L LED-RESCUE-LargeKickstarter 3-11
 U 1 1 5575618D
 P -2350 5700
 F 0 "3-11" H -2350 5800 50  0000 C CNN
@@ -1771,7 +1765,7 @@ F 3 "" H -2350 5700 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 4-11
+L LED-RESCUE-LargeKickstarter 4-11
 U 1 1 5575618E
 P -2000 5700
 F 0 "4-11" H -2000 5800 50  0000 C CNN
@@ -1782,7 +1776,7 @@ F 3 "" H -2000 5700 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 5-11
+L LED-RESCUE-LargeKickstarter 5-11
 U 1 1 5575618F
 P -1650 5700
 F 0 "5-11" H -1650 5800 50  0000 C CNN
@@ -1793,7 +1787,7 @@ F 3 "" H -1650 5700 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 6-11
+L LED-RESCUE-LargeKickstarter 6-11
 U 1 1 55756190
 P -1300 5700
 F 0 "6-11" H -1300 5800 50  0000 C CNN
@@ -1804,7 +1798,7 @@ F 3 "" H -1300 5700 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 7-11
+L LED-RESCUE-LargeKickstarter 7-11
 U 1 1 55756191
 P -950 5700
 F 0 "7-11" H -950 5800 50  0000 C CNN
@@ -1815,7 +1809,7 @@ F 3 "" H -950 5700 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 0-12
+L LED-RESCUE-LargeKickstarter 0-12
 U 1 1 55756192
 P -3350 6350
 F 0 "0-12" H -3350 6450 50  0000 C CNN
@@ -1826,7 +1820,7 @@ F 3 "" H -3350 6350 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 1-12
+L LED-RESCUE-LargeKickstarter 1-12
 U 1 1 55756193
 P -3000 6350
 F 0 "1-12" H -3000 6450 50  0000 C CNN
@@ -1837,7 +1831,7 @@ F 3 "" H -3000 6350 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 2-12
+L LED-RESCUE-LargeKickstarter 2-12
 U 1 1 55756194
 P -2650 6350
 F 0 "2-12" H -2650 6450 50  0000 C CNN
@@ -1848,7 +1842,7 @@ F 3 "" H -2650 6350 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 3-12
+L LED-RESCUE-LargeKickstarter 3-12
 U 1 1 55756195
 P -2350 6350
 F 0 "3-12" H -2350 6450 50  0000 C CNN
@@ -1859,7 +1853,7 @@ F 3 "" H -2350 6350 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 4-12
+L LED-RESCUE-LargeKickstarter 4-12
 U 1 1 55756196
 P -2000 6350
 F 0 "4-12" H -2000 6450 50  0000 C CNN
@@ -1870,7 +1864,7 @@ F 3 "" H -2000 6350 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 5-12
+L LED-RESCUE-LargeKickstarter 5-12
 U 1 1 55756197
 P -1650 6350
 F 0 "5-12" H -1650 6450 50  0000 C CNN
@@ -1881,7 +1875,7 @@ F 3 "" H -1650 6350 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 6-12
+L LED-RESCUE-LargeKickstarter 6-12
 U 1 1 55756198
 P -1300 6350
 F 0 "6-12" H -1300 6450 50  0000 C CNN
@@ -1892,7 +1886,7 @@ F 3 "" H -1300 6350 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 7-12
+L LED-RESCUE-LargeKickstarter 7-12
 U 1 1 55756199
 P -950 6350
 F 0 "7-12" H -950 6450 50  0000 C CNN
@@ -1903,7 +1897,7 @@ F 3 "" H -950 6350 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 0-13
+L LED-RESCUE-LargeKickstarter 0-13
 U 1 1 5575619A
 P -3350 7000
 F 0 "0-13" H -3350 7100 50  0000 C CNN
@@ -1914,7 +1908,7 @@ F 3 "" H -3350 7000 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 1-13
+L LED-RESCUE-LargeKickstarter 1-13
 U 1 1 5575619B
 P -3000 7000
 F 0 "1-13" H -3000 7100 50  0000 C CNN
@@ -1925,7 +1919,7 @@ F 3 "" H -3000 7000 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 2-13
+L LED-RESCUE-LargeKickstarter 2-13
 U 1 1 5575619C
 P -2650 7000
 F 0 "2-13" H -2650 7100 50  0000 C CNN
@@ -1936,7 +1930,7 @@ F 3 "" H -2650 7000 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 3-13
+L LED-RESCUE-LargeKickstarter 3-13
 U 1 1 5575619D
 P -2350 7000
 F 0 "3-13" H -2350 7100 50  0000 C CNN
@@ -1947,7 +1941,7 @@ F 3 "" H -2350 7000 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 4-13
+L LED-RESCUE-LargeKickstarter 4-13
 U 1 1 5575619E
 P -2000 7000
 F 0 "4-13" H -2000 7100 50  0000 C CNN
@@ -1958,7 +1952,7 @@ F 3 "" H -2000 7000 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 5-13
+L LED-RESCUE-LargeKickstarter 5-13
 U 1 1 5575619F
 P -1650 7000
 F 0 "5-13" H -1650 7100 50  0000 C CNN
@@ -1969,7 +1963,7 @@ F 3 "" H -1650 7000 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 6-13
+L LED-RESCUE-LargeKickstarter 6-13
 U 1 1 557561A0
 P -1300 7000
 F 0 "6-13" H -1300 7100 50  0000 C CNN
@@ -1980,7 +1974,7 @@ F 3 "" H -1300 7000 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 7-13
+L LED-RESCUE-LargeKickstarter 7-13
 U 1 1 557561A1
 P -950 7000
 F 0 "7-13" H -950 7100 50  0000 C CNN
@@ -1991,7 +1985,7 @@ F 3 "" H -950 7000 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 0-14
+L LED-RESCUE-LargeKickstarter 0-14
 U 1 1 557561A2
 P -3350 7750
 F 0 "0-14" H -3350 7850 50  0000 C CNN
@@ -2002,7 +1996,7 @@ F 3 "" H -3350 7750 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 1-14
+L LED-RESCUE-LargeKickstarter 1-14
 U 1 1 557561A3
 P -3000 7750
 F 0 "1-14" H -3000 7850 50  0000 C CNN
@@ -2013,7 +2007,7 @@ F 3 "" H -3000 7750 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 2-14
+L LED-RESCUE-LargeKickstarter 2-14
 U 1 1 557561A4
 P -2650 7750
 F 0 "2-14" H -2650 7850 50  0000 C CNN
@@ -2024,7 +2018,7 @@ F 3 "" H -2650 7750 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 3-14
+L LED-RESCUE-LargeKickstarter 3-14
 U 1 1 557561A5
 P -2350 7750
 F 0 "3-14" H -2350 7850 50  0000 C CNN
@@ -2035,7 +2029,7 @@ F 3 "" H -2350 7750 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 4-14
+L LED-RESCUE-LargeKickstarter 4-14
 U 1 1 557561A6
 P -2000 7750
 F 0 "4-14" H -2000 7850 50  0000 C CNN
@@ -2046,7 +2040,7 @@ F 3 "" H -2000 7750 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 5-14
+L LED-RESCUE-LargeKickstarter 5-14
 U 1 1 557561A7
 P -1650 7750
 F 0 "5-14" H -1650 7850 50  0000 C CNN
@@ -2057,7 +2051,7 @@ F 3 "" H -1650 7750 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 6-14
+L LED-RESCUE-LargeKickstarter 6-14
 U 1 1 557561A8
 P -1300 7750
 F 0 "6-14" H -1300 7850 50  0000 C CNN
@@ -2068,7 +2062,7 @@ F 3 "" H -1300 7750 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 7-14
+L LED-RESCUE-LargeKickstarter 7-14
 U 1 1 557561A9
 P -950 7750
 F 0 "7-14" H -950 7850 50  0000 C CNN
@@ -2079,7 +2073,7 @@ F 3 "" H -950 7750 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 0-15
+L LED-RESCUE-LargeKickstarter 0-15
 U 1 1 557561AA
 P -3350 8500
 F 0 "0-15" H -3350 8600 50  0000 C CNN
@@ -2090,7 +2084,7 @@ F 3 "" H -3350 8500 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 1-15
+L LED-RESCUE-LargeKickstarter 1-15
 U 1 1 557561AB
 P -3000 8500
 F 0 "1-15" H -3000 8600 50  0000 C CNN
@@ -2101,7 +2095,7 @@ F 3 "" H -3000 8500 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 2-15
+L LED-RESCUE-LargeKickstarter 2-15
 U 1 1 557561AC
 P -2650 8500
 F 0 "2-15" H -2650 8600 50  0000 C CNN
@@ -2112,7 +2106,7 @@ F 3 "" H -2650 8500 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 3-15
+L LED-RESCUE-LargeKickstarter 3-15
 U 1 1 557561AD
 P -2350 8500
 F 0 "3-15" H -2350 8600 50  0000 C CNN
@@ -2123,7 +2117,7 @@ F 3 "" H -2350 8500 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 4-15
+L LED-RESCUE-LargeKickstarter 4-15
 U 1 1 557561AE
 P -2000 8500
 F 0 "4-15" H -2000 8600 50  0000 C CNN
@@ -2134,7 +2128,7 @@ F 3 "" H -2000 8500 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 5-15
+L LED-RESCUE-LargeKickstarter 5-15
 U 1 1 557561AF
 P -1650 8500
 F 0 "5-15" H -1650 8600 50  0000 C CNN
@@ -2145,7 +2139,7 @@ F 3 "" H -1650 8500 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 6-15
+L LED-RESCUE-LargeKickstarter 6-15
 U 1 1 557561B0
 P -1300 8500
 F 0 "6-15" H -1300 8600 50  0000 C CNN
@@ -2156,7 +2150,7 @@ F 3 "" H -1300 8500 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 7-15
+L LED-RESCUE-LargeKickstarter 7-15
 U 1 1 557561B1
 P -950 8500
 F 0 "7-15" H -950 8600 50  0000 C CNN
@@ -2167,7 +2161,7 @@ F 3 "" H -950 8500 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 8-8
+L LED-RESCUE-LargeKickstarter 8-8
 U 1 1 557561B6
 P -6850 3600
 F 0 "8-8" H -6850 3700 50  0000 C CNN
@@ -2178,7 +2172,7 @@ F 3 "" H -6850 3600 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 9-8
+L LED-RESCUE-LargeKickstarter 9-8
 U 1 1 557561B7
 P -6500 3600
 F 0 "9-8" H -6500 3700 50  0000 C CNN
@@ -2189,7 +2183,7 @@ F 3 "" H -6500 3600 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 10-8
+L LED-RESCUE-LargeKickstarter 10-8
 U 1 1 557561B8
 P -6150 3600
 F 0 "10-8" H -6150 3700 50  0000 C CNN
@@ -2200,7 +2194,7 @@ F 3 "" H -6150 3600 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 11-8
+L LED-RESCUE-LargeKickstarter 11-8
 U 1 1 557561B9
 P -5850 3600
 F 0 "11-8" H -5850 3700 50  0000 C CNN
@@ -2211,7 +2205,7 @@ F 3 "" H -5850 3600 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 12-8
+L LED-RESCUE-LargeKickstarter 12-8
 U 1 1 557561BA
 P -5500 3600
 F 0 "12-8" H -5500 3700 50  0000 C CNN
@@ -2222,7 +2216,7 @@ F 3 "" H -5500 3600 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 13-8
+L LED-RESCUE-LargeKickstarter 13-8
 U 1 1 557561BB
 P -5150 3600
 F 0 "13-8" H -5150 3700 50  0000 C CNN
@@ -2233,7 +2227,7 @@ F 3 "" H -5150 3600 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 14-8
+L LED-RESCUE-LargeKickstarter 14-8
 U 1 1 557561BC
 P -4800 3600
 F 0 "14-8" H -4800 3700 50  0000 C CNN
@@ -2244,7 +2238,7 @@ F 3 "" H -4800 3600 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 15-8
+L LED-RESCUE-LargeKickstarter 15-8
 U 1 1 557561BD
 P -4450 3600
 F 0 "15-8" H -4450 3700 50  0000 C CNN
@@ -2255,7 +2249,7 @@ F 3 "" H -4450 3600 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 8-9
+L LED-RESCUE-LargeKickstarter 8-9
 U 1 1 557561BE
 P -6850 4250
 F 0 "8-9" H -6850 4350 50  0000 C CNN
@@ -2266,7 +2260,7 @@ F 3 "" H -6850 4250 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 9-9
+L LED-RESCUE-LargeKickstarter 9-9
 U 1 1 557561BF
 P -6500 4250
 F 0 "9-9" H -6500 4350 50  0000 C CNN
@@ -2277,7 +2271,7 @@ F 3 "" H -6500 4250 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 10-9
+L LED-RESCUE-LargeKickstarter 10-9
 U 1 1 557561C0
 P -6150 4250
 F 0 "10-9" H -6150 4350 50  0000 C CNN
@@ -2288,7 +2282,7 @@ F 3 "" H -6150 4250 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 11-9
+L LED-RESCUE-LargeKickstarter 11-9
 U 1 1 557561C1
 P -5850 4250
 F 0 "11-9" H -5850 4350 50  0000 C CNN
@@ -2299,7 +2293,7 @@ F 3 "" H -5850 4250 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 12-9
+L LED-RESCUE-LargeKickstarter 12-9
 U 1 1 557561C2
 P -5500 4250
 F 0 "12-9" H -5500 4350 50  0000 C CNN
@@ -2310,7 +2304,7 @@ F 3 "" H -5500 4250 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 13-9
+L LED-RESCUE-LargeKickstarter 13-9
 U 1 1 557561C3
 P -5150 4250
 F 0 "13-9" H -5150 4350 50  0000 C CNN
@@ -2321,7 +2315,7 @@ F 3 "" H -5150 4250 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 14-9
+L LED-RESCUE-LargeKickstarter 14-9
 U 1 1 557561C4
 P -4800 4250
 F 0 "14-9" H -4800 4350 50  0000 C CNN
@@ -2332,7 +2326,7 @@ F 3 "" H -4800 4250 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 15-9
+L LED-RESCUE-LargeKickstarter 15-9
 U 1 1 557561C5
 P -4450 4250
 F 0 "15-9" H -4450 4350 50  0000 C CNN
@@ -2343,7 +2337,7 @@ F 3 "" H -4450 4250 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 8-10
+L LED-RESCUE-LargeKickstarter 8-10
 U 1 1 557561C6
 P -6850 5000
 F 0 "8-10" H -6850 5100 50  0000 C CNN
@@ -2354,7 +2348,7 @@ F 3 "" H -6850 5000 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 9-10
+L LED-RESCUE-LargeKickstarter 9-10
 U 1 1 557561C7
 P -6500 5000
 F 0 "9-10" H -6500 5100 50  0000 C CNN
@@ -2365,7 +2359,7 @@ F 3 "" H -6500 5000 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 10-10
+L LED-RESCUE-LargeKickstarter 10-10
 U 1 1 557561C8
 P -6150 5000
 F 0 "10-10" H -6150 5100 50  0000 C CNN
@@ -2376,7 +2370,7 @@ F 3 "" H -6150 5000 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 11-10
+L LED-RESCUE-LargeKickstarter 11-10
 U 1 1 557561C9
 P -5850 5000
 F 0 "11-10" H -5850 5100 50  0000 C CNN
@@ -2387,7 +2381,7 @@ F 3 "" H -5850 5000 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 12-10
+L LED-RESCUE-LargeKickstarter 12-10
 U 1 1 557561CA
 P -5500 5000
 F 0 "12-10" H -5500 5100 50  0000 C CNN
@@ -2398,7 +2392,7 @@ F 3 "" H -5500 5000 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 13-10
+L LED-RESCUE-LargeKickstarter 13-10
 U 1 1 557561CB
 P -5150 5000
 F 0 "13-10" H -5150 5100 50  0000 C CNN
@@ -2409,7 +2403,7 @@ F 3 "" H -5150 5000 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 14-10
+L LED-RESCUE-LargeKickstarter 14-10
 U 1 1 557561CC
 P -4800 5000
 F 0 "14-10" H -4800 5100 50  0000 C CNN
@@ -2420,7 +2414,7 @@ F 3 "" H -4800 5000 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 15-10
+L LED-RESCUE-LargeKickstarter 15-10
 U 1 1 557561CD
 P -4450 5000
 F 0 "15-10" H -4450 5100 50  0000 C CNN
@@ -2431,7 +2425,7 @@ F 3 "" H -4450 5000 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 8-11
+L LED-RESCUE-LargeKickstarter 8-11
 U 1 1 557561CE
 P -6850 5700
 F 0 "8-11" H -6850 5800 50  0000 C CNN
@@ -2442,7 +2436,7 @@ F 3 "" H -6850 5700 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 9-11
+L LED-RESCUE-LargeKickstarter 9-11
 U 1 1 557561CF
 P -6500 5700
 F 0 "9-11" H -6500 5800 50  0000 C CNN
@@ -2453,7 +2447,7 @@ F 3 "" H -6500 5700 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 10-11
+L LED-RESCUE-LargeKickstarter 10-11
 U 1 1 557561D0
 P -6150 5700
 F 0 "10-11" H -6150 5800 50  0000 C CNN
@@ -2464,7 +2458,7 @@ F 3 "" H -6150 5700 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 11-11
+L LED-RESCUE-LargeKickstarter 11-11
 U 1 1 557561D1
 P -5850 5700
 F 0 "11-11" H -5850 5800 50  0000 C CNN
@@ -2475,7 +2469,7 @@ F 3 "" H -5850 5700 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 12-11
+L LED-RESCUE-LargeKickstarter 12-11
 U 1 1 557561D2
 P -5500 5700
 F 0 "12-11" H -5500 5800 50  0000 C CNN
@@ -2486,7 +2480,7 @@ F 3 "" H -5500 5700 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 13-11
+L LED-RESCUE-LargeKickstarter 13-11
 U 1 1 557561D3
 P -5150 5700
 F 0 "13-11" H -5150 5800 50  0000 C CNN
@@ -2497,7 +2491,7 @@ F 3 "" H -5150 5700 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 14-11
+L LED-RESCUE-LargeKickstarter 14-11
 U 1 1 557561D4
 P -4800 5700
 F 0 "14-11" H -4800 5800 50  0000 C CNN
@@ -2508,7 +2502,7 @@ F 3 "" H -4800 5700 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 15-11
+L LED-RESCUE-LargeKickstarter 15-11
 U 1 1 557561D5
 P -4450 5700
 F 0 "15-11" H -4450 5800 50  0000 C CNN
@@ -2519,7 +2513,7 @@ F 3 "" H -4450 5700 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 8-12
+L LED-RESCUE-LargeKickstarter 8-12
 U 1 1 557561D6
 P -6850 6350
 F 0 "8-12" H -6850 6450 50  0000 C CNN
@@ -2530,7 +2524,7 @@ F 3 "" H -6850 6350 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 9-12
+L LED-RESCUE-LargeKickstarter 9-12
 U 1 1 557561D7
 P -6500 6350
 F 0 "9-12" H -6500 6450 50  0000 C CNN
@@ -2541,7 +2535,7 @@ F 3 "" H -6500 6350 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 10-12
+L LED-RESCUE-LargeKickstarter 10-12
 U 1 1 557561D8
 P -6150 6350
 F 0 "10-12" H -6150 6450 50  0000 C CNN
@@ -2552,7 +2546,7 @@ F 3 "" H -6150 6350 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 11-12
+L LED-RESCUE-LargeKickstarter 11-12
 U 1 1 557561D9
 P -5850 6350
 F 0 "11-12" H -5850 6450 50  0000 C CNN
@@ -2563,7 +2557,7 @@ F 3 "" H -5850 6350 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 12-12
+L LED-RESCUE-LargeKickstarter 12-12
 U 1 1 557561DA
 P -5500 6350
 F 0 "12-12" H -5500 6450 50  0000 C CNN
@@ -2574,7 +2568,7 @@ F 3 "" H -5500 6350 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 13-12
+L LED-RESCUE-LargeKickstarter 13-12
 U 1 1 557561DB
 P -5150 6350
 F 0 "13-12" H -5150 6450 50  0000 C CNN
@@ -2585,7 +2579,7 @@ F 3 "" H -5150 6350 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 14-12
+L LED-RESCUE-LargeKickstarter 14-12
 U 1 1 557561DC
 P -4800 6350
 F 0 "14-12" H -4800 6450 50  0000 C CNN
@@ -2596,7 +2590,7 @@ F 3 "" H -4800 6350 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 15-12
+L LED-RESCUE-LargeKickstarter 15-12
 U 1 1 557561DD
 P -4450 6350
 F 0 "15-12" H -4450 6450 50  0000 C CNN
@@ -2607,7 +2601,7 @@ F 3 "" H -4450 6350 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 8-13
+L LED-RESCUE-LargeKickstarter 8-13
 U 1 1 557561DE
 P -6850 7000
 F 0 "8-13" H -6850 7100 50  0000 C CNN
@@ -2618,7 +2612,7 @@ F 3 "" H -6850 7000 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 9-13
+L LED-RESCUE-LargeKickstarter 9-13
 U 1 1 557561DF
 P -6500 7000
 F 0 "9-13" H -6500 7100 50  0000 C CNN
@@ -2629,7 +2623,7 @@ F 3 "" H -6500 7000 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 10-13
+L LED-RESCUE-LargeKickstarter 10-13
 U 1 1 557561E0
 P -6150 7000
 F 0 "10-13" H -6150 7100 50  0000 C CNN
@@ -2640,7 +2634,7 @@ F 3 "" H -6150 7000 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 11-13
+L LED-RESCUE-LargeKickstarter 11-13
 U 1 1 557561E1
 P -5850 7000
 F 0 "11-13" H -5850 7100 50  0000 C CNN
@@ -2651,7 +2645,7 @@ F 3 "" H -5850 7000 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 12-13
+L LED-RESCUE-LargeKickstarter 12-13
 U 1 1 557561E2
 P -5500 7000
 F 0 "12-13" H -5500 7100 50  0000 C CNN
@@ -2662,7 +2656,7 @@ F 3 "" H -5500 7000 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 13-13
+L LED-RESCUE-LargeKickstarter 13-13
 U 1 1 557561E3
 P -5150 7000
 F 0 "13-13" H -5150 7100 50  0000 C CNN
@@ -2673,7 +2667,7 @@ F 3 "" H -5150 7000 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 14-13
+L LED-RESCUE-LargeKickstarter 14-13
 U 1 1 557561E4
 P -4800 7000
 F 0 "14-13" H -4800 7100 50  0000 C CNN
@@ -2684,7 +2678,7 @@ F 3 "" H -4800 7000 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 15-13
+L LED-RESCUE-LargeKickstarter 15-13
 U 1 1 557561E5
 P -4450 7000
 F 0 "15-13" H -4450 7100 50  0000 C CNN
@@ -2695,7 +2689,7 @@ F 3 "" H -4450 7000 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 8-14
+L LED-RESCUE-LargeKickstarter 8-14
 U 1 1 557561E6
 P -6850 7750
 F 0 "8-14" H -6850 7850 50  0000 C CNN
@@ -2706,7 +2700,7 @@ F 3 "" H -6850 7750 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 9-14
+L LED-RESCUE-LargeKickstarter 9-14
 U 1 1 557561E7
 P -6500 7750
 F 0 "9-14" H -6500 7850 50  0000 C CNN
@@ -2717,7 +2711,7 @@ F 3 "" H -6500 7750 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 10-14
+L LED-RESCUE-LargeKickstarter 10-14
 U 1 1 557561E8
 P -6150 7750
 F 0 "10-14" H -6150 7850 50  0000 C CNN
@@ -2728,7 +2722,7 @@ F 3 "" H -6150 7750 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 11-14
+L LED-RESCUE-LargeKickstarter 11-14
 U 1 1 557561E9
 P -5850 7750
 F 0 "11-14" H -5850 7850 50  0000 C CNN
@@ -2739,7 +2733,7 @@ F 3 "" H -5850 7750 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 12-14
+L LED-RESCUE-LargeKickstarter 12-14
 U 1 1 557561EA
 P -5500 7750
 F 0 "12-14" H -5500 7850 50  0000 C CNN
@@ -2750,7 +2744,7 @@ F 3 "" H -5500 7750 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 13-14
+L LED-RESCUE-LargeKickstarter 13-14
 U 1 1 557561EB
 P -5150 7750
 F 0 "13-14" H -5150 7850 50  0000 C CNN
@@ -2761,7 +2755,7 @@ F 3 "" H -5150 7750 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 14-14
+L LED-RESCUE-LargeKickstarter 14-14
 U 1 1 557561EC
 P -4800 7750
 F 0 "14-14" H -4800 7850 50  0000 C CNN
@@ -2772,7 +2766,7 @@ F 3 "" H -4800 7750 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 15-14
+L LED-RESCUE-LargeKickstarter 15-14
 U 1 1 557561ED
 P -4450 7750
 F 0 "15-14" H -4450 7850 50  0000 C CNN
@@ -2783,7 +2777,7 @@ F 3 "" H -4450 7750 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 8-15
+L LED-RESCUE-LargeKickstarter 8-15
 U 1 1 557561EE
 P -6850 8500
 F 0 "8-15" H -6850 8600 50  0000 C CNN
@@ -2794,7 +2788,7 @@ F 3 "" H -6850 8500 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 9-15
+L LED-RESCUE-LargeKickstarter 9-15
 U 1 1 557561EF
 P -6500 8500
 F 0 "9-15" H -6500 8600 50  0000 C CNN
@@ -2805,7 +2799,7 @@ F 3 "" H -6500 8500 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 10-15
+L LED-RESCUE-LargeKickstarter 10-15
 U 1 1 557561F0
 P -6150 8500
 F 0 "10-15" H -6150 8600 50  0000 C CNN
@@ -2816,7 +2810,7 @@ F 3 "" H -6150 8500 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 11-15
+L LED-RESCUE-LargeKickstarter 11-15
 U 1 1 557561F1
 P -5850 8500
 F 0 "11-15" H -5850 8600 50  0000 C CNN
@@ -2827,7 +2821,7 @@ F 3 "" H -5850 8500 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 12-15
+L LED-RESCUE-LargeKickstarter 12-15
 U 1 1 557561F2
 P -5500 8500
 F 0 "12-15" H -5500 8600 50  0000 C CNN
@@ -2838,7 +2832,7 @@ F 3 "" H -5500 8500 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 13-15
+L LED-RESCUE-LargeKickstarter 13-15
 U 1 1 557561F3
 P -5150 8500
 F 0 "13-15" H -5150 8600 50  0000 C CNN
@@ -2849,7 +2843,7 @@ F 3 "" H -5150 8500 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 14-15
+L LED-RESCUE-LargeKickstarter 14-15
 U 1 1 557561F4
 P -4800 8500
 F 0 "14-15" H -4800 8600 50  0000 C CNN
@@ -2860,7 +2854,7 @@ F 3 "" H -4800 8500 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 15-15
+L LED-RESCUE-LargeKickstarter 15-15
 U 1 1 557561F5
 P -4450 8500
 F 0 "15-15" H -4450 8600 50  0000 C CNN
@@ -2884,10 +2878,10 @@ F 3 "" H 2000 1750 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR11
+L GND #PWR01
 U 1 1 557561F9
 P 1500 2100
-F 0 "#PWR11" H 1500 1850 60  0001 C CNN
+F 0 "#PWR01" H 1500 1850 60  0001 C CNN
 F 1 "GND" H 1500 1950 60  0000 C CNN
 F 2 "" H 1500 2100 60  0000 C CNN
 F 3 "" H 1500 2100 60  0000 C CNN
@@ -2895,7 +2889,7 @@ F 3 "" H 1500 2100 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R1
+L R-RESCUE-LargeKickstarter R1
 U 1 1 557561FA
 P 1850 2100
 F 0 "R1" V 1930 2100 50  0000 C CNN
@@ -2919,10 +2913,10 @@ F 3 "" H 2000 2400 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR13
+L GND #PWR02
 U 1 1 557561FC
 P 1500 2750
-F 0 "#PWR13" H 1500 2500 60  0001 C CNN
+F 0 "#PWR02" H 1500 2500 60  0001 C CNN
 F 1 "GND" H 1500 2600 60  0000 C CNN
 F 2 "" H 1500 2750 60  0000 C CNN
 F 3 "" H 1500 2750 60  0000 C CNN
@@ -2930,7 +2924,7 @@ F 3 "" H 1500 2750 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R2
+L R-RESCUE-LargeKickstarter R2
 U 1 1 557561FD
 P 1850 2750
 F 0 "R2" V 1930 2750 50  0000 C CNN
@@ -2954,10 +2948,10 @@ F 3 "" H 2000 3050 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR16
+L GND #PWR03
 U 1 1 557561FF
 P 1500 3400
-F 0 "#PWR16" H 1500 3150 60  0001 C CNN
+F 0 "#PWR03" H 1500 3150 60  0001 C CNN
 F 1 "GND" H 1500 3250 60  0000 C CNN
 F 2 "" H 1500 3400 60  0000 C CNN
 F 3 "" H 1500 3400 60  0000 C CNN
@@ -2965,7 +2959,7 @@ F 3 "" H 1500 3400 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R5
+L R-RESCUE-LargeKickstarter R5
 U 1 1 55756200
 P 1850 3400
 F 0 "R5" V 1930 3400 50  0000 C CNN
@@ -2993,7 +2987,7 @@ SDA
 Text GLabel 6450 4050 2    60   Input ~ 0
 Vcc
 $Comp
-L R R7
+L R-RESCUE-LargeKickstarter R7
 U 1 1 55756210
 P 6300 4350
 F 0 "R7" V 6380 4350 50  0000 C CNN
@@ -3004,7 +2998,7 @@ F 3 "" H 6300 4350 30  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L R R4
+L R-RESCUE-LargeKickstarter R4
 U 1 1 55756211
 P 6300 3750
 F 0 "R4" V 6380 3750 50  0000 C CNN
@@ -3021,10 +3015,10 @@ SCL
 Text GLabel -11750 -11800 2    60   Input ~ 0
 Vcc
 $Comp
-L GND #PWR2
+L GND #PWR04
 U 1 1 55756212
 P -14600 -11700
-F 0 "#PWR2" H -14600 -11950 60  0001 C CNN
+F 0 "#PWR04" H -14600 -11950 60  0001 C CNN
 F 1 "GND" H -14600 -11850 60  0000 C CNN
 F 2 "" H -14600 -11700 60  0000 C CNN
 F 3 "" H -14600 -11700 60  0000 C CNN
@@ -3049,7 +3043,7 @@ F 3 "" H -10250 -300 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R11
+L R-RESCUE-LargeKickstarter R11
 U 1 1 55756216
 P -9750 -300
 F 0 "R11" V -9670 -300 50  0000 C CNN
@@ -3060,10 +3054,10 @@ F 3 "" H -9750 -300 30  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L GND #PWR3
+L GND #PWR05
 U 1 1 55756218
 P 9900 -1750
-F 0 "#PWR3" H 9900 -2000 60  0001 C CNN
+F 0 "#PWR05" H 9900 -2000 60  0001 C CNN
 F 1 "GND" H 9900 -1900 60  0000 C CNN
 F 2 "" H 9900 -1750 60  0000 C CNN
 F 3 "" H 9900 -1750 60  0000 C CNN
@@ -3150,10 +3144,10 @@ MOSI
 Text GLabel 18150 1850 2    60   Input ~ 0
 Vcc
 $Comp
-L GND #PWR12
+L GND #PWR06
 U 1 1 55756223
 P 18150 2200
-F 0 "#PWR12" H 18150 1950 60  0001 C CNN
+F 0 "#PWR06" H 18150 1950 60  0001 C CNN
 F 1 "GND" H 18150 2050 60  0000 C CNN
 F 2 "" H 18150 2200 60  0000 C CNN
 F 3 "" H 18150 2200 60  0000 C CNN
@@ -3187,10 +3181,10 @@ F 3 "" H 14950 50  60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L GND #PWR4
+L GND #PWR07
 U 1 1 55756226
 P 15300 350
-F 0 "#PWR4" H 15300 100 60  0001 C CNN
+F 0 "#PWR07" H 15300 100 60  0001 C CNN
 F 1 "GND" H 15300 200 60  0000 C CNN
 F 2 "" H 15300 350 60  0000 C CNN
 F 3 "" H 15300 350 60  0000 C CNN
@@ -3251,10 +3245,10 @@ F 3 "DOCUMENTATION" H -9600 1650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR5
+L GND #PWR08
 U 1 1 5582577B
 P -15350 550
-F 0 "#PWR5" H -15350 300 60  0001 C CNN
+F 0 "#PWR08" H -15350 300 60  0001 C CNN
 F 1 "GND" H -15350 400 60  0000 C CNN
 F 2 "" H -15350 550 60  0000 C CNN
 F 3 "" H -15350 550 60  0000 C CNN
@@ -3292,10 +3286,10 @@ Vcc
 Text GLabel 3500 4100 0    60   Input ~ 0
 Vcc
 $Comp
-L GND #PWR19
+L GND #PWR09
 U 1 1 5582AA1F
 P 3700 4200
-F 0 "#PWR19" H 3700 3950 60  0001 C CNN
+F 0 "#PWR09" H 3700 3950 60  0001 C CNN
 F 1 "GND" H 3700 4050 60  0000 C CNN
 F 2 "" H 3700 4200 60  0000 C CNN
 F 3 "" H 3700 4200 60  0000 C CNN
@@ -3303,10 +3297,10 @@ F 3 "" H 3700 4200 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L GND #PWR18
+L GND #PWR010
 U 1 1 5582AB48
 P 3700 4000
-F 0 "#PWR18" H 3700 3750 60  0001 C CNN
+F 0 "#PWR010" H 3700 3750 60  0001 C CNN
 F 1 "GND" H 3700 3850 60  0000 C CNN
 F 2 "" H 3700 4000 60  0000 C CNN
 F 3 "" H 3700 4000 60  0000 C CNN
@@ -3314,10 +3308,10 @@ F 3 "" H 3700 4000 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L GND #PWR21
+L GND #PWR011
 U 1 1 55830F19
 P 6100 4900
-F 0 "#PWR21" H 6100 4650 60  0001 C CNN
+F 0 "#PWR011" H 6100 4650 60  0001 C CNN
 F 1 "GND" H 6100 4750 60  0000 C CNN
 F 2 "" H 6100 4900 60  0000 C CNN
 F 3 "" H 6100 4900 60  0000 C CNN
@@ -3407,10 +3401,10 @@ $EndComp
 Text GLabel 9800 2900 2    60   Input ~ 0
 Vin
 $Comp
-L GND #PWR17
+L GND #PWR012
 U 1 1 56173B99
 P 9800 3400
-F 0 "#PWR17" H 9800 3150 60  0001 C CNN
+F 0 "#PWR012" H 9800 3150 60  0001 C CNN
 F 1 "GND" H 9800 3250 60  0000 C CNN
 F 2 "" H 9800 3400 60  0000 C CNN
 F 3 "" H 9800 3400 60  0000 C CNN
@@ -3418,10 +3412,10 @@ F 3 "" H 9800 3400 60  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L GND #PWR14
+L GND #PWR013
 U 1 1 56174FAE
 P 8300 3200
-F 0 "#PWR14" H 8300 2950 60  0001 C CNN
+F 0 "#PWR013" H 8300 2950 60  0001 C CNN
 F 1 "GND" H 8300 3050 60  0000 C CNN
 F 2 "" H 8300 3200 60  0000 C CNN
 F 3 "" H 8300 3200 60  0000 C CNN
@@ -3429,10 +3423,10 @@ F 3 "" H 8300 3200 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L GND #PWR15
+L GND #PWR014
 U 1 1 561751F3
 P 8300 3300
-F 0 "#PWR15" H 8300 3050 60  0001 C CNN
+F 0 "#PWR014" H 8300 3050 60  0001 C CNN
 F 1 "GND" H 8300 3150 60  0000 C CNN
 F 2 "" H 8300 3300 60  0000 C CNN
 F 3 "" H 8300 3300 60  0000 C CNN
@@ -3467,10 +3461,10 @@ SCK
 Text GLabel 9800 4300 2    60   Input ~ 0
 Vcc
 $Comp
-L GND #PWR20
+L GND #PWR015
 U 1 1 561874AC
 P 9800 4400
-F 0 "#PWR20" H 9800 4150 60  0001 C CNN
+F 0 "#PWR015" H 9800 4150 60  0001 C CNN
 F 1 "GND" H 9800 4250 60  0000 C CNN
 F 2 "" H 9800 4400 60  0000 C CNN
 F 3 "" H 9800 4400 60  0000 C CNN
@@ -3486,10 +3480,10 @@ TX
 Text GLabel 8300 1000 0    60   Input ~ 0
 RST
 $Comp
-L GND #PWR7
+L GND #PWR016
 U 1 1 5619218E
 P 9800 1000
-F 0 "#PWR7" H 9800 750 60  0001 C CNN
+F 0 "#PWR016" H 9800 750 60  0001 C CNN
 F 1 "GND" H 9800 850 60  0000 C CNN
 F 2 "" H 9800 1000 60  0000 C CNN
 F 3 "" H 9800 1000 60  0000 C CNN
@@ -3497,10 +3491,10 @@ F 3 "" H 9800 1000 60  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L GND #PWR10
+L GND #PWR017
 U 1 1 561922B6
 P 8300 1700
-F 0 "#PWR10" H 8300 1450 60  0001 C CNN
+F 0 "#PWR017" H 8300 1450 60  0001 C CNN
 F 1 "GND" H 8300 1550 60  0000 C CNN
 F 2 "" H 8300 1700 60  0000 C CNN
 F 3 "" H 8300 1700 60  0000 C CNN
@@ -3566,7 +3560,7 @@ F 3 "" H -9150 -300 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R9
+L R-RESCUE-LargeKickstarter R9
 U 1 1 561AE6DC
 P -9750 0
 F 0 "R9" V -9670 0   50  0000 C CNN
@@ -3588,7 +3582,7 @@ F 3 "" H -9150 0   60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R10
+L R-RESCUE-LargeKickstarter R10
 U 1 1 561AF137
 P -9750 250
 F 0 "R10" V -9670 250 50  0000 C CNN
@@ -3621,7 +3615,7 @@ F 3 "" H -14200 -13000 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R3
+L R-RESCUE-LargeKickstarter R3
 U 1 1 561BCCF2
 P -13700 -13000
 F 0 "R3" V -13620 -13000 50  0000 C CNN
@@ -3654,7 +3648,7 @@ F 3 "" H -13100 -13000 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R6
+L R-RESCUE-LargeKickstarter R6
 U 1 1 561BCD0C
 P -13700 -12700
 F 0 "R6" V -13620 -12700 50  0000 C CNN
@@ -3676,7 +3670,7 @@ F 3 "" H -13100 -12700 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R8
+L R-RESCUE-LargeKickstarter R8
 U 1 1 561BCD19
 P -13700 -12450
 F 0 "R8" V -13620 -12450 50  0000 C CNN
@@ -3811,10 +3805,10 @@ SDA
 Text GLabel -13700 750  2    60   Input ~ 0
 Vcc
 $Comp
-L GND #PWR1
+L GND #PWR018
 U 1 1 5624E45B
 P -17300 -13700
-F 0 "#PWR1" H -17300 -13950 60  0001 C CNN
+F 0 "#PWR018" H -17300 -13950 60  0001 C CNN
 F 1 "GND" H -17300 -13850 60  0000 C CNN
 F 2 "" H -17300 -13700 60  0000 C CNN
 F 3 "" H -17300 -13700 60  0000 C CNN
@@ -3935,10 +3929,10 @@ ROW-0-2
 Text GLabel -10850 -10400 2    60   Input ~ 0
 ROW-0-10
 $Comp
-L GND #PWR6
+L GND #PWR019
 U 1 1 562A50F6
 P -10750 1000
-F 0 "#PWR6" H -10750 750 60  0001 C CNN
+F 0 "#PWR019" H -10750 750 60  0001 C CNN
 F 1 "GND" H -10750 850 60  0000 C CNN
 F 2 "" H -10750 1000 60  0000 C CNN
 F 3 "" H -10750 1000 60  0000 C CNN
@@ -3946,7 +3940,7 @@ F 3 "" H -10750 1000 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 0-16
+L LED-RESCUE-LargeKickstarter 0-16
 U 1 1 562BC8DA
 P -2350 19350
 F 0 "0-16" H -2350 19450 50  0000 C CNN
@@ -3957,7 +3951,7 @@ F 3 "" H -2350 19350 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 1-16
+L LED-RESCUE-LargeKickstarter 1-16
 U 1 1 562BC8E0
 P -2000 19350
 F 0 "1-16" H -2000 19450 50  0000 C CNN
@@ -3968,7 +3962,7 @@ F 3 "" H -2000 19350 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 2-16
+L LED-RESCUE-LargeKickstarter 2-16
 U 1 1 562BC8E6
 P -1650 19350
 F 0 "2-16" H -1650 19450 50  0000 C CNN
@@ -3979,7 +3973,7 @@ F 3 "" H -1650 19350 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 3-16
+L LED-RESCUE-LargeKickstarter 3-16
 U 1 1 562BC8EC
 P -1350 19350
 F 0 "3-16" H -1350 19450 50  0000 C CNN
@@ -3990,7 +3984,7 @@ F 3 "" H -1350 19350 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 4-16
+L LED-RESCUE-LargeKickstarter 4-16
 U 1 1 562BC8F2
 P -1000 19350
 F 0 "4-16" H -1000 19450 50  0000 C CNN
@@ -4001,7 +3995,7 @@ F 3 "" H -1000 19350 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 5-16
+L LED-RESCUE-LargeKickstarter 5-16
 U 1 1 562BC8F8
 P -650 19350
 F 0 "5-16" H -650 19450 50  0000 C CNN
@@ -4012,7 +4006,7 @@ F 3 "" H -650 19350 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 6-16
+L LED-RESCUE-LargeKickstarter 6-16
 U 1 1 562BC8FE
 P -300 19350
 F 0 "6-16" H -300 19450 50  0000 C CNN
@@ -4023,7 +4017,7 @@ F 3 "" H -300 19350 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 7-16
+L LED-RESCUE-LargeKickstarter 7-16
 U 1 1 562BC904
 P 50 19350
 F 0 "7-16" H 50  19450 50  0000 C CNN
@@ -4034,7 +4028,7 @@ F 3 "" H 50  19350 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 0-17
+L LED-RESCUE-LargeKickstarter 0-17
 U 1 1 562BC90A
 P -2350 20000
 F 0 "0-17" H -2350 20100 50  0000 C CNN
@@ -4045,7 +4039,7 @@ F 3 "" H -2350 20000 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 1-17
+L LED-RESCUE-LargeKickstarter 1-17
 U 1 1 562BC910
 P -2000 20000
 F 0 "1-17" H -2000 20100 50  0000 C CNN
@@ -4056,7 +4050,7 @@ F 3 "" H -2000 20000 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 2-17
+L LED-RESCUE-LargeKickstarter 2-17
 U 1 1 562BC916
 P -1650 20000
 F 0 "2-17" H -1650 20100 50  0000 C CNN
@@ -4067,7 +4061,7 @@ F 3 "" H -1650 20000 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 3-17
+L LED-RESCUE-LargeKickstarter 3-17
 U 1 1 562BC91C
 P -1350 20000
 F 0 "3-17" H -1350 20100 50  0000 C CNN
@@ -4078,7 +4072,7 @@ F 3 "" H -1350 20000 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 4-17
+L LED-RESCUE-LargeKickstarter 4-17
 U 1 1 562BC922
 P -1000 20000
 F 0 "4-17" H -1000 20100 50  0000 C CNN
@@ -4089,7 +4083,7 @@ F 3 "" H -1000 20000 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 5-17
+L LED-RESCUE-LargeKickstarter 5-17
 U 1 1 562BC928
 P -650 20000
 F 0 "5-17" H -650 20100 50  0000 C CNN
@@ -4100,7 +4094,7 @@ F 3 "" H -650 20000 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 6-17
+L LED-RESCUE-LargeKickstarter 6-17
 U 1 1 562BC92E
 P -300 20000
 F 0 "6-17" H -300 20100 50  0000 C CNN
@@ -4111,7 +4105,7 @@ F 3 "" H -300 20000 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 7-17
+L LED-RESCUE-LargeKickstarter 7-17
 U 1 1 562BC934
 P 50 20000
 F 0 "7-17" H 50  20100 50  0000 C CNN
@@ -4122,7 +4116,7 @@ F 3 "" H 50  20000 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 0-18
+L LED-RESCUE-LargeKickstarter 0-18
 U 1 1 562BC93A
 P -2350 20750
 F 0 "0-18" H -2350 20850 50  0000 C CNN
@@ -4133,7 +4127,7 @@ F 3 "" H -2350 20750 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 1-18
+L LED-RESCUE-LargeKickstarter 1-18
 U 1 1 562BC940
 P -2000 20750
 F 0 "1-18" H -2000 20850 50  0000 C CNN
@@ -4144,7 +4138,7 @@ F 3 "" H -2000 20750 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 2-18
+L LED-RESCUE-LargeKickstarter 2-18
 U 1 1 562BC946
 P -1650 20750
 F 0 "2-18" H -1650 20850 50  0000 C CNN
@@ -4155,7 +4149,7 @@ F 3 "" H -1650 20750 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 3-18
+L LED-RESCUE-LargeKickstarter 3-18
 U 1 1 562BC94C
 P -1350 20750
 F 0 "3-18" H -1350 20850 50  0000 C CNN
@@ -4166,7 +4160,7 @@ F 3 "" H -1350 20750 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 4-18
+L LED-RESCUE-LargeKickstarter 4-18
 U 1 1 562BC952
 P -1000 20750
 F 0 "4-18" H -1000 20850 50  0000 C CNN
@@ -4177,7 +4171,7 @@ F 3 "" H -1000 20750 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 5-18
+L LED-RESCUE-LargeKickstarter 5-18
 U 1 1 562BC958
 P -650 20750
 F 0 "5-18" H -650 20850 50  0000 C CNN
@@ -4188,7 +4182,7 @@ F 3 "" H -650 20750 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 6-18
+L LED-RESCUE-LargeKickstarter 6-18
 U 1 1 562BC95E
 P -300 20750
 F 0 "6-18" H -300 20850 50  0000 C CNN
@@ -4199,7 +4193,7 @@ F 3 "" H -300 20750 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 7-18
+L LED-RESCUE-LargeKickstarter 7-18
 U 1 1 562BC964
 P 50 20750
 F 0 "7-18" H 50  20850 50  0000 C CNN
@@ -4210,7 +4204,7 @@ F 3 "" H 50  20750 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 0-19
+L LED-RESCUE-LargeKickstarter 0-19
 U 1 1 562BC96A
 P -2350 21450
 F 0 "0-19" H -2350 21550 50  0000 C CNN
@@ -4221,7 +4215,7 @@ F 3 "" H -2350 21450 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 1-19
+L LED-RESCUE-LargeKickstarter 1-19
 U 1 1 562BC970
 P -2000 21450
 F 0 "1-19" H -2000 21550 50  0000 C CNN
@@ -4232,7 +4226,7 @@ F 3 "" H -2000 21450 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 2-19
+L LED-RESCUE-LargeKickstarter 2-19
 U 1 1 562BC976
 P -1650 21450
 F 0 "2-19" H -1650 21550 50  0000 C CNN
@@ -4243,7 +4237,7 @@ F 3 "" H -1650 21450 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 3-19
+L LED-RESCUE-LargeKickstarter 3-19
 U 1 1 562BC97C
 P -1350 21450
 F 0 "3-19" H -1350 21550 50  0000 C CNN
@@ -4254,7 +4248,7 @@ F 3 "" H -1350 21450 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 4-19
+L LED-RESCUE-LargeKickstarter 4-19
 U 1 1 562BC982
 P -1000 21450
 F 0 "4-19" H -1000 21550 50  0000 C CNN
@@ -4265,7 +4259,7 @@ F 3 "" H -1000 21450 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 5-19
+L LED-RESCUE-LargeKickstarter 5-19
 U 1 1 562BC988
 P -650 21450
 F 0 "5-19" H -650 21550 50  0000 C CNN
@@ -4276,7 +4270,7 @@ F 3 "" H -650 21450 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 6-19
+L LED-RESCUE-LargeKickstarter 6-19
 U 1 1 562BC98E
 P -300 21450
 F 0 "6-19" H -300 21550 50  0000 C CNN
@@ -4287,7 +4281,7 @@ F 3 "" H -300 21450 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 7-19
+L LED-RESCUE-LargeKickstarter 7-19
 U 1 1 562BC994
 P 50 21450
 F 0 "7-19" H 50  21550 50  0000 C CNN
@@ -4298,7 +4292,7 @@ F 3 "" H 50  21450 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 0-20
+L LED-RESCUE-LargeKickstarter 0-20
 U 1 1 562BC99A
 P -2350 22100
 F 0 "0-20" H -2350 22200 50  0000 C CNN
@@ -4309,7 +4303,7 @@ F 3 "" H -2350 22100 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 1-20
+L LED-RESCUE-LargeKickstarter 1-20
 U 1 1 562BC9A0
 P -2000 22100
 F 0 "1-20" H -2000 22200 50  0000 C CNN
@@ -4320,7 +4314,7 @@ F 3 "" H -2000 22100 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 2-20
+L LED-RESCUE-LargeKickstarter 2-20
 U 1 1 562BC9A6
 P -1650 22100
 F 0 "2-20" H -1650 22200 50  0000 C CNN
@@ -4331,7 +4325,7 @@ F 3 "" H -1650 22100 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 3-20
+L LED-RESCUE-LargeKickstarter 3-20
 U 1 1 562BC9AC
 P -1350 22100
 F 0 "3-20" H -1350 22200 50  0000 C CNN
@@ -4342,7 +4336,7 @@ F 3 "" H -1350 22100 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 4-20
+L LED-RESCUE-LargeKickstarter 4-20
 U 1 1 562BC9B2
 P -1000 22100
 F 0 "4-20" H -1000 22200 50  0000 C CNN
@@ -4353,7 +4347,7 @@ F 3 "" H -1000 22100 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 5-20
+L LED-RESCUE-LargeKickstarter 5-20
 U 1 1 562BC9B8
 P -650 22100
 F 0 "5-20" H -650 22200 50  0000 C CNN
@@ -4364,7 +4358,7 @@ F 3 "" H -650 22100 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 6-20
+L LED-RESCUE-LargeKickstarter 6-20
 U 1 1 562BC9BE
 P -300 22100
 F 0 "6-20" H -300 22200 50  0000 C CNN
@@ -4375,7 +4369,7 @@ F 3 "" H -300 22100 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 7-20
+L LED-RESCUE-LargeKickstarter 7-20
 U 1 1 562BC9C4
 P 50 22100
 F 0 "7-20" H 50  22200 50  0000 C CNN
@@ -4386,7 +4380,7 @@ F 3 "" H 50  22100 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 0-21
+L LED-RESCUE-LargeKickstarter 0-21
 U 1 1 562BC9CA
 P -2350 22750
 F 0 "0-21" H -2350 22850 50  0000 C CNN
@@ -4397,7 +4391,7 @@ F 3 "" H -2350 22750 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 1-21
+L LED-RESCUE-LargeKickstarter 1-21
 U 1 1 562BC9D0
 P -2000 22750
 F 0 "1-21" H -2000 22850 50  0000 C CNN
@@ -4408,7 +4402,7 @@ F 3 "" H -2000 22750 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 2-21
+L LED-RESCUE-LargeKickstarter 2-21
 U 1 1 562BC9D6
 P -1650 22750
 F 0 "2-21" H -1650 22850 50  0000 C CNN
@@ -4419,7 +4413,7 @@ F 3 "" H -1650 22750 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 3-21
+L LED-RESCUE-LargeKickstarter 3-21
 U 1 1 562BC9DC
 P -1350 22750
 F 0 "3-21" H -1350 22850 50  0000 C CNN
@@ -4430,7 +4424,7 @@ F 3 "" H -1350 22750 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 4-21
+L LED-RESCUE-LargeKickstarter 4-21
 U 1 1 562BC9E2
 P -1000 22750
 F 0 "4-21" H -1000 22850 50  0000 C CNN
@@ -4441,7 +4435,7 @@ F 3 "" H -1000 22750 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 5-21
+L LED-RESCUE-LargeKickstarter 5-21
 U 1 1 562BC9E8
 P -650 22750
 F 0 "5-21" H -650 22850 50  0000 C CNN
@@ -4452,7 +4446,7 @@ F 3 "" H -650 22750 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 6-21
+L LED-RESCUE-LargeKickstarter 6-21
 U 1 1 562BC9EE
 P -300 22750
 F 0 "6-21" H -300 22850 50  0000 C CNN
@@ -4463,7 +4457,7 @@ F 3 "" H -300 22750 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 7-21
+L LED-RESCUE-LargeKickstarter 7-21
 U 1 1 562BC9F4
 P 50 22750
 F 0 "7-21" H 50  22850 50  0000 C CNN
@@ -4474,7 +4468,7 @@ F 3 "" H 50  22750 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 0-22
+L LED-RESCUE-LargeKickstarter 0-22
 U 1 1 562BC9FA
 P -2350 23500
 F 0 "0-22" H -2350 23600 50  0000 C CNN
@@ -4485,7 +4479,7 @@ F 3 "" H -2350 23500 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 1-22
+L LED-RESCUE-LargeKickstarter 1-22
 U 1 1 562BCA00
 P -2000 23500
 F 0 "1-22" H -2000 23600 50  0000 C CNN
@@ -4496,7 +4490,7 @@ F 3 "" H -2000 23500 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 2-22
+L LED-RESCUE-LargeKickstarter 2-22
 U 1 1 562BCA06
 P -1650 23500
 F 0 "2-22" H -1650 23600 50  0000 C CNN
@@ -4507,7 +4501,7 @@ F 3 "" H -1650 23500 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 3-22
+L LED-RESCUE-LargeKickstarter 3-22
 U 1 1 562BCA0C
 P -1350 23500
 F 0 "3-22" H -1350 23600 50  0000 C CNN
@@ -4518,7 +4512,7 @@ F 3 "" H -1350 23500 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 4-22
+L LED-RESCUE-LargeKickstarter 4-22
 U 1 1 562BCA12
 P -1000 23500
 F 0 "4-22" H -1000 23600 50  0000 C CNN
@@ -4529,7 +4523,7 @@ F 3 "" H -1000 23500 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 5-22
+L LED-RESCUE-LargeKickstarter 5-22
 U 1 1 562BCA18
 P -650 23500
 F 0 "5-22" H -650 23600 50  0000 C CNN
@@ -4540,7 +4534,7 @@ F 3 "" H -650 23500 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 6-22
+L LED-RESCUE-LargeKickstarter 6-22
 U 1 1 562BCA1E
 P -300 23500
 F 0 "6-22" H -300 23600 50  0000 C CNN
@@ -4551,7 +4545,7 @@ F 3 "" H -300 23500 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 7-22
+L LED-RESCUE-LargeKickstarter 7-22
 U 1 1 562BCA24
 P 50 23500
 F 0 "7-22" H 50  23600 50  0000 C CNN
@@ -4562,7 +4556,7 @@ F 3 "" H 50  23500 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 0-23
+L LED-RESCUE-LargeKickstarter 0-23
 U 1 1 562BCA2A
 P -2350 24250
 F 0 "0-23" H -2350 24350 50  0000 C CNN
@@ -4573,7 +4567,7 @@ F 3 "" H -2350 24250 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 1-23
+L LED-RESCUE-LargeKickstarter 1-23
 U 1 1 562BCA30
 P -2000 24250
 F 0 "1-23" H -2000 24350 50  0000 C CNN
@@ -4584,7 +4578,7 @@ F 3 "" H -2000 24250 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 2-23
+L LED-RESCUE-LargeKickstarter 2-23
 U 1 1 562BCA36
 P -1650 24250
 F 0 "2-23" H -1650 24350 50  0000 C CNN
@@ -4595,7 +4589,7 @@ F 3 "" H -1650 24250 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 3-23
+L LED-RESCUE-LargeKickstarter 3-23
 U 1 1 562BCA3C
 P -1350 24250
 F 0 "3-23" H -1350 24350 50  0000 C CNN
@@ -4606,7 +4600,7 @@ F 3 "" H -1350 24250 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 4-23
+L LED-RESCUE-LargeKickstarter 4-23
 U 1 1 562BCA42
 P -1000 24250
 F 0 "4-23" H -1000 24350 50  0000 C CNN
@@ -4617,7 +4611,7 @@ F 3 "" H -1000 24250 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 5-23
+L LED-RESCUE-LargeKickstarter 5-23
 U 1 1 562BCA48
 P -650 24250
 F 0 "5-23" H -650 24350 50  0000 C CNN
@@ -4628,7 +4622,7 @@ F 3 "" H -650 24250 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 6-23
+L LED-RESCUE-LargeKickstarter 6-23
 U 1 1 562BCA4E
 P -300 24250
 F 0 "6-23" H -300 24350 50  0000 C CNN
@@ -4639,7 +4633,7 @@ F 3 "" H -300 24250 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 7-23
+L LED-RESCUE-LargeKickstarter 7-23
 U 1 1 562BCA54
 P 50 24250
 F 0 "7-23" H 50  24350 50  0000 C CNN
@@ -4650,7 +4644,7 @@ F 3 "" H 50  24250 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 8-16
+L LED-RESCUE-LargeKickstarter 8-16
 U 1 1 562BCA5A
 P -5850 19350
 F 0 "8-16" H -5850 19450 50  0000 C CNN
@@ -4661,7 +4655,7 @@ F 3 "" H -5850 19350 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 9-16
+L LED-RESCUE-LargeKickstarter 9-16
 U 1 1 562BCA60
 P -5500 19350
 F 0 "9-16" H -5500 19450 50  0000 C CNN
@@ -4672,7 +4666,7 @@ F 3 "" H -5500 19350 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 10-16
+L LED-RESCUE-LargeKickstarter 10-16
 U 1 1 562BCA66
 P -5150 19350
 F 0 "10-16" H -5150 19450 50  0000 C CNN
@@ -4683,7 +4677,7 @@ F 3 "" H -5150 19350 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 11-16
+L LED-RESCUE-LargeKickstarter 11-16
 U 1 1 562BCA6C
 P -4850 19350
 F 0 "11-16" H -4850 19450 50  0000 C CNN
@@ -4694,7 +4688,7 @@ F 3 "" H -4850 19350 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 12-16
+L LED-RESCUE-LargeKickstarter 12-16
 U 1 1 562BCA72
 P -4500 19350
 F 0 "12-16" H -4500 19450 50  0000 C CNN
@@ -4705,7 +4699,7 @@ F 3 "" H -4500 19350 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 13-16
+L LED-RESCUE-LargeKickstarter 13-16
 U 1 1 562BCA78
 P -4150 19350
 F 0 "13-16" H -4150 19450 50  0000 C CNN
@@ -4716,7 +4710,7 @@ F 3 "" H -4150 19350 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 14-16
+L LED-RESCUE-LargeKickstarter 14-16
 U 1 1 562BCA7E
 P -3800 19350
 F 0 "14-16" H -3800 19450 50  0000 C CNN
@@ -4727,7 +4721,7 @@ F 3 "" H -3800 19350 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 15-16
+L LED-RESCUE-LargeKickstarter 15-16
 U 1 1 562BCA84
 P -3450 19350
 F 0 "15-16" H -3450 19450 50  0000 C CNN
@@ -4738,7 +4732,7 @@ F 3 "" H -3450 19350 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 8-17
+L LED-RESCUE-LargeKickstarter 8-17
 U 1 1 562BCA8A
 P -5850 20000
 F 0 "8-17" H -5850 20100 50  0000 C CNN
@@ -4749,7 +4743,7 @@ F 3 "" H -5850 20000 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 9-17
+L LED-RESCUE-LargeKickstarter 9-17
 U 1 1 562BCA90
 P -5500 20000
 F 0 "9-17" H -5500 20100 50  0000 C CNN
@@ -4760,7 +4754,7 @@ F 3 "" H -5500 20000 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 10-17
+L LED-RESCUE-LargeKickstarter 10-17
 U 1 1 562BCA96
 P -5150 20000
 F 0 "10-17" H -5150 20100 50  0000 C CNN
@@ -4771,7 +4765,7 @@ F 3 "" H -5150 20000 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 11-17
+L LED-RESCUE-LargeKickstarter 11-17
 U 1 1 562BCA9C
 P -4850 20000
 F 0 "11-17" H -4850 20100 50  0000 C CNN
@@ -4782,7 +4776,7 @@ F 3 "" H -4850 20000 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 12-17
+L LED-RESCUE-LargeKickstarter 12-17
 U 1 1 562BCAA2
 P -4500 20000
 F 0 "12-17" H -4500 20100 50  0000 C CNN
@@ -4793,7 +4787,7 @@ F 3 "" H -4500 20000 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 13-17
+L LED-RESCUE-LargeKickstarter 13-17
 U 1 1 562BCAA8
 P -4150 20000
 F 0 "13-17" H -4150 20100 50  0000 C CNN
@@ -4804,7 +4798,7 @@ F 3 "" H -4150 20000 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 14-17
+L LED-RESCUE-LargeKickstarter 14-17
 U 1 1 562BCAAE
 P -3800 20000
 F 0 "14-17" H -3800 20100 50  0000 C CNN
@@ -4815,7 +4809,7 @@ F 3 "" H -3800 20000 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 15-17
+L LED-RESCUE-LargeKickstarter 15-17
 U 1 1 562BCAB4
 P -3450 20000
 F 0 "15-17" H -3450 20100 50  0000 C CNN
@@ -4826,7 +4820,7 @@ F 3 "" H -3450 20000 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 8-18
+L LED-RESCUE-LargeKickstarter 8-18
 U 1 1 562BCABA
 P -5850 20750
 F 0 "8-18" H -5850 20850 50  0000 C CNN
@@ -4837,7 +4831,7 @@ F 3 "" H -5850 20750 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 9-18
+L LED-RESCUE-LargeKickstarter 9-18
 U 1 1 562BCAC0
 P -5500 20750
 F 0 "9-18" H -5500 20850 50  0000 C CNN
@@ -4848,7 +4842,7 @@ F 3 "" H -5500 20750 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 10-18
+L LED-RESCUE-LargeKickstarter 10-18
 U 1 1 562BCAC6
 P -5150 20750
 F 0 "10-18" H -5150 20850 50  0000 C CNN
@@ -4859,7 +4853,7 @@ F 3 "" H -5150 20750 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 11-18
+L LED-RESCUE-LargeKickstarter 11-18
 U 1 1 562BCACC
 P -4850 20750
 F 0 "11-18" H -4850 20850 50  0000 C CNN
@@ -4870,7 +4864,7 @@ F 3 "" H -4850 20750 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 12-18
+L LED-RESCUE-LargeKickstarter 12-18
 U 1 1 562BCAD2
 P -4500 20750
 F 0 "12-18" H -4500 20850 50  0000 C CNN
@@ -4881,7 +4875,7 @@ F 3 "" H -4500 20750 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 13-18
+L LED-RESCUE-LargeKickstarter 13-18
 U 1 1 562BCAD8
 P -4150 20750
 F 0 "13-18" H -4150 20850 50  0000 C CNN
@@ -4892,7 +4886,7 @@ F 3 "" H -4150 20750 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 14-18
+L LED-RESCUE-LargeKickstarter 14-18
 U 1 1 562BCADE
 P -3800 20750
 F 0 "14-18" H -3800 20850 50  0000 C CNN
@@ -4903,7 +4897,7 @@ F 3 "" H -3800 20750 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 15-18
+L LED-RESCUE-LargeKickstarter 15-18
 U 1 1 562BCAE4
 P -3450 20750
 F 0 "15-18" H -3450 20850 50  0000 C CNN
@@ -4914,7 +4908,7 @@ F 3 "" H -3450 20750 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 8-19
+L LED-RESCUE-LargeKickstarter 8-19
 U 1 1 562BCAEA
 P -5850 21450
 F 0 "8-19" H -5850 21550 50  0000 C CNN
@@ -4925,7 +4919,7 @@ F 3 "" H -5850 21450 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 9-19
+L LED-RESCUE-LargeKickstarter 9-19
 U 1 1 562BCAF0
 P -5500 21450
 F 0 "9-19" H -5500 21550 50  0000 C CNN
@@ -4936,7 +4930,7 @@ F 3 "" H -5500 21450 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 10-19
+L LED-RESCUE-LargeKickstarter 10-19
 U 1 1 562BCAF6
 P -5150 21450
 F 0 "10-19" H -5150 21550 50  0000 C CNN
@@ -4947,7 +4941,7 @@ F 3 "" H -5150 21450 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 11-19
+L LED-RESCUE-LargeKickstarter 11-19
 U 1 1 562BCAFC
 P -4850 21450
 F 0 "11-19" H -4850 21550 50  0000 C CNN
@@ -4958,7 +4952,7 @@ F 3 "" H -4850 21450 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 12-19
+L LED-RESCUE-LargeKickstarter 12-19
 U 1 1 562BCB02
 P -4500 21450
 F 0 "12-19" H -4500 21550 50  0000 C CNN
@@ -4969,7 +4963,7 @@ F 3 "" H -4500 21450 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 13-19
+L LED-RESCUE-LargeKickstarter 13-19
 U 1 1 562BCB08
 P -4150 21450
 F 0 "13-19" H -4150 21550 50  0000 C CNN
@@ -4980,7 +4974,7 @@ F 3 "" H -4150 21450 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 14-19
+L LED-RESCUE-LargeKickstarter 14-19
 U 1 1 562BCB0E
 P -3800 21450
 F 0 "14-19" H -3800 21550 50  0000 C CNN
@@ -4991,7 +4985,7 @@ F 3 "" H -3800 21450 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 15-19
+L LED-RESCUE-LargeKickstarter 15-19
 U 1 1 562BCB14
 P -3450 21450
 F 0 "15-19" H -3450 21550 50  0000 C CNN
@@ -5002,7 +4996,7 @@ F 3 "" H -3450 21450 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 8-20
+L LED-RESCUE-LargeKickstarter 8-20
 U 1 1 562BCB1A
 P -5850 22100
 F 0 "8-20" H -5850 22200 50  0000 C CNN
@@ -5013,7 +5007,7 @@ F 3 "" H -5850 22100 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 9-20
+L LED-RESCUE-LargeKickstarter 9-20
 U 1 1 562BCB20
 P -5500 22100
 F 0 "9-20" H -5500 22200 50  0000 C CNN
@@ -5024,7 +5018,7 @@ F 3 "" H -5500 22100 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 10-20
+L LED-RESCUE-LargeKickstarter 10-20
 U 1 1 562BCB26
 P -5150 22100
 F 0 "10-20" H -5150 22200 50  0000 C CNN
@@ -5035,7 +5029,7 @@ F 3 "" H -5150 22100 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 11-20
+L LED-RESCUE-LargeKickstarter 11-20
 U 1 1 562BCB2C
 P -4850 22100
 F 0 "11-20" H -4850 22200 50  0000 C CNN
@@ -5046,7 +5040,7 @@ F 3 "" H -4850 22100 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 12-20
+L LED-RESCUE-LargeKickstarter 12-20
 U 1 1 562BCB32
 P -4500 22100
 F 0 "12-20" H -4500 22200 50  0000 C CNN
@@ -5057,7 +5051,7 @@ F 3 "" H -4500 22100 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 13-20
+L LED-RESCUE-LargeKickstarter 13-20
 U 1 1 562BCB38
 P -4150 22100
 F 0 "13-20" H -4150 22200 50  0000 C CNN
@@ -5068,7 +5062,7 @@ F 3 "" H -4150 22100 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 14-20
+L LED-RESCUE-LargeKickstarter 14-20
 U 1 1 562BCB3E
 P -3800 22100
 F 0 "14-20" H -3800 22200 50  0000 C CNN
@@ -5079,7 +5073,7 @@ F 3 "" H -3800 22100 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 15-20
+L LED-RESCUE-LargeKickstarter 15-20
 U 1 1 562BCB44
 P -3450 22100
 F 0 "15-20" H -3450 22200 50  0000 C CNN
@@ -5090,7 +5084,7 @@ F 3 "" H -3450 22100 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 8-21
+L LED-RESCUE-LargeKickstarter 8-21
 U 1 1 562BCB4A
 P -5850 22750
 F 0 "8-21" H -5850 22850 50  0000 C CNN
@@ -5101,7 +5095,7 @@ F 3 "" H -5850 22750 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 9-21
+L LED-RESCUE-LargeKickstarter 9-21
 U 1 1 562BCB50
 P -5500 22750
 F 0 "9-21" H -5500 22850 50  0000 C CNN
@@ -5112,7 +5106,7 @@ F 3 "" H -5500 22750 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 10-21
+L LED-RESCUE-LargeKickstarter 10-21
 U 1 1 562BCB56
 P -5150 22750
 F 0 "10-21" H -5150 22850 50  0000 C CNN
@@ -5123,7 +5117,7 @@ F 3 "" H -5150 22750 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 11-21
+L LED-RESCUE-LargeKickstarter 11-21
 U 1 1 562BCB5C
 P -4850 22750
 F 0 "11-21" H -4850 22850 50  0000 C CNN
@@ -5134,7 +5128,7 @@ F 3 "" H -4850 22750 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 12-21
+L LED-RESCUE-LargeKickstarter 12-21
 U 1 1 562BCB62
 P -4500 22750
 F 0 "12-21" H -4500 22850 50  0000 C CNN
@@ -5145,7 +5139,7 @@ F 3 "" H -4500 22750 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 13-21
+L LED-RESCUE-LargeKickstarter 13-21
 U 1 1 562BCB68
 P -4150 22750
 F 0 "13-21" H -4150 22850 50  0000 C CNN
@@ -5156,7 +5150,7 @@ F 3 "" H -4150 22750 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 14-21
+L LED-RESCUE-LargeKickstarter 14-21
 U 1 1 562BCB6E
 P -3800 22750
 F 0 "14-21" H -3800 22850 50  0000 C CNN
@@ -5167,7 +5161,7 @@ F 3 "" H -3800 22750 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 15-21
+L LED-RESCUE-LargeKickstarter 15-21
 U 1 1 562BCB74
 P -3450 22750
 F 0 "15-21" H -3450 22850 50  0000 C CNN
@@ -5178,7 +5172,7 @@ F 3 "" H -3450 22750 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 8-22
+L LED-RESCUE-LargeKickstarter 8-22
 U 1 1 562BCB7A
 P -5850 23500
 F 0 "8-22" H -5850 23600 50  0000 C CNN
@@ -5189,7 +5183,7 @@ F 3 "" H -5850 23500 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 9-22
+L LED-RESCUE-LargeKickstarter 9-22
 U 1 1 562BCB80
 P -5500 23500
 F 0 "9-22" H -5500 23600 50  0000 C CNN
@@ -5200,7 +5194,7 @@ F 3 "" H -5500 23500 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 10-22
+L LED-RESCUE-LargeKickstarter 10-22
 U 1 1 562BCB86
 P -5150 23500
 F 0 "10-22" H -5150 23600 50  0000 C CNN
@@ -5211,7 +5205,7 @@ F 3 "" H -5150 23500 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 11-22
+L LED-RESCUE-LargeKickstarter 11-22
 U 1 1 562BCB8C
 P -4850 23500
 F 0 "11-22" H -4850 23600 50  0000 C CNN
@@ -5222,7 +5216,7 @@ F 3 "" H -4850 23500 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 12-22
+L LED-RESCUE-LargeKickstarter 12-22
 U 1 1 562BCB92
 P -4500 23500
 F 0 "12-22" H -4500 23600 50  0000 C CNN
@@ -5233,7 +5227,7 @@ F 3 "" H -4500 23500 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 13-22
+L LED-RESCUE-LargeKickstarter 13-22
 U 1 1 562BCB98
 P -4150 23500
 F 0 "13-22" H -4150 23600 50  0000 C CNN
@@ -5244,7 +5238,7 @@ F 3 "" H -4150 23500 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 14-22
+L LED-RESCUE-LargeKickstarter 14-22
 U 1 1 562BCB9E
 P -3800 23500
 F 0 "14-22" H -3800 23600 50  0000 C CNN
@@ -5255,7 +5249,7 @@ F 3 "" H -3800 23500 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 15-22
+L LED-RESCUE-LargeKickstarter 15-22
 U 1 1 562BCBA4
 P -3450 23500
 F 0 "15-22" H -3450 23600 50  0000 C CNN
@@ -5266,7 +5260,7 @@ F 3 "" H -3450 23500 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 8-23
+L LED-RESCUE-LargeKickstarter 8-23
 U 1 1 562BCBAA
 P -5850 24250
 F 0 "8-23" H -5850 24350 50  0000 C CNN
@@ -5277,7 +5271,7 @@ F 3 "" H -5850 24250 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 9-23
+L LED-RESCUE-LargeKickstarter 9-23
 U 1 1 562BCBB0
 P -5500 24250
 F 0 "9-23" H -5500 24350 50  0000 C CNN
@@ -5288,7 +5282,7 @@ F 3 "" H -5500 24250 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 10-23
+L LED-RESCUE-LargeKickstarter 10-23
 U 1 1 562BCBB6
 P -5150 24250
 F 0 "10-23" H -5150 24350 50  0000 C CNN
@@ -5299,7 +5293,7 @@ F 3 "" H -5150 24250 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 11-23
+L LED-RESCUE-LargeKickstarter 11-23
 U 1 1 562BCBBC
 P -4850 24250
 F 0 "11-23" H -4850 24350 50  0000 C CNN
@@ -5310,7 +5304,7 @@ F 3 "" H -4850 24250 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 12-23
+L LED-RESCUE-LargeKickstarter 12-23
 U 1 1 562BCBC2
 P -4500 24250
 F 0 "12-23" H -4500 24350 50  0000 C CNN
@@ -5321,7 +5315,7 @@ F 3 "" H -4500 24250 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 13-23
+L LED-RESCUE-LargeKickstarter 13-23
 U 1 1 562BCBC8
 P -4150 24250
 F 0 "13-23" H -4150 24350 50  0000 C CNN
@@ -5332,7 +5326,7 @@ F 3 "" H -4150 24250 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 14-23
+L LED-RESCUE-LargeKickstarter 14-23
 U 1 1 562BCBCE
 P -3800 24250
 F 0 "14-23" H -3800 24350 50  0000 C CNN
@@ -5343,7 +5337,7 @@ F 3 "" H -3800 24250 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 15-23
+L LED-RESCUE-LargeKickstarter 15-23
 U 1 1 562BCBD4
 P -3450 24250
 F 0 "15-23" H -3450 24350 50  0000 C CNN
@@ -5371,10 +5365,10 @@ SCL
 Text GLabel -5900 14750 2    60   Input ~ 0
 Vcc
 $Comp
-L GND #PWR25
+L GND #PWR020
 U 1 1 562BCBE3
 P -8750 14850
-F 0 "#PWR25" H -8750 14600 60  0001 C CNN
+F 0 "#PWR020" H -8750 14600 60  0001 C CNN
 F 1 "GND" H -8750 14700 60  0000 C CNN
 F 2 "" H -8750 14850 60  0000 C CNN
 F 3 "" H -8750 14850 60  0000 C CNN
@@ -5393,7 +5387,7 @@ F 3 "" H -8350 13550 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R12
+L R-RESCUE-LargeKickstarter R12
 U 1 1 562BCBEF
 P -7850 13550
 F 0 "R12" V -7770 13550 50  0000 C CNN
@@ -5426,7 +5420,7 @@ F 3 "" H -7250 13550 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R13
+L R-RESCUE-LargeKickstarter R13
 U 1 1 562BCC01
 P -7850 13850
 F 0 "R13" V -7770 13850 50  0000 C CNN
@@ -5448,7 +5442,7 @@ F 3 "" H -7250 13850 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R14
+L R-RESCUE-LargeKickstarter R14
 U 1 1 562BCC0D
 P -7850 14100
 F 0 "R14" V -7770 14100 50  0000 C CNN
@@ -5470,10 +5464,10 @@ F 3 "" H -7250 14100 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR24
+L GND #PWR021
 U 1 1 562BCC19
 P -11450 12850
-F 0 "#PWR24" H -11450 12600 60  0001 C CNN
+F 0 "#PWR021" H -11450 12600 60  0001 C CNN
 F 1 "GND" H -11450 12700 60  0000 C CNN
 F 2 "" H -11450 12850 60  0000 C CNN
 F 3 "" H -11450 12850 60  0000 C CNN
@@ -5594,7 +5588,7 @@ ROW-2-2
 Text GLabel -5000 16150 2    60   Input ~ 0
 ROW-2-10
 $Comp
-L LED 0-24
+L LED-RESCUE-LargeKickstarter 0-24
 U 1 1 562E7A22
 P 15300 16200
 F 0 "0-24" H 15300 16300 50  0000 C CNN
@@ -5605,7 +5599,7 @@ F 3 "" H 15300 16200 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 1-24
+L LED-RESCUE-LargeKickstarter 1-24
 U 1 1 562E7A28
 P 15650 16200
 F 0 "1-24" H 15650 16300 50  0000 C CNN
@@ -5616,7 +5610,7 @@ F 3 "" H 15650 16200 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 2-24
+L LED-RESCUE-LargeKickstarter 2-24
 U 1 1 562E7A2E
 P 16000 16200
 F 0 "2-24" H 16000 16300 50  0000 C CNN
@@ -5627,7 +5621,7 @@ F 3 "" H 16000 16200 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 3-24
+L LED-RESCUE-LargeKickstarter 3-24
 U 1 1 562E7A34
 P 16300 16200
 F 0 "3-24" H 16300 16300 50  0000 C CNN
@@ -5638,7 +5632,7 @@ F 3 "" H 16300 16200 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 4-24
+L LED-RESCUE-LargeKickstarter 4-24
 U 1 1 562E7A3A
 P 16650 16200
 F 0 "4-24" H 16650 16300 50  0000 C CNN
@@ -5649,7 +5643,7 @@ F 3 "" H 16650 16200 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 5-24
+L LED-RESCUE-LargeKickstarter 5-24
 U 1 1 562E7A40
 P 17000 16200
 F 0 "5-24" H 17000 16300 50  0000 C CNN
@@ -5660,7 +5654,7 @@ F 3 "" H 17000 16200 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 6-24
+L LED-RESCUE-LargeKickstarter 6-24
 U 1 1 562E7A46
 P 17350 16200
 F 0 "6-24" H 17350 16300 50  0000 C CNN
@@ -5671,7 +5665,7 @@ F 3 "" H 17350 16200 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 7-24
+L LED-RESCUE-LargeKickstarter 7-24
 U 1 1 562E7A4C
 P 17700 16200
 F 0 "7-24" H 17700 16300 50  0000 C CNN
@@ -5682,7 +5676,7 @@ F 3 "" H 17700 16200 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 0-25
+L LED-RESCUE-LargeKickstarter 0-25
 U 1 1 562E7A52
 P 15300 16850
 F 0 "0-25" H 15300 16950 50  0000 C CNN
@@ -5693,7 +5687,7 @@ F 3 "" H 15300 16850 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 1-25
+L LED-RESCUE-LargeKickstarter 1-25
 U 1 1 562E7A58
 P 15650 16850
 F 0 "1-25" H 15650 16950 50  0000 C CNN
@@ -5704,7 +5698,7 @@ F 3 "" H 15650 16850 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 2-25
+L LED-RESCUE-LargeKickstarter 2-25
 U 1 1 562E7A5E
 P 16000 16850
 F 0 "2-25" H 16000 16950 50  0000 C CNN
@@ -5715,7 +5709,7 @@ F 3 "" H 16000 16850 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 3-25
+L LED-RESCUE-LargeKickstarter 3-25
 U 1 1 562E7A64
 P 16300 16850
 F 0 "3-25" H 16300 16950 50  0000 C CNN
@@ -5726,7 +5720,7 @@ F 3 "" H 16300 16850 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 4-25
+L LED-RESCUE-LargeKickstarter 4-25
 U 1 1 562E7A6A
 P 16650 16850
 F 0 "4-25" H 16650 16950 50  0000 C CNN
@@ -5737,7 +5731,7 @@ F 3 "" H 16650 16850 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 5-25
+L LED-RESCUE-LargeKickstarter 5-25
 U 1 1 562E7A70
 P 17000 16850
 F 0 "5-25" H 17000 16950 50  0000 C CNN
@@ -5748,7 +5742,7 @@ F 3 "" H 17000 16850 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 6-25
+L LED-RESCUE-LargeKickstarter 6-25
 U 1 1 562E7A76
 P 17350 16850
 F 0 "6-25" H 17350 16950 50  0000 C CNN
@@ -5759,7 +5753,7 @@ F 3 "" H 17350 16850 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 7-25
+L LED-RESCUE-LargeKickstarter 7-25
 U 1 1 562E7A7C
 P 17700 16850
 F 0 "7-25" H 17700 16950 50  0000 C CNN
@@ -5770,7 +5764,7 @@ F 3 "" H 17700 16850 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 0-26
+L LED-RESCUE-LargeKickstarter 0-26
 U 1 1 562E7A82
 P 15300 17600
 F 0 "0-26" H 15300 17700 50  0000 C CNN
@@ -5781,7 +5775,7 @@ F 3 "" H 15300 17600 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 1-26
+L LED-RESCUE-LargeKickstarter 1-26
 U 1 1 562E7A88
 P 15650 17600
 F 0 "1-26" H 15650 17700 50  0000 C CNN
@@ -5792,7 +5786,7 @@ F 3 "" H 15650 17600 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 2-26
+L LED-RESCUE-LargeKickstarter 2-26
 U 1 1 562E7A8E
 P 16000 17600
 F 0 "2-26" H 16000 17700 50  0000 C CNN
@@ -5803,7 +5797,7 @@ F 3 "" H 16000 17600 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 3-26
+L LED-RESCUE-LargeKickstarter 3-26
 U 1 1 562E7A94
 P 16300 17600
 F 0 "3-26" H 16300 17700 50  0000 C CNN
@@ -5814,7 +5808,7 @@ F 3 "" H 16300 17600 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 4-26
+L LED-RESCUE-LargeKickstarter 4-26
 U 1 1 562E7A9A
 P 16650 17600
 F 0 "4-26" H 16650 17700 50  0000 C CNN
@@ -5825,7 +5819,7 @@ F 3 "" H 16650 17600 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 5-26
+L LED-RESCUE-LargeKickstarter 5-26
 U 1 1 562E7AA0
 P 17000 17600
 F 0 "5-26" H 17000 17700 50  0000 C CNN
@@ -5836,7 +5830,7 @@ F 3 "" H 17000 17600 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 6-26
+L LED-RESCUE-LargeKickstarter 6-26
 U 1 1 562E7AA6
 P 17350 17600
 F 0 "6-26" H 17350 17700 50  0000 C CNN
@@ -5847,7 +5841,7 @@ F 3 "" H 17350 17600 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 7-26
+L LED-RESCUE-LargeKickstarter 7-26
 U 1 1 562E7AAC
 P 17700 17600
 F 0 "7-26" H 17700 17700 50  0000 C CNN
@@ -5858,7 +5852,7 @@ F 3 "" H 17700 17600 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 0-27
+L LED-RESCUE-LargeKickstarter 0-27
 U 1 1 562E7AB2
 P 15300 18300
 F 0 "0-27" H 15300 18400 50  0000 C CNN
@@ -5869,7 +5863,7 @@ F 3 "" H 15300 18300 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 1-27
+L LED-RESCUE-LargeKickstarter 1-27
 U 1 1 562E7AB8
 P 15650 18300
 F 0 "1-27" H 15650 18400 50  0000 C CNN
@@ -5880,7 +5874,7 @@ F 3 "" H 15650 18300 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 2-27
+L LED-RESCUE-LargeKickstarter 2-27
 U 1 1 562E7ABE
 P 16000 18300
 F 0 "2-27" H 16000 18400 50  0000 C CNN
@@ -5891,7 +5885,7 @@ F 3 "" H 16000 18300 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 3-27
+L LED-RESCUE-LargeKickstarter 3-27
 U 1 1 562E7AC4
 P 16300 18300
 F 0 "3-27" H 16300 18400 50  0000 C CNN
@@ -5902,7 +5896,7 @@ F 3 "" H 16300 18300 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 4-27
+L LED-RESCUE-LargeKickstarter 4-27
 U 1 1 562E7ACA
 P 16650 18300
 F 0 "4-27" H 16650 18400 50  0000 C CNN
@@ -5913,7 +5907,7 @@ F 3 "" H 16650 18300 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 5-27
+L LED-RESCUE-LargeKickstarter 5-27
 U 1 1 562E7AD0
 P 17000 18300
 F 0 "5-27" H 17000 18400 50  0000 C CNN
@@ -5924,7 +5918,7 @@ F 3 "" H 17000 18300 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 6-27
+L LED-RESCUE-LargeKickstarter 6-27
 U 1 1 562E7AD6
 P 17350 18300
 F 0 "6-27" H 17350 18400 50  0000 C CNN
@@ -5935,7 +5929,7 @@ F 3 "" H 17350 18300 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 7-27
+L LED-RESCUE-LargeKickstarter 7-27
 U 1 1 562E7ADC
 P 17700 18300
 F 0 "7-27" H 17700 18400 50  0000 C CNN
@@ -5946,7 +5940,7 @@ F 3 "" H 17700 18300 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 0-28
+L LED-RESCUE-LargeKickstarter 0-28
 U 1 1 562E7AE2
 P 15300 18950
 F 0 "0-28" H 15300 19050 50  0000 C CNN
@@ -5957,7 +5951,7 @@ F 3 "" H 15300 18950 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 1-28
+L LED-RESCUE-LargeKickstarter 1-28
 U 1 1 562E7AE8
 P 15650 18950
 F 0 "1-28" H 15650 19050 50  0000 C CNN
@@ -5968,7 +5962,7 @@ F 3 "" H 15650 18950 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 2-28
+L LED-RESCUE-LargeKickstarter 2-28
 U 1 1 562E7AEE
 P 16000 18950
 F 0 "2-28" H 16000 19050 50  0000 C CNN
@@ -5979,7 +5973,7 @@ F 3 "" H 16000 18950 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 3-28
+L LED-RESCUE-LargeKickstarter 3-28
 U 1 1 562E7AF4
 P 16300 18950
 F 0 "3-28" H 16300 19050 50  0000 C CNN
@@ -5990,7 +5984,7 @@ F 3 "" H 16300 18950 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 4-28
+L LED-RESCUE-LargeKickstarter 4-28
 U 1 1 562E7AFA
 P 16650 18950
 F 0 "4-28" H 16650 19050 50  0000 C CNN
@@ -6001,7 +5995,7 @@ F 3 "" H 16650 18950 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 5-28
+L LED-RESCUE-LargeKickstarter 5-28
 U 1 1 562E7B00
 P 17000 18950
 F 0 "5-28" H 17000 19050 50  0000 C CNN
@@ -6012,7 +6006,7 @@ F 3 "" H 17000 18950 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 6-28
+L LED-RESCUE-LargeKickstarter 6-28
 U 1 1 562E7B06
 P 17350 18950
 F 0 "6-28" H 17350 19050 50  0000 C CNN
@@ -6023,7 +6017,7 @@ F 3 "" H 17350 18950 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 7-28
+L LED-RESCUE-LargeKickstarter 7-28
 U 1 1 562E7B0C
 P 17700 18950
 F 0 "7-28" H 17700 19050 50  0000 C CNN
@@ -6034,7 +6028,7 @@ F 3 "" H 17700 18950 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 0-29
+L LED-RESCUE-LargeKickstarter 0-29
 U 1 1 562E7B12
 P 15300 19600
 F 0 "0-29" H 15300 19700 50  0000 C CNN
@@ -6045,7 +6039,7 @@ F 3 "" H 15300 19600 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 1-29
+L LED-RESCUE-LargeKickstarter 1-29
 U 1 1 562E7B18
 P 15650 19600
 F 0 "1-29" H 15650 19700 50  0000 C CNN
@@ -6056,7 +6050,7 @@ F 3 "" H 15650 19600 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 2-29
+L LED-RESCUE-LargeKickstarter 2-29
 U 1 1 562E7B1E
 P 16000 19600
 F 0 "2-29" H 16000 19700 50  0000 C CNN
@@ -6067,7 +6061,7 @@ F 3 "" H 16000 19600 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 3-29
+L LED-RESCUE-LargeKickstarter 3-29
 U 1 1 562E7B24
 P 16300 19600
 F 0 "3-29" H 16300 19700 50  0000 C CNN
@@ -6078,7 +6072,7 @@ F 3 "" H 16300 19600 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 4-29
+L LED-RESCUE-LargeKickstarter 4-29
 U 1 1 562E7B2A
 P 16650 19600
 F 0 "4-29" H 16650 19700 50  0000 C CNN
@@ -6089,7 +6083,7 @@ F 3 "" H 16650 19600 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 5-29
+L LED-RESCUE-LargeKickstarter 5-29
 U 1 1 562E7B30
 P 17000 19600
 F 0 "5-29" H 17000 19700 50  0000 C CNN
@@ -6100,7 +6094,7 @@ F 3 "" H 17000 19600 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 6-29
+L LED-RESCUE-LargeKickstarter 6-29
 U 1 1 562E7B36
 P 17350 19600
 F 0 "6-29" H 17350 19700 50  0000 C CNN
@@ -6111,7 +6105,7 @@ F 3 "" H 17350 19600 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 7-29
+L LED-RESCUE-LargeKickstarter 7-29
 U 1 1 562E7B3C
 P 17700 19600
 F 0 "7-29" H 17700 19700 50  0000 C CNN
@@ -6122,7 +6116,7 @@ F 3 "" H 17700 19600 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 0-30
+L LED-RESCUE-LargeKickstarter 0-30
 U 1 1 562E7B42
 P 15300 20350
 F 0 "0-30" H 15300 20450 50  0000 C CNN
@@ -6133,7 +6127,7 @@ F 3 "" H 15300 20350 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 1-30
+L LED-RESCUE-LargeKickstarter 1-30
 U 1 1 562E7B48
 P 15650 20350
 F 0 "1-30" H 15650 20450 50  0000 C CNN
@@ -6144,7 +6138,7 @@ F 3 "" H 15650 20350 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 2-30
+L LED-RESCUE-LargeKickstarter 2-30
 U 1 1 562E7B4E
 P 16000 20350
 F 0 "2-30" H 16000 20450 50  0000 C CNN
@@ -6155,7 +6149,7 @@ F 3 "" H 16000 20350 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 3-30
+L LED-RESCUE-LargeKickstarter 3-30
 U 1 1 562E7B54
 P 16300 20350
 F 0 "3-30" H 16300 20450 50  0000 C CNN
@@ -6166,7 +6160,7 @@ F 3 "" H 16300 20350 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 4-30
+L LED-RESCUE-LargeKickstarter 4-30
 U 1 1 562E7B5A
 P 16650 20350
 F 0 "4-30" H 16650 20450 50  0000 C CNN
@@ -6177,7 +6171,7 @@ F 3 "" H 16650 20350 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 5-30
+L LED-RESCUE-LargeKickstarter 5-30
 U 1 1 562E7B60
 P 17000 20350
 F 0 "5-30" H 17000 20450 50  0000 C CNN
@@ -6188,7 +6182,7 @@ F 3 "" H 17000 20350 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 6-30
+L LED-RESCUE-LargeKickstarter 6-30
 U 1 1 562E7B66
 P 17350 20350
 F 0 "6-30" H 17350 20450 50  0000 C CNN
@@ -6199,7 +6193,7 @@ F 3 "" H 17350 20350 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 7-30
+L LED-RESCUE-LargeKickstarter 7-30
 U 1 1 562E7B6C
 P 17700 20350
 F 0 "7-30" H 17700 20450 50  0000 C CNN
@@ -6210,7 +6204,7 @@ F 3 "" H 17700 20350 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 0-31
+L LED-RESCUE-LargeKickstarter 0-31
 U 1 1 562E7B72
 P 15300 21100
 F 0 "0-31" H 15300 21200 50  0000 C CNN
@@ -6221,7 +6215,7 @@ F 3 "" H 15300 21100 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 1-31
+L LED-RESCUE-LargeKickstarter 1-31
 U 1 1 562E7B78
 P 15650 21100
 F 0 "1-31" H 15650 21200 50  0000 C CNN
@@ -6232,7 +6226,7 @@ F 3 "" H 15650 21100 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 2-31
+L LED-RESCUE-LargeKickstarter 2-31
 U 1 1 562E7B7E
 P 16000 21100
 F 0 "2-31" H 16000 21200 50  0000 C CNN
@@ -6243,7 +6237,7 @@ F 3 "" H 16000 21100 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 3-31
+L LED-RESCUE-LargeKickstarter 3-31
 U 1 1 562E7B84
 P 16300 21100
 F 0 "3-31" H 16300 21200 50  0000 C CNN
@@ -6254,7 +6248,7 @@ F 3 "" H 16300 21100 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 4-31
+L LED-RESCUE-LargeKickstarter 4-31
 U 1 1 562E7B8A
 P 16650 21100
 F 0 "4-31" H 16650 21200 50  0000 C CNN
@@ -6265,7 +6259,7 @@ F 3 "" H 16650 21100 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 5-31
+L LED-RESCUE-LargeKickstarter 5-31
 U 1 1 562E7B90
 P 17000 21100
 F 0 "5-31" H 17000 21200 50  0000 C CNN
@@ -6276,7 +6270,7 @@ F 3 "" H 17000 21100 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 6-31
+L LED-RESCUE-LargeKickstarter 6-31
 U 1 1 562E7B96
 P 17350 21100
 F 0 "6-31" H 17350 21200 50  0000 C CNN
@@ -6287,7 +6281,7 @@ F 3 "" H 17350 21100 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 7-31
+L LED-RESCUE-LargeKickstarter 7-31
 U 1 1 562E7B9C
 P 17700 21100
 F 0 "7-31" H 17700 21200 50  0000 C CNN
@@ -6298,7 +6292,7 @@ F 3 "" H 17700 21100 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 8-24
+L LED-RESCUE-LargeKickstarter 8-24
 U 1 1 562E7BA2
 P 11800 16200
 F 0 "8-24" H 11800 16300 50  0000 C CNN
@@ -6309,7 +6303,7 @@ F 3 "" H 11800 16200 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 9-24
+L LED-RESCUE-LargeKickstarter 9-24
 U 1 1 562E7BA8
 P 12150 16200
 F 0 "9-24" H 12150 16300 50  0000 C CNN
@@ -6320,7 +6314,7 @@ F 3 "" H 12150 16200 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 10-24
+L LED-RESCUE-LargeKickstarter 10-24
 U 1 1 562E7BAE
 P 12500 16200
 F 0 "10-24" H 12500 16300 50  0000 C CNN
@@ -6331,7 +6325,7 @@ F 3 "" H 12500 16200 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 11-24
+L LED-RESCUE-LargeKickstarter 11-24
 U 1 1 562E7BB4
 P 12800 16200
 F 0 "11-24" H 12800 16300 50  0000 C CNN
@@ -6342,7 +6336,7 @@ F 3 "" H 12800 16200 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 12-24
+L LED-RESCUE-LargeKickstarter 12-24
 U 1 1 562E7BBA
 P 13150 16200
 F 0 "12-24" H 13150 16300 50  0000 C CNN
@@ -6353,7 +6347,7 @@ F 3 "" H 13150 16200 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 13-24
+L LED-RESCUE-LargeKickstarter 13-24
 U 1 1 562E7BC0
 P 13500 16200
 F 0 "13-24" H 13500 16300 50  0000 C CNN
@@ -6364,7 +6358,7 @@ F 3 "" H 13500 16200 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 14-24
+L LED-RESCUE-LargeKickstarter 14-24
 U 1 1 562E7BC6
 P 13850 16200
 F 0 "14-24" H 13850 16300 50  0000 C CNN
@@ -6375,7 +6369,7 @@ F 3 "" H 13850 16200 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 15-24
+L LED-RESCUE-LargeKickstarter 15-24
 U 1 1 562E7BCC
 P 14200 16200
 F 0 "15-24" H 14200 16300 50  0000 C CNN
@@ -6386,7 +6380,7 @@ F 3 "" H 14200 16200 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 8-25
+L LED-RESCUE-LargeKickstarter 8-25
 U 1 1 562E7BD2
 P 11800 16850
 F 0 "8-25" H 11800 16950 50  0000 C CNN
@@ -6397,7 +6391,7 @@ F 3 "" H 11800 16850 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 9-25
+L LED-RESCUE-LargeKickstarter 9-25
 U 1 1 562E7BD8
 P 12150 16850
 F 0 "9-25" H 12150 16950 50  0000 C CNN
@@ -6408,7 +6402,7 @@ F 3 "" H 12150 16850 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 10-25
+L LED-RESCUE-LargeKickstarter 10-25
 U 1 1 562E7BDE
 P 12500 16850
 F 0 "10-25" H 12500 16950 50  0000 C CNN
@@ -6419,7 +6413,7 @@ F 3 "" H 12500 16850 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 11-25
+L LED-RESCUE-LargeKickstarter 11-25
 U 1 1 562E7BE4
 P 12800 16850
 F 0 "11-25" H 12800 16950 50  0000 C CNN
@@ -6430,7 +6424,7 @@ F 3 "" H 12800 16850 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 12-25
+L LED-RESCUE-LargeKickstarter 12-25
 U 1 1 562E7BEA
 P 13150 16850
 F 0 "12-25" H 13150 16950 50  0000 C CNN
@@ -6441,7 +6435,7 @@ F 3 "" H 13150 16850 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 13-25
+L LED-RESCUE-LargeKickstarter 13-25
 U 1 1 562E7BF0
 P 13500 16850
 F 0 "13-25" H 13500 16950 50  0000 C CNN
@@ -6452,7 +6446,7 @@ F 3 "" H 13500 16850 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 14-25
+L LED-RESCUE-LargeKickstarter 14-25
 U 1 1 562E7BF6
 P 13850 16850
 F 0 "14-25" H 13850 16950 50  0000 C CNN
@@ -6463,7 +6457,7 @@ F 3 "" H 13850 16850 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 15-25
+L LED-RESCUE-LargeKickstarter 15-25
 U 1 1 562E7BFC
 P 14200 16850
 F 0 "15-25" H 14200 16950 50  0000 C CNN
@@ -6474,7 +6468,7 @@ F 3 "" H 14200 16850 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 8-26
+L LED-RESCUE-LargeKickstarter 8-26
 U 1 1 562E7C02
 P 11800 17600
 F 0 "8-26" H 11800 17700 50  0000 C CNN
@@ -6485,7 +6479,7 @@ F 3 "" H 11800 17600 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 9-26
+L LED-RESCUE-LargeKickstarter 9-26
 U 1 1 562E7C08
 P 12150 17600
 F 0 "9-26" H 12150 17700 50  0000 C CNN
@@ -6496,7 +6490,7 @@ F 3 "" H 12150 17600 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 10-26
+L LED-RESCUE-LargeKickstarter 10-26
 U 1 1 562E7C0E
 P 12500 17600
 F 0 "10-26" H 12500 17700 50  0000 C CNN
@@ -6507,7 +6501,7 @@ F 3 "" H 12500 17600 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 11-26
+L LED-RESCUE-LargeKickstarter 11-26
 U 1 1 562E7C14
 P 12800 17600
 F 0 "11-26" H 12800 17700 50  0000 C CNN
@@ -6518,7 +6512,7 @@ F 3 "" H 12800 17600 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 12-26
+L LED-RESCUE-LargeKickstarter 12-26
 U 1 1 562E7C1A
 P 13150 17600
 F 0 "12-26" H 13150 17700 50  0000 C CNN
@@ -6529,7 +6523,7 @@ F 3 "" H 13150 17600 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 13-26
+L LED-RESCUE-LargeKickstarter 13-26
 U 1 1 562E7C20
 P 13500 17600
 F 0 "13-26" H 13500 17700 50  0000 C CNN
@@ -6540,7 +6534,7 @@ F 3 "" H 13500 17600 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 14-26
+L LED-RESCUE-LargeKickstarter 14-26
 U 1 1 562E7C26
 P 13850 17600
 F 0 "14-26" H 13850 17700 50  0000 C CNN
@@ -6551,7 +6545,7 @@ F 3 "" H 13850 17600 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 15-26
+L LED-RESCUE-LargeKickstarter 15-26
 U 1 1 562E7C2C
 P 14200 17600
 F 0 "15-26" H 14200 17700 50  0000 C CNN
@@ -6562,7 +6556,7 @@ F 3 "" H 14200 17600 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 8-27
+L LED-RESCUE-LargeKickstarter 8-27
 U 1 1 562E7C32
 P 11800 18300
 F 0 "8-27" H 11800 18400 50  0000 C CNN
@@ -6573,7 +6567,7 @@ F 3 "" H 11800 18300 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 9-27
+L LED-RESCUE-LargeKickstarter 9-27
 U 1 1 562E7C38
 P 12150 18300
 F 0 "9-27" H 12150 18400 50  0000 C CNN
@@ -6584,7 +6578,7 @@ F 3 "" H 12150 18300 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 10-27
+L LED-RESCUE-LargeKickstarter 10-27
 U 1 1 562E7C3E
 P 12500 18300
 F 0 "10-27" H 12500 18400 50  0000 C CNN
@@ -6595,7 +6589,7 @@ F 3 "" H 12500 18300 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 11-27
+L LED-RESCUE-LargeKickstarter 11-27
 U 1 1 562E7C44
 P 12800 18300
 F 0 "11-27" H 12800 18400 50  0000 C CNN
@@ -6606,7 +6600,7 @@ F 3 "" H 12800 18300 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 12-27
+L LED-RESCUE-LargeKickstarter 12-27
 U 1 1 562E7C4A
 P 13150 18300
 F 0 "12-27" H 13150 18400 50  0000 C CNN
@@ -6617,7 +6611,7 @@ F 3 "" H 13150 18300 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 13-27
+L LED-RESCUE-LargeKickstarter 13-27
 U 1 1 562E7C50
 P 13500 18300
 F 0 "13-27" H 13500 18400 50  0000 C CNN
@@ -6628,7 +6622,7 @@ F 3 "" H 13500 18300 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 14-27
+L LED-RESCUE-LargeKickstarter 14-27
 U 1 1 562E7C56
 P 13850 18300
 F 0 "14-27" H 13850 18400 50  0000 C CNN
@@ -6639,7 +6633,7 @@ F 3 "" H 13850 18300 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 15-27
+L LED-RESCUE-LargeKickstarter 15-27
 U 1 1 562E7C5C
 P 14200 18300
 F 0 "15-27" H 14200 18400 50  0000 C CNN
@@ -6650,7 +6644,7 @@ F 3 "" H 14200 18300 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 8-28
+L LED-RESCUE-LargeKickstarter 8-28
 U 1 1 562E7C62
 P 11800 18950
 F 0 "8-28" H 11800 19050 50  0000 C CNN
@@ -6661,7 +6655,7 @@ F 3 "" H 11800 18950 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 9-28
+L LED-RESCUE-LargeKickstarter 9-28
 U 1 1 562E7C68
 P 12150 18950
 F 0 "9-28" H 12150 19050 50  0000 C CNN
@@ -6672,7 +6666,7 @@ F 3 "" H 12150 18950 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 10-28
+L LED-RESCUE-LargeKickstarter 10-28
 U 1 1 562E7C6E
 P 12500 18950
 F 0 "10-28" H 12500 19050 50  0000 C CNN
@@ -6683,7 +6677,7 @@ F 3 "" H 12500 18950 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 11-28
+L LED-RESCUE-LargeKickstarter 11-28
 U 1 1 562E7C74
 P 12800 18950
 F 0 "11-28" H 12800 19050 50  0000 C CNN
@@ -6694,7 +6688,7 @@ F 3 "" H 12800 18950 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 12-28
+L LED-RESCUE-LargeKickstarter 12-28
 U 1 1 562E7C7A
 P 13150 18950
 F 0 "12-28" H 13150 19050 50  0000 C CNN
@@ -6705,7 +6699,7 @@ F 3 "" H 13150 18950 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 13-28
+L LED-RESCUE-LargeKickstarter 13-28
 U 1 1 562E7C80
 P 13500 18950
 F 0 "13-28" H 13500 19050 50  0000 C CNN
@@ -6716,7 +6710,7 @@ F 3 "" H 13500 18950 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 14-28
+L LED-RESCUE-LargeKickstarter 14-28
 U 1 1 562E7C86
 P 13850 18950
 F 0 "14-28" H 13850 19050 50  0000 C CNN
@@ -6727,7 +6721,7 @@ F 3 "" H 13850 18950 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 15-28
+L LED-RESCUE-LargeKickstarter 15-28
 U 1 1 562E7C8C
 P 14200 18950
 F 0 "15-28" H 14200 19050 50  0000 C CNN
@@ -6738,7 +6732,7 @@ F 3 "" H 14200 18950 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 8-29
+L LED-RESCUE-LargeKickstarter 8-29
 U 1 1 562E7C92
 P 11800 19600
 F 0 "8-29" H 11800 19700 50  0000 C CNN
@@ -6749,7 +6743,7 @@ F 3 "" H 11800 19600 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 9-29
+L LED-RESCUE-LargeKickstarter 9-29
 U 1 1 562E7C98
 P 12150 19600
 F 0 "9-29" H 12150 19700 50  0000 C CNN
@@ -6760,7 +6754,7 @@ F 3 "" H 12150 19600 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 10-29
+L LED-RESCUE-LargeKickstarter 10-29
 U 1 1 562E7C9E
 P 12500 19600
 F 0 "10-29" H 12500 19700 50  0000 C CNN
@@ -6771,7 +6765,7 @@ F 3 "" H 12500 19600 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 11-29
+L LED-RESCUE-LargeKickstarter 11-29
 U 1 1 562E7CA4
 P 12800 19600
 F 0 "11-29" H 12800 19700 50  0000 C CNN
@@ -6782,7 +6776,7 @@ F 3 "" H 12800 19600 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 12-29
+L LED-RESCUE-LargeKickstarter 12-29
 U 1 1 562E7CAA
 P 13150 19600
 F 0 "12-29" H 13150 19700 50  0000 C CNN
@@ -6793,7 +6787,7 @@ F 3 "" H 13150 19600 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 13-29
+L LED-RESCUE-LargeKickstarter 13-29
 U 1 1 562E7CB0
 P 13500 19600
 F 0 "13-29" H 13500 19700 50  0000 C CNN
@@ -6804,7 +6798,7 @@ F 3 "" H 13500 19600 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 14-29
+L LED-RESCUE-LargeKickstarter 14-29
 U 1 1 562E7CB6
 P 13850 19600
 F 0 "14-29" H 13850 19700 50  0000 C CNN
@@ -6815,7 +6809,7 @@ F 3 "" H 13850 19600 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 15-29
+L LED-RESCUE-LargeKickstarter 15-29
 U 1 1 562E7CBC
 P 14200 19600
 F 0 "15-29" H 14200 19700 50  0000 C CNN
@@ -6826,7 +6820,7 @@ F 3 "" H 14200 19600 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 8-30
+L LED-RESCUE-LargeKickstarter 8-30
 U 1 1 562E7CC2
 P 11800 20350
 F 0 "8-30" H 11800 20450 50  0000 C CNN
@@ -6837,7 +6831,7 @@ F 3 "" H 11800 20350 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 9-30
+L LED-RESCUE-LargeKickstarter 9-30
 U 1 1 562E7CC8
 P 12150 20350
 F 0 "9-30" H 12150 20450 50  0000 C CNN
@@ -6848,7 +6842,7 @@ F 3 "" H 12150 20350 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 10-30
+L LED-RESCUE-LargeKickstarter 10-30
 U 1 1 562E7CCE
 P 12500 20350
 F 0 "10-30" H 12500 20450 50  0000 C CNN
@@ -6859,7 +6853,7 @@ F 3 "" H 12500 20350 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 11-30
+L LED-RESCUE-LargeKickstarter 11-30
 U 1 1 562E7CD4
 P 12800 20350
 F 0 "11-30" H 12800 20450 50  0000 C CNN
@@ -6870,7 +6864,7 @@ F 3 "" H 12800 20350 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 12-30
+L LED-RESCUE-LargeKickstarter 12-30
 U 1 1 562E7CDA
 P 13150 20350
 F 0 "12-30" H 13150 20450 50  0000 C CNN
@@ -6881,7 +6875,7 @@ F 3 "" H 13150 20350 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 13-30
+L LED-RESCUE-LargeKickstarter 13-30
 U 1 1 562E7CE0
 P 13500 20350
 F 0 "13-30" H 13500 20450 50  0000 C CNN
@@ -6892,7 +6886,7 @@ F 3 "" H 13500 20350 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 14-30
+L LED-RESCUE-LargeKickstarter 14-30
 U 1 1 562E7CE6
 P 13850 20350
 F 0 "14-30" H 13850 20450 50  0000 C CNN
@@ -6903,7 +6897,7 @@ F 3 "" H 13850 20350 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 15-30
+L LED-RESCUE-LargeKickstarter 15-30
 U 1 1 562E7CEC
 P 14200 20350
 F 0 "15-30" H 14200 20450 50  0000 C CNN
@@ -6914,7 +6908,7 @@ F 3 "" H 14200 20350 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 8-31
+L LED-RESCUE-LargeKickstarter 8-31
 U 1 1 562E7CF2
 P 11800 21100
 F 0 "8-31" H 11800 21200 50  0000 C CNN
@@ -6925,7 +6919,7 @@ F 3 "" H 11800 21100 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 9-31
+L LED-RESCUE-LargeKickstarter 9-31
 U 1 1 562E7CF8
 P 12150 21100
 F 0 "9-31" H 12150 21200 50  0000 C CNN
@@ -6936,7 +6930,7 @@ F 3 "" H 12150 21100 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 10-31
+L LED-RESCUE-LargeKickstarter 10-31
 U 1 1 562E7CFE
 P 12500 21100
 F 0 "10-31" H 12500 21200 50  0000 C CNN
@@ -6947,7 +6941,7 @@ F 3 "" H 12500 21100 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 11-31
+L LED-RESCUE-LargeKickstarter 11-31
 U 1 1 562E7D04
 P 12800 21100
 F 0 "11-31" H 12800 21200 50  0000 C CNN
@@ -6958,7 +6952,7 @@ F 3 "" H 12800 21100 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 12-31
+L LED-RESCUE-LargeKickstarter 12-31
 U 1 1 562E7D0A
 P 13150 21100
 F 0 "12-31" H 13150 21200 50  0000 C CNN
@@ -6969,7 +6963,7 @@ F 3 "" H 13150 21100 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 13-31
+L LED-RESCUE-LargeKickstarter 13-31
 U 1 1 562E7D10
 P 13500 21100
 F 0 "13-31" H 13500 21200 50  0000 C CNN
@@ -6980,7 +6974,7 @@ F 3 "" H 13500 21100 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 14-31
+L LED-RESCUE-LargeKickstarter 14-31
 U 1 1 562E7D16
 P 13850 21100
 F 0 "14-31" H 13850 21200 50  0000 C CNN
@@ -6991,7 +6985,7 @@ F 3 "" H 13850 21100 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED 15-31
+L LED-RESCUE-LargeKickstarter 15-31
 U 1 1 562E7D1C
 P 14200 21100
 F 0 "15-31" H 14200 21200 50  0000 C CNN
@@ -7019,10 +7013,10 @@ SCL
 Text GLabel 11750 11600 2    60   Input ~ 0
 Vcc
 $Comp
-L GND #PWR23
+L GND #PWR022
 U 1 1 562E7D2B
 P 8900 11700
-F 0 "#PWR23" H 8900 11450 60  0001 C CNN
+F 0 "#PWR022" H 8900 11450 60  0001 C CNN
 F 1 "GND" H 8900 11550 60  0000 C CNN
 F 2 "" H 8900 11700 60  0000 C CNN
 F 3 "" H 8900 11700 60  0000 C CNN
@@ -7041,7 +7035,7 @@ F 3 "" H 9300 10400 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R15
+L R-RESCUE-LargeKickstarter R15
 U 1 1 562E7D37
 P 9800 10400
 F 0 "R15" V 9880 10400 50  0000 C CNN
@@ -7074,7 +7068,7 @@ F 3 "" H 10400 10400 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R16
+L R-RESCUE-LargeKickstarter R16
 U 1 1 562E7D49
 P 9800 10700
 F 0 "R16" V 9880 10700 50  0000 C CNN
@@ -7096,7 +7090,7 @@ F 3 "" H 10400 10700 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R17
+L R-RESCUE-LargeKickstarter R17
 U 1 1 562E7D55
 P 9800 10950
 F 0 "R17" V 9880 10950 50  0000 C CNN
@@ -7118,10 +7112,10 @@ F 3 "" H 10400 10950 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR22
+L GND #PWR023
 U 1 1 562E7D61
 P 6200 9700
-F 0 "#PWR22" H 6200 9450 60  0001 C CNN
+F 0 "#PWR023" H 6200 9450 60  0001 C CNN
 F 1 "GND" H 6200 9550 60  0000 C CNN
 F 2 "" H 6200 9700 60  0000 C CNN
 F 3 "" H 6200 9700 60  0000 C CNN
@@ -7254,7 +7248,7 @@ RAW
 Text GLabel 10400 -2550 0    60   Input ~ 0
 Vin
 $Comp
-L CONN_01X05 P3
+L CONN_01X05-RESCUE-LargeKickstarter P3
 U 1 1 56205F53
 P 12650 800
 F 0 "P3" H 12650 1100 50  0000 C CNN
@@ -7271,10 +7265,10 @@ SCL
 Text GLabel 12100 700  0    60   Input ~ 0
 SDA
 $Comp
-L GND #PWR8
+L GND #PWR024
 U 1 1 56206AC8
 P 12200 1200
-F 0 "#PWR8" H 12200 950 60  0001 C CNN
+F 0 "#PWR024" H 12200 950 60  0001 C CNN
 F 1 "GND" H 12200 1050 60  0000 C CNN
 F 2 "" H 12200 1200 60  0000 C CNN
 F 3 "" H 12200 1200 60  0000 C CNN
@@ -7373,9 +7367,9 @@ Wire Wire Line
 Wire Wire Line
 	3800 5350 3950 5350
 Wire Wire Line
-	10250 -2200 10250 -2400
+	10250 -2700 10250 -2200
 Wire Wire Line
-	9850 -2200 9850 -2400
+	9850 -2700 9850 -2200
 Wire Wire Line
 	9250 -2500 9000 -2500
 Wire Wire Line
@@ -8775,7 +8769,7 @@ Wire Wire Line
 Wire Wire Line
 	2400 3400 2100 3400
 Wire Wire Line
-	2400 2900 2400 3400
+	2400 2900 2400 3700
 Connection ~ 2400 3050
 Wire Wire Line
 	1500 3400 1600 3400
@@ -11358,10 +11352,10 @@ SDA
 Text GLabel 13350 1200 0    60   Input ~ 0
 Vcc
 $Comp
-L GND #PWR9
+L GND #PWR025
 U 1 1 5620CE30
 P 13350 1400
-F 0 "#PWR9" H 13350 1150 60  0001 C CNN
+F 0 "#PWR025" H 13350 1150 60  0001 C CNN
 F 1 "GND" H 13350 1250 60  0000 C CNN
 F 2 "" H 13350 1400 60  0000 C CNN
 F 3 "" H 13350 1400 60  0000 C CNN
@@ -11378,4 +11372,98 @@ Wire Wire Line
 	13500 1100 13350 1100
 Wire Wire Line
 	13500 1000 13350 1000
+$Comp
+L GND #PWR026
+U 1 1 5643C465
+P 1500 3700
+F 0 "#PWR026" H 1500 3450 60  0001 C CNN
+F 1 "GND" H 1500 3550 60  0000 C CNN
+F 2 "" H 1500 3700 60  0000 C CNN
+F 3 "" H 1500 3700 60  0000 C CNN
+	1    1500 3700
+	0    1    1    0   
+$EndComp
+$Comp
+L R-RESCUE-LargeKickstarter R20
+U 1 1 5643C46B
+P 1850 3700
+F 0 "R20" V 1930 3700 50  0000 C CNN
+F 1 "10K" V 1857 3701 50  0000 C CNN
+F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM10mm" V 1780 3700 30  0001 C CNN
+F 3 "" H 1850 3700 30  0000 C CNN
+	1    1850 3700
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2400 3700 2100 3700
+Wire Wire Line
+	1500 3700 1600 3700
+$Comp
+L GND #PWR027
+U 1 1 5643CB42
+P 1500 2600
+F 0 "#PWR027" H 1500 2350 60  0001 C CNN
+F 1 "GND" H 1500 2450 60  0000 C CNN
+F 2 "" H 1500 2600 60  0000 C CNN
+F 3 "" H 1500 2600 60  0000 C CNN
+	1    1500 2600
+	0    1    1    0   
+$EndComp
+$Comp
+L R-RESCUE-LargeKickstarter R19
+U 1 1 5643CB48
+P 1850 2600
+F 0 "R19" V 1930 2600 50  0000 C CNN
+F 1 "10K" V 1857 2601 50  0000 C CNN
+F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM10mm" V 1780 2600 30  0001 C CNN
+F 3 "" H 1850 2600 30  0000 C CNN
+	1    1850 2600
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2400 2600 2100 2600
+Wire Wire Line
+	1500 2600 1600 2600
+$Comp
+L GND #PWR028
+U 1 1 56440CC2
+P 1500 1950
+F 0 "#PWR028" H 1500 1700 60  0001 C CNN
+F 1 "GND" H 1500 1800 60  0000 C CNN
+F 2 "" H 1500 1950 60  0000 C CNN
+F 3 "" H 1500 1950 60  0000 C CNN
+	1    1500 1950
+	0    1    1    0   
+$EndComp
+$Comp
+L R-RESCUE-LargeKickstarter R18
+U 1 1 56440CC8
+P 1850 1950
+F 0 "R18" V 1930 1950 50  0000 C CNN
+F 1 "10K" V 1857 1951 50  0000 C CNN
+F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM10mm" V 1780 1950 30  0001 C CNN
+F 3 "" H 1850 1950 30  0000 C CNN
+	1    1850 1950
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2100 1950 2400 1950
+Wire Wire Line
+	1500 1950 1600 1950
+Connection ~ 2400 1950
+Connection ~ 2400 2600
+Connection ~ 2400 3400
+$Comp
+L DIODE D6
+U 1 1 5646B643
+P 10050 -2700
+F 0 "D6" H 10050 -2600 50  0000 C CNN
+F 1 "DIODE" H 10050 -2800 50  0000 C CNN
+F 2 "Diodes_ThroughHole:Diode_DO-41_SOD81_Horizontal_RM10" H 10050 -2700 60  0001 C CNN
+F 3 "" H 10050 -2700 60  0000 C CNN
+	1    10050 -2700
+	1    0    0    -1  
+$EndComp
+Connection ~ 9850 -2400
+Connection ~ 10250 -2400
 $EndSCHEMATC

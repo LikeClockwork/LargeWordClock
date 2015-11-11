@@ -3121,7 +3121,7 @@ RX
 Text GLabel 5800 3900 2    60   Input ~ 0
 TX
 Text GLabel 6100 5150 2    60   Input ~ 0
-VCC
+Vcc
 $Comp
 L CONN_02X03 P4
 U 1 1 55756222
@@ -7244,7 +7244,7 @@ Text GLabel 4250 3800 0    60   Input ~ 0
 Text GLabel 4250 3900 0    60   Input ~ 0
 4
 Text GLabel 9400 -2800 2    60   Input ~ 0
-RAW
+Vraw
 Text GLabel 10400 -2550 0    60   Input ~ 0
 Vin
 $Comp

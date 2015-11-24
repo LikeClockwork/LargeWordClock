@@ -2,7 +2,7 @@
 
 This repository holds the PCB/laser etch design files and Arduino code for my version of the word clock.
 
-These PCBs and the laser cut glass faces are currently available via Kickstarter at https://www.kickstarter.com/projects/1145319783/like-clockwork-solid-wood-and-glass-electronic-wor
+These PCBs and the laser cut glass faces are currently available via my store at: http://www.likeclockworkdesign.com/collections/kits/products/the-standard-makers-kit
 
 The PCB measures 399x399mm and the glass faceplace measures 17"x17".
 
@@ -14,14 +14,14 @@ The posted PCBs have been fabricated, assembled, and confirmed as working with t
 
 *Upcoming Changes:*
 
-The boards shipped for the Kickstarter will have the following enhancements:
-+ Addition of a footprint so that you can plug in standard Arduino shields.
+The boards shipped --for the Kickstarter-- going forward will have the following enhancements:
++ --Addition of a footprint so that you can plug in standard Arduino shields.-- Done!
 
-+ The ability to replace all ICs with prebuilt modules (Arduino Nano vs. Atmega328p, Adafruit matrix drivers vs. HT16K33s) for those who don’t want to drag solder tiny leads.
++ --The ability to replace all ICs with prebuilt modules (Arduino Nano vs. Atmega328p, Adafruit matrix drivers vs. HT16K33s) for those who don’t want to drag solder tiny leads.-- Done!
 
-+ Addition of a prototyping area to make use of all that extra real-estate.
++ --Addition of a prototyping area to make use of all that extra real-estate.-- Done!
 
-+ Addition of an Open Source Hardware logo.
++ --Addition of an Open Source Hardware logo.-- Done!
 
 *Thanks to:*
 

@@ -6,7 +6,7 @@ These PCBs and the laser cut glass faces are currently available via my store at
 
 The PCB measures 399x399mm and the glass faceplace measures 17"x17".
 
-The PCBs are Arduino compatible and it runs the “Arduino on a breadboard” bootloader. The microcontroller is a Atmega328p (TQFP package) running at 8MHz that drives two 16x8 LED (256 LEDs) matrixes via two HT16K33’s. Time keeping is accomplished using a DS321 real time clock.  There is a linear power regulator on board to step down 9-12V input voltage to 5V. 
+The PCBs are Arduino compatible and it runs the “Arduino on a breadboard” bootloader. The microcontroller is a Atmega328p (TQFP package) running at 8MHz that drives four 16x8 LED (512 LEDs) matrixes via four HT16K33’s. Time keeping is accomplished using a DS321 real time clock.  There is a linear power regulator on board to step down 9-12V input voltage to 5V. 
 
 All unused Arduino pins are broken out to a pin header. Happy hacking!
 
